@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:6236fedfca455a2e","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:14e564fed2922eea","revision":18,"title":"DTrace","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"dtrace","path":"/curious/dtrace","isSiteRtlLocale":false,"parentPath":"/curious"};
+webspace.page.breadcrumbs = [{"title":"For the curious","dir":"ltr","path":"/curious","deleted":false},{"title":"DTrace","dir":"ltr","path":"/curious/dtrace","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="DTrace - PureDarwin" />
+<meta itemprop="name" content="DTrace - PureDarwin" />
+<meta property="og:title" content="DTrace - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>DTrace - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/curious">For the curious</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">DTrace</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">
+<div>This page is about the DTrace facility in "<span style="font-style:italic">Darwin-land</span>".</div><div><br /></div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:350px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-What-is-DTrace-"><strong>1 </strong>What is DTrace?</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Pros"><strong>1.1 </strong>Pros</a></li><li class="goog-toc"><a href="#TOC-Cons"><strong>1.2 </strong>Cons</a></li></ol></li><li class="goog-toc"><a href="#TOC-Examples"><strong>2 </strong>Examples</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-A-real-world-example:-show-missing-files"><strong>2.1 </strong>A real world example: show missing files</a></li><li class="goog-toc"><a href="#TOC-A-clich-example:-Hello-world-"><strong>2.2 </strong>A cliché example: "Hello world!"</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Inline"><strong>2.2.1 </strong>Inline</a></li><li class="goog-toc"><a href="#TOC-In-a-file"><strong>2.2.2 </strong>In a file</a></li></ol></li><li class="goog-toc"><a href="#TOC-Detect-new-process-successfully-started-"><strong>2.3 </strong>Detect new process (successfully started)</a></li><li class="goog-toc"><a href="#TOC-Detect-sigkill"><strong>2.4 </strong>Detect sigkill</a></li><li class="goog-toc"><a href="#TOC-Detect-promiscuous-mode-changes"><strong>2.5 </strong>Detect promiscuous mode changes</a></li><li class="goog-toc"><a href="#TOC-Watch-setuid-setgid-calls"><strong>2.6 </strong>Watch setuid/setgid calls</a></li><li class="goog-toc"><a href="#TOC-Classic-examples"><strong>2.7 </strong>Classic examples</a></li></ol></li><li class="goog-toc"><a href="#TOC-D-Programming-language"><strong>3 </strong>D Programming language</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-A-generic-D-script-example"><strong>3.1 </strong>A generic D script example</a></li><li class="goog-toc"><a href="#TOC-Probes-and-providers"><strong>3.2 </strong>Probes and providers</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Probe-syntax"><strong>3.2.1 </strong>Probe syntax</a></li><li class="goog-toc"><a href="#TOC-Listing-probes"><strong>3.2.2 </strong>Listing probes</a></li><li class="goog-toc"><a href="#TOC-Available-providers"><strong>3.2.3 </strong>Available providers</a></li><li class="goog-toc"><a href="#TOC-Default-variables"><strong>3.2.4 </strong>Default variables</a></li><li class="goog-toc"><a href="#TOC-Macro-variables"><strong>3.2.5 </strong>Macro variables</a></li></ol></li><li class="goog-toc"><a href="#TOC-Predicate-optional-"><strong>3.3 </strong>Predicate (optional)</a></li><li class="goog-toc"><a href="#TOC-Action-optional-"><strong>3.4 </strong>Action (optional)</a></li><li class="goog-toc"><a href="#TOC-Kernel-destructive-actions"><strong>3.5 </strong>Kernel destructive actions</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC--w-flag-required-for..."><strong>3.5.1 </strong>"-w" flag required for...</a></li></ol></li></ol></li><li class="goog-toc"><a href="#TOC-References"><strong>4 </strong>References</a></li></ol></div></div></div></div>
+<h2><a name="TOC-What-is-DTrace-"></a>What is DTrace?</h2><span><span style="font-size:small"><span style="font-family:courier new,monospace">The dtrace command is a generic front-end to the DTrace facility.   The
+</span></span><p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">command  implements  a  simple  interface to invoke the D language com-</span></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">piler, the ability to retrieve buffered trace data from the DTrace ker-</span></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">nel  facility,  and  a set of basic routines to format and print traced</span></span></p>
+<span style="font-size:small"><span style="font-family:courier new,monospace">data.</span></span></span><span style="font-size:small"> said `<span>man dtrace</span>'.<br /></span><br />Simply, DTrace is<br /><ul><li>a dynamic debugger and analysis tool (first appeared in Solaris 10 and OpenSolaris, then in Mac OS X 10.5)</li><li>a D programming language interpreter </li><li>a monitoring tool (ie: Observing devices, such as disk or network activity) </li><li>a profiling tool (performance analysis) </li><li>a process, library, user function, (some) kernel function, the operating system (itself) inspector tool </li><li>a bug finder</li><li>scalable </li></ul>DTrace may also be used as (or be a part of) <br /><ul><li>a malware investigation tool </li><li>a process deciphering tool </li><li>a Troubleshooting software bugs </li><li>a partial intrusion detection system </li><li>an educative software (in order to explorer and understand how this operating system work)</li></ul><span style="text-decoration:underline">Notes:</span><span style="font-size:small"> Although PureDarwin is focused on i386, DTrace supports most of common architectures (</span><span style="font-family:courier new,monospace"><span style="font-size:small">-arch i386|x86_64|ppc|ppc64</span></span><span style="font-size:small">).</span><div>In Mac OS X 10.5, Instruments.app found in developer tools is another front-end to the DTrace facility.<br /><br /><span style="text-decoration:underline"><span style="font-size:small">Warning:</span></span><span style="font-size:small"> If the operating system becomes too busy or if you attempt to trace too many events (ie: all function entry related to the kernel), DTrace can drop events and even abort tracing and execution. Consequently, security auditing with DTrace is impacted and more,<span style="font-family:Helvetica"> system() action is not synchronous (so unreliable for security purpose).</span></span><h3><a name="TOC-Pros"></a>Pros</h3><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"></p><ul><li><span style="font-size:13px">Every process, or specific processes, can be traced "simultaneously".</span></li><li><span style="font-size:13px">Output is fully flexible.</span></li><li><span style="font-size:13px">Nanosecond timestamp for function execution measurements.</span></li><li><span style="font-size:13px">Minimum performance impact when used smartly.</span></li><li><span style="font-size:13px">No need to restart anything in order to trace.</span></li><li><span style="font-size:13px">Relatively safe.</span></li></ul><p></p>
+<h3><a name="TOC-Cons"></a>Cons</h3><span style="font-size:small"><ul><li>Partially supported (around 20K probes available instead of 60K) on Darwin (<span style="font-size:12px;font-family:Helvetica"><span style="font-family:courier new,monospace">dtrace -l | wc -l</span><span style="font-size:13px;font-family:Arial"> returns </span><span style="font-family:courier new,monospace">22466</span>).</span></li><li><span style="font-family:Helvetica">DTrace cannot fetch low levels hardware data.</span></li><li><span style="font-family:Helvetica">Performance impact when probe count goes under 36,000 probes (every kernel function entry/return) and 100,000 probes function in user-land.<br />Consequently, not really suited for security auditing, because DTrace may drop events if the system is really busy or simply (but dramatically in this case) abort.</span></li><li><span style="font-family:Helvetica">Need to be run as root (not sure it should belong to "cons" part).</span></li></ul></span><div><div><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><h2><a name="TOC-Examples"></a>Examples</h2></span></p><h3><a name="TOC-A-real-world-example:-show-missing-files"></a>A real world example: show missing files</h3><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:13px">On Linux systems, "strace -eopen -f ... 2&gt;&amp;1 | grep ENOENT" can be used to see which files a process tries to open. Using dtrace, the equivalent is:</span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"></p><ol><li>Open two terminals</li><li>In the first terminal, run:<br /><span><span style="font-family:courier new,monospace"><span style="font-size:small">opensnoop -ex</span></span></span></li><li><span style="font-family:Helvetica">In the second terminal, run the command that you want to inspect</span></li></ol><div><span style="font-family:Helvetica">In the first terminal, you will see the files that are tried to be opened but fail to open (e.g., ENOENT).</span></div><p></p><h3><a name="TOC-1"></a></h3><h3><a name="TOC-A-clich-example:-Hello-world-"></a>A <i>cliché</i> example: "Hello world!"</h3><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><h4><a name="TOC-Inline"></a>Inline</h4></span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">dtrace -n "BEGIN { trace(\"Hello World\!\"); exit(0);}"</span></span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span><span style="color:rgb(68,68,68)">dtrace: description 'BEGIN ' matched 1 probe</span></span></span></span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span><span style="color:rgb(68,68,68)">CPU     ID                    FUNCTION:NAME</span></span></span></span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span><span style="color:rgb(68,68,68)">  0      1                           :BEGIN   Hello World!</span></span></span></span></p>
+<h4><a name="TOC-In-a-file"></a>In a file<br /></h4><span style="font-size:small">Edit and save Hello.d:</span><p></p><p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span><span style="font-family:courier new,monospace"><span style="font-size:small">BEGIN </span></span></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span><span style="font-family:courier new,monospace"><span style="font-size:small">{ </span></span></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span style="white-space:pre"><span><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span></span><span><span style="font-family:courier new,monospace"><span style="font-size:small">trace("Hello World!"); </span></span></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span style="white-space:pre"><span><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span></span><span><span style="font-family:courier new,monospace"><span style="font-size:small">exit(0); </span></span></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><span><span style="font-family:courier new,monospace"><span style="font-size:small">}</span></span></span></p><p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><br /></p>Then run the script:<p></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new">dtrace -s Hello.d </span></p><span style="font-size:12px">
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span><span style="color:rgb(68,68,68)">dtrace: script 'Hello.d' matched 1 probe</span></span></span></span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span><span style="color:rgb(68,68,68)">CPU     ID                    FUNCTION:NAME</span></span></span></span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span><span style="color:rgb(68,68,68)">  0      1                           :BEGIN   Hello World!</span></span></span></span></p></span><h3><a name="TOC-Detect-new-process-successfully-started-"></a>Detect new process (successfully started)</h3><font size="2"><span style="font-family:courier new,monospace"> proc:::exec-success</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace"> {</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">    printf("%s(pid=%d) started by uid - %d\n",execname, pid, uid);</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace"> }</span></font><br /><div><span style="font-size:small"><h3><a name="TOC-Detect-sigkill"></a>Detect sigkill</h3></span><font size="2"><span style="font-size:12px"><div><span style="font-family:courier new">proc:::signal-send</span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>/args[2] == SIGKILL/</span></span></span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>{</span></span></span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>  printf("to %s",args[1]-&gt;pr_fname);</span></span></span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>  printf(" at %d", timestamp);</span></span></span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>  printf(" by (%d)", uid);</span></span></span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>  printf(" from %s\n", execname);</span></span></span></div><div><span style="font-size:small"><span style="font-family:courier new,monospace"><span>}</span></span></span></div></span></font></div><h3><a name="TOC-Detect-promiscuous-mode-changes"></a>Detect promiscuous mode changes</h3><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new">fbt:mach_kernel:ifnet_set_promiscuous:*</span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><font size="2"><span style="font-family:courier new,monospace"><span>{</span></span></font></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><font size="2"><span style="font-family:courier new,monospace"><span>   printf("%s", execname); <br /></span></span></font></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><font size="2"><span style="font-family:courier new,monospace"><span>}</span></span></font></p></div><h3><a name="TOC-Watch-setuid-setgid-calls"></a>Watch setuid/setgid calls</h3><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/* '*' == {entry|return} */</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">fbt:mach_kernel:setuid:*</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">{</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">   printf("%s", execname);</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">}</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">fbt:mach_kernel:setgid:*</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">{</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">   printf("%s", execname);</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">}</span></span></div><h3><a name="TOC-Classic-examples"></a>Classic examples</h3>DTrace <a href="http://www.solarisinternals.com/wiki/index.php/DTrace_Topics_One_Liners">one-liners</a><br />The <a href="http://www.opensolaris.org/os/community/dtrace/dtracetoolkit">DTraceToolkit</a> (~100 scripts)<br /><h2><a name="TOC-D-Programming-language"></a>D Programming language</h2>It seems to have been based on C language for some parts.<br />(please add text)<br /><ol><li><span style="font-size:small">D programs are compiled in user-land</span></li><li><span style="font-size:small">And sent to the DTrace virtual machine in the kernel-land</span></li><li><span style="font-size:small">Then run inside the kernel's address space (not in the DTrace process, nor in the target process)</span></li></ol><span style="font-size:small">Most of the times, you will use <span style="font-family:courier new,monospace">copyin</span> or <span style="font-family:courier new,monospace">copyinstr</span> in order to copy data from user-land to kernel-land:<br /></span><div><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><br /></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">     copyin()      Copies len bytes of data from the user-space address uaddr</span></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">                   to the kernel-space address kaddr.</span></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><br /></span></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">     copyinstr()   Copies a NUL-terminated string, at most len bytes long,</span></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">                   from user-space address uaddr to kernel-space address</span></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">                   kaddr.  The number of bytes actually copied, including the</span></span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace">                   terminating NUL, is returned in *done.</span></span></p><h3><a name="TOC-A-generic-D-script-example"></a>A generic D script example</h3><font size="2"><code style="font-family:courier new,monospace">probe description<br />
+/predicate/<br />
+{<br />
+   action<br />
+}</code></font><br /><span style="font-size:12px"><p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span style="font-family:Arial;font-size:13px"><h3><a name="TOC-Probes-and-providers"></a>Probes and providers<br /></h3></span></span></span></p><p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-family:courier new,monospace"><span style="font-family:Arial;font-size:13px">A provider is a collection of probe.<br /></span></span></span></p></span></div><h4><a name="TOC-Probe-syntax"></a>Probe syntax</h4></div><div>Four fields describe a probe:<br /><br /><font><span><span style="font-family:courier new,monospace"><span style="font-size:small">provider:module:function:name</span></span></span></font><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span><br /><u>Examples:</u><br /><span><span style="font-family:courier new,monospace"><span style="font-size:small">fbt:mach_kernel:setuid:entry</span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span><font><span><span style="font-family:courier new,monospace"><span style="font-size:small">syscall::open*:entry</span></span></span></font><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span><br /><u>Notes:</u> Some special characters *, ?, [, and ] are allowed. <br />* is the well known wildcard extension. <br />? character is for any single character in the name. <br />[ and ] characters are used to specify a set of specific characters in the name.<br /></div><h4><a name="TOC-Listing-probes"></a>Listing probes</h4><div><span style="font-family:courier new"><span style="font-size:12px">dtrace -l</span></span> lists all available probes.</div><div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">   ID   PROVIDER            MODULE                          FUNCTION NAME</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">    1     dtrace                                                     BEGIN</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">    2     dtrace                                                     END</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">    3     dtrace                                                     ERROR</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">    4   lockstat       mach_kernel                      lck_mtx_lock adaptive-acquire</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">[...]</span></span></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">22527 plockstat1 libSystem.B.dylib    pthread_rwlock_unlock$UNIX2003 rw-release</span></span></div></div></div><h4><a name="TOC-Available-providers"></a>Available providers</h4><div>Some providers (non exhaustive list):</div><div><br /><table border="1" bordercolor="#888888" cellspacing="0" height="101" style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse" width="450"><tbody><tr><td style="width:60px"> <b>Probe name</b></td><td style="width:60px"> <b>Description</b></td></tr><tr><td style="width:60px"> fbt</td><td style="width:60px"> Function boundary tracing<br /></td></tr><tr><td style="width:60px"> io</td><td style="width:60px"> Physical I/O requests/events</td></tr><tr><td style="width:60px"> mach_trap</td><td style="width:60px"> Kernel traps<br /></td></tr><tr><td style="width:60px"> proc</td><td style="width:60px"> Process functions<br /></td></tr><tr><td> profile</td><td> Sample count activity?<br /></td></tr><tr><td> syscall</td><td> Kernel system calls<br /></td></tr><tr><td> vminfo</td><td> </td></tr></tbody></table><h4><a name="TOC-Default-variables"></a>Default variables</h4></div><div>FIXME<table border="1" bordercolor="#888888" cellspacing="0" height="82" style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse" width="450"><tbody><tr><td><b> Variable name</b><br /></td><td> <b>Description</b></td></tr><tr><td style="width:60px"> arg0...argN</td><td style="width:60px"> Function arguments and return value</td></tr><tr><td style="width:60px"> curpsinfo</td><td style="width:60px"> Structure of current process information</td></tr><tr><td style="width:60px"> errno</td><td style="width:60px"> Error code</td></tr><tr><td style="width:60px"> execname</td><td style="width:60px"> Processname</td></tr><tr><td style="width:60px"> pid</td><td style="width:60px"> Process id</td></tr><tr><td style="width:60px"> probefunc</td><td style="width:60px"> Probe function name</td></tr><tr><td style="width:60px"> probename</td><td style="width:60px"> Probe name</td></tr><tr><td style="width:60px"> tid</td><td style="width:60px"> Thread id</td></tr><tr><td style="width:60px"> timestamp</td><td style="width:60px"> Nanoseconds since boot</td></tr></tbody></table></div><div><br /><h4><a name="TOC-Macro-variables"></a>Macro variables</h4>FIXME</div><div><table border="1" bordercolor="#888888" cellspacing="0" height="245" style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse" width="450"><tbody><tr><td><span style="font-weight:bold"> Macro name<br /></span></td><td><span style="font-weight:bold"> Description</span></td></tr><tr><td style="width:60px"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"> $[0-9]+</p></td><td style="width:60px"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"> macro arguments</p></td></tr><tr><td style="width:60px"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"> $egid</p></td><td style="width:60px"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"> effective group id</p></td></tr><tr><td style="width:60px"> $euid</td><td style="width:60px"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"> effective user id</p></td></tr><tr><td style="width:60px"> $gid</td><td style="width:60px"> real group id</td></tr><tr><td style="width:60px"> $pid</td><td style="width:60px"> process id</td></tr><tr><td style="width:60px"> $pgid</td><td style="width:60px"> process group id</td></tr><tr><td style="width:60px"> $ppid</td><td style="width:60px"> parent process id</td></tr><tr><td style="width:60px"> $projid</td><td style="width:60px"> project id</td></tr><tr><td style="width:60px"> $sid</td><td style="width:60px"> session id</td></tr><tr><td style="width:60px"> $target</td><td style="width:60px"> target process id</td></tr><tr><td style="width:60px"> $taskid</td><td style="width:60px"> task id</td></tr><tr><td style="width:60px"> $uid</td><td style="width:60px"> real user id</td></tr></tbody></table><h2><a name="TOC-2"></a></h2><h3><a name="TOC-Predicate-optional-"></a>Predicate (optional)<br /></h3>When the predicate evaluates to true, "action" is executed.<br /><br /><table border="1" bordercolor="#888888" cellspacing="0" height="113" style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse" width="450"><tbody><tr><td style="width:60px"><b> Predicate Name</b><br /></td><td style="width:60px"><b> Description</b></td></tr><tr><td style="width:60px"> cpu == 0</td><td style="width:60px"> true if the probe executes on cpu0</td></tr><tr><td style="width:60px"> ppid !=0</td><td style="width:60px"> true if the parent process id is not 0<br /></td></tr><tr><td style="width:60px"> arg0 == 0</td><td style="width:60px"> true if first argument is 0</td></tr><tr><td style="width:60px"> ppid !=0 &amp;&amp; arg0 == 0</td><td style="width:60px"> ...</td></tr></tbody></table><h3><a name="TOC-Action-optional-"></a>Action (optional)<br /></h3>C-style functions and semicolon (;) separation for the "body".<br /><br /><u>Examples:</u> printf(), ustack(), trace, ...<br /><h3><a name="TOC-Kernel-destructive-actions"></a><span style="font-size:large">Kernel destructive actions</span></h3><span style="font-family:Arial;font-size:13px;font-weight:normal"><span style="font-size:small">Understand "destructive for the running OS".</span><h4><a name="TOC--w-flag-required-for..."></a>"-w" flag required for...</h4><p></p>
+<p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="white-space:pre"><span style="font-size:small"><span style="font-family:courier new,monospace"> </span></span></span><span style="font-size:small"><span style="font-family:courier new,monospace">-w  permit destructive actions<br /></span></span></p><div><span style="font-family:Helvetica;font-size:12px"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"></p><ul><li><span style="font-size:13px">void stop()</span></li><li><span style="font-size:13px">voir raise()</span></li><li><span style="font-size:13px">void breakpoint(void)</span></li><li><span style="font-size:13px">void chill(int nanoseconds)</span></li><li><span style="font-size:13px">void panic(void)</span></li></ul><p></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;min-height:14px"><span><span style="font-family:courier new,monospace"><span style="font-size:small"><span style="color:rgb(255,0,0)">panic: We are hanging here... </span></span></span></span></p><span style="font-family:Arial;font-size:13px">It can force a kernel crash dump.<br />FIXME<br /><h2><a name="TOC-References"></a>References</h2></span></span></div></span><span><a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/dtrace.1.html"><span style="font-family:courier new,monospace"><span style="font-size:small">man dtrace</span></span></a><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span><a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/dtruss.1m.html"><span style="font-family:courier new,monospace"><span style="font-size:small">man dtruss</span></span></a><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></span><a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/procsystime.1m.html"><span><span style="font-family:courier new,monospace"><span style="font-size:small">man procsystime</span></span></span></a><span style="font-size:small"><br /><br /></span><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small">Jon Haslam. <a href="http://wikis.sun.com/display/DTrace/Security">http://wikis.sun.com/display/DTrace/Security</a>, Sun Microsystems, 2008.</span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small">Glenn Brunette &amp; Jon Haslam. <span style="font-style:italic">Enhancing Security Awareness with DTrace</span>, Sun Microsystems, 2006.</span></p><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-style:italic">How To Use DTrace.</span> <a href="http://www.sun.com/software/solaris/howtoguides/dtracehowto.jsp">http://www.sun.com/software/solaris/howtoguides/dtracehowto.jsp</a>, Sun Microsystems, 2005.</span></p>
+<p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:small"><span style="font-style:italic">Solaris Dynamic Tracing Guide.</span> <a href="http://docs.sun.com/app/docs/doc/817-6223">http://docs.sun.com/app/docs/doc/817-6223</a>, Sun Microsystems, 2005.</span></p>
+<p></p></div><p></p></div><p></p></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/curious/dtrace">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4c6fhVT_ARxCg1U9S43SQDTmyVu8whXGMzAdIMwJkcgpRMbVy_RpsusGu_U4MuxPPsOVddc9qkLW9J7KAwr6zI4zyvEYI/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

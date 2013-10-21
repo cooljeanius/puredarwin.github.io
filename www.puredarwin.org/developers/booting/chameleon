@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:6a8466bc2e45646e","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:4ebebf3569a5cf58","revision":17,"title":"Chameleon","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"chameleon","path":"/developers/booting/chameleon","isSiteRtlLocale":false,"parentPath":"/developers/booting"};
+webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"The boot process","dir":"ltr","path":"/developers/booting","deleted":false},{"title":"Chameleon","dir":"ltr","path":"/developers/booting/chameleon","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Chameleon - PureDarwin" />
+<meta itemprop="name" content="Chameleon - PureDarwin" />
+<meta property="og:title" content="Chameleon - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Chameleon - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎<A dir="ltr" href="/developers/booting">The boot process</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Chameleon</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="margin:5px 10px;display:inline;float:right"><a href="http://www.puredarwin.org/developers/booting/chameleon/logo.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1247890313941/developers/booting/chameleon/logo.png" /></a></div><div>The <a href="http://chameleon.osx86.hu/category/Chameleon/" rel="nofollow" target="_blank">Chameleon</a> bootloader is an APSL project based on David Elliott's fake EFI implementation added to Apple's boot-132 project.</div><div><br /></div><div>The source code repository is available at</div><div><a href="http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/" target="_blank">http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/</a></div><div><br /></div><div>Chameleon brings some nice features from low to high layers as:</div><div><i>Preboot ramdisk image, EFI partition booting, hibernation/resume, DSDT and SMBIOS, GUI booting and custom themes supports</i>.</div><div><br /></div><div><b>draft.</b></div><div style="text-align:left"><br /></div><div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:250px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Status"><strong>1 </strong>Status</a></li><li class="goog-toc"><a href="#TOC-Some-features"><strong>2 </strong>Some features</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Default-partition"><strong>2.1 </strong>Default partition</a></li><li class="goog-toc"><a href="#TOC-Customizable-UI"><strong>2.2 </strong>Customizable UI</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Custom-UI"><strong>2.2.1 </strong>Custom UI</a></li><li class="goog-toc"><a href="#TOC-Default-UI"><strong>2.2.2 </strong>Default UI</a></li></ol></li><li class="goog-toc"><a href="#TOC-RAM-speed"><strong>2.3 </strong>RAM speed</a></li><li class="goog-toc"><a href="#TOC-Extension-folder"><strong>2.4 </strong>Extension folder</a></li></ol></li><li class="goog-toc"><a href="#TOC-How-to-update-PureDarwin-running-inside-qemu-to-the-latest-Chameleon-bootloader-11-2011"><strong>3 </strong>How to update PureDarwin running inside qemu to the latest Chameleon bootloader 11/2011</a></li><li class="goog-toc"><a href="#TOC-Resources"><strong>4 </strong>Resources</a></li></ol></div></div></div></div>
+</div><h2><a name="TOC-Status"></a>Status</h2><div><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">Chameleon 2.0-RC4-r684 works with QEMU v0.10.6 and VMware (Fusion) 3.0.1 on a Mac.</p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">Chameleon 2.0-RC3-r658 works with QEMU (mac &amp; win tested), VMware (Fusion), etc.. Prolematic points reached on windows with e.g. vmware ("<i>Mach-o has bad magic number</i>" error). <br /></p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">Chameleon 2.0-RC1-r431 works with QEMU.</p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">Chameleon 2.0-RC1-r431 will not show up in VMware (observed in Fusion but not in Player), because VMware relies on darwin.iso (VMware Tools) which contains the DFE bootloader (Stage 2 boot file &lt; 128K) is ok.</p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><br /></p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">In case of real hardware target, cdboot, boot, boot0 and boot1h have been deployed but not yet tested.</p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">In Image disk, virtual or not, cdboot and the "<i>El Torito ISO trick</i>" is used.</p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><br /></p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="text-decoration:underline">Note:</span> The error "<i>Error parsing plist</i>"</p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">in <i>i386/libsaio/stringTable.c</i>, the function "<i>long ParseXMLFile( char * buffer, TagPtr * dict )</i>" is responsible of returning the error.</p><p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><font face="'courier new', monospace"><span style="font-size:small">    if (length &lt; 0) {</span></font></p><p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><font face="'courier new', monospace"><span style="font-size:small">        error ("Error parsing plist file\n");</span></font></p><p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><font face="'courier new', monospace"><span style="font-size:small">        return -1;</span></font></p><p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal"><font face="'courier new', monospace"><span style="font-size:small">    }</span></font></p><div>Why is it failing? The plist is obviously well formated and there is no permission problem at this level.</div><div><b>Problem:</b> <span style="font-family:courier new,monospace;font-size:small">"Error parsing plist file"</span></div><div><b>Solution:</b> In fact, the error comes from the memory allocation, it seems that 256MB is not enough and make it fails in the contrary of e.g., 384M.</div><h2><a name="TOC-Some-features"></a>Some features</h2><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal">Please see "<i>Introducing new features added to next version of Chameleon</i>", <a href="http://chameleon.osx86.hu/articles/introducing-new-features-added-to-next-version-of-chameleon-part-1" rel="nofollow" target="_blank">part 1</a> and <a href="http://chameleon.osx86.hu/articles/more-new-features-added-to-next-chameleon-version-part-2" rel="nofollow" target="_blank">part 2</a>.</p><h3><a name="TOC-Default-partition"></a>Default partition</h3><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:Arial,Verdana,sans-serif;font-size:13px">A default partition to boot can be specified.<br />Add to <i>com.apple.Boot.plist</i>:</span></p><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><font face="Arial, Verdana, sans-serif" size="3"><span style="font-size:13px"><font face="'courier new', monospace"><span style="font-size:small">&lt;key&gt;Default Partition&lt;/key&gt;<br />&lt;string&gt;hd(<b>x</b>,<b>y</b>)&lt;/string&gt;<br /></span></font></span></font></p><h3><a name="TOC-Customizable-UI"></a>Customizable UI</h3><p style="margin:0px;font-family:Lucida Grande;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace;font-size:small"><font face="Arial, Verdana, sans-serif" size="3"><span style="font-size:13px">It is be possible to customize the bootloader UI.</span></font><font face="Arial, Verdana, sans-serif" size="3"><span style="font-size:13px"><br /></span></font><font face="Arial, Verdana, sans-serif" size="3"><span style="font-size:13px">/Extra/Themes/ folder should contain some themes and /Extra/com.apple.Boot.plist should references one of them with:<br /></span></font>&lt;key&gt;Theme&lt;/key&gt;</span></p><font face="Arial, Verdana, sans-serif" size="3"><div><font face="'courier new', monospace"><span style="font-size:small">&lt;string&gt;<b>theme_folder_name</b>&lt;/string&gt;</span></font></div></font><h4><a name="TOC-Custom-UI"></a>Custom UI</h4><font face="Arial, Verdana, sans-serif" size="3"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/booting/chameleon/Chameleon%20PureDarwin%20theme%200%20wait.png?attredirects=0" imageanchor="1" style="padding:7px;color:rgb(78,125,191);outline-style:none;border-bottom-style:none"><img border="0" height="327" src="http://www.puredarwin.org/_/rsrc/1247935767327/developers/booting/chameleon/Chameleon%20PureDarwin%20theme%200%20wait.png?height=327&amp;width=420" style="border-width:0px" width="420" /></a></div></font><h4><a name="TOC-Default-UI"></a>Default UI</h4><font face="Arial, Verdana, sans-serif" size="3"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20timeout.png?attredirects=0" imageanchor="1" style="padding:7px;color:rgb(78,125,191);outline-style:none;border-bottom-style:none"><img border="0" height="327" src="http://www.puredarwin.org/_/rsrc/1247890788671/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20timeout.png?height=327&amp;width=420" style="border-width:0px" width="420" /></a></div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20memory%20info.png?attredirects=0" imageanchor="1" style="padding:7px;color:rgb(78,125,191);outline-style:none;border-bottom-style:none"><img border="0" height="330" src="http://www.puredarwin.org/_/rsrc/1247890781208/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20memory%20info.png?height=330&amp;width=420" style="border-width:0px" width="420" /></a></div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20video%20info.png?attredirects=0" imageanchor="1" style="padding:7px;color:rgb(78,125,191);outline-style:none;border-bottom-style:none"><img border="0" height="330" src="http://www.puredarwin.org/_/rsrc/1247890794899/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20video%20info.png?height=330&amp;width=420" style="border-width:0px" width="420" /></a></div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20%20boot%20devices.png?attredirects=0" imageanchor="1" style="padding:7px;color:rgb(85,26,139);outline-style:none;border-bottom-style:none"><img border="0" height="330" src="http://www.puredarwin.org/_/rsrc/1247890785709/developers/booting/chameleon/chameleon%20v2.0-RC1-r431%20%20boot%20devices.png?height=330&amp;width=420" style="border-width:0px" width="420" /></a></div></div></font><span style="font-size:16px;font-weight:bold"><h3><a name="TOC-RAM-speed"></a>RAM speed</h3></span></div><font face="'courier new', monospace"><span style="font-size:small">&lt;key&gt;SMmemspeed&lt;/key&gt;<br />&lt;string&gt;800&lt;/string&gt;</span></font><h3><a name="TOC-Extension-folder"></a>Extension folder</h3><div>.</div><div><br /></div><h2><a name="TOC-How-to-update-PureDarwin-running-inside-qemu-to-the-latest-Chameleon-bootloader-11-2011"></a>How to update PureDarwin running inside qemu to the latest Chameleon bootloader 11/2011</h2><div><div><font face="'courier new', monospace" size="1">sudo apt-get install dmg2img</font></div><div><font face="'courier new', monospace" size="1">dmg2img /home/mint/Downloads/2120-Chameleon\ v2.1VS\ r1701.dmg</font></div><div><font face="'courier new', monospace" size="1"># Run qemu with </font></div><div><font face="'courier new', monospace" size="1">-hdb /home/mint/Downloads/2120-Chameleon\ v2.1VS\ r1701.img</font></div></div><div><font face="'courier new', monospace" size="1"><br /></font></div><div><div><font face="'courier new', monospace" size="1">PureDarwin:~ root# mount</font></div><div><font face="'courier new', monospace" size="1">/dev/disk0s1 on / (hfs, local, journaled)</font></div><div><font face="'courier new', monospace" size="1">PureDarwin:~ root# fdisk -f "/Volumes/Chameleon 2 VS//Manual Install/boot0" -u -y /dev/rdisk0</font></div><div><font face="'courier new', monospace" size="1">PureDarwin:~ root# dd if="/Volumes/Chameleon 2 VS//Manual Install/boot1h" of=/dev/rdisk0s1</font></div><div><font face="'courier new', monospace" size="1">PureDarwin:~ root# cp "/Volumes/Chameleon 2 VS//Manual Install/boot" /</font></div><div><font face="'courier new', monospace" size="1"><br /></font></div><div><font face="'courier new', monospace" size="1"># Chameleon v2.1VS r1701 seems no longer to be able to boot PD9, crashes immediately when loading the kernel</font></div><div><h2><a name="TOC-Resources"></a>Resources</h2><a href="http://chameleon.osx86.hu" rel="nofollow">http://chameleon.osx86.hu</a></div><div><a href="http://forge.voodooprojects.org/p/chameleon/source/tree/HEAD/" target="_blank">Source code repository</a><br /><br /></div></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/developers/booting/chameleon">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4cwF6t5rFllHXlez2uppD7Fv06Oy0xBQJ2_LSCOiCaVX6lVY-bIoYYYcgbtJxp_snJ5HdNQSEDa2b-2mWtKpYTUfS3NhC/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:475aa70975c3ec7c","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:57f8d6af16b5f34e","revision":27,"title":"Disk images","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"diskimages","path":"/developers/diskimages","isSiteRtlLocale":false,"parentPath":"/developers"};
+webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"Disk images","dir":"ltr","path":"/developers/diskimages","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Disk images - PureDarwin" />
+<meta itemprop="name" content="Disk images - PureDarwin" />
+<meta property="og:title" content="Disk images - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Disk images - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Disk images</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">This page describes various formats for disk images used in Darwin, Mac OS X, and Linux.<br />
+This is a work in progress. Please add to the table.<div><br /></div><div>Note that this page might mention tools that are only available in Mac OS X, but not in PureDarwin.</div><div><br /><div>
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:250px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Hard-disk-images"><strong>1 </strong>Hard disk images</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-.dmg-disk-image-"><strong>1.1 </strong>.dmg (disk image)</a></li><li class="goog-toc"><a href="#TOC-.dd-.cdr-raw-image-"><strong>1.2 </strong>.dd/.cdr (raw image)</a></li><li class="goog-toc"><a href="#TOC-.vmdk-Virtual-Machine-Disk-Format-"><strong>1.3 </strong>.vmdk (Virtual Machine Disk Format)</a></li><li class="goog-toc"><a href="#TOC-Dump-a-CD-DVD-to-an-iso-image"><strong>1.4 </strong>Dump a CD/DVD to an iso image</a></li><li class="goog-toc"><a href="#TOC-Hybrid-media"><strong>1.5 </strong>Hybrid media</a></li></ol></li><li class="goog-toc"><a href="#TOC-Bootable-CDs"><strong>2 </strong>Bootable CDs</a></li><li class="goog-toc"><a href="#TOC-Mounting-DMGs-on-PureDarwin"><strong>3 </strong>Mounting DMGs on PureDarwin</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-vndevice"><strong>3.1 </strong>vndevice</a></li><li class="goog-toc"><a href="#TOC-hdik"><strong>3.2 </strong>hdik</a></li><li class="goog-toc"><a href="#TOC-Source-code-as-starting-point-for-own-developments"><strong>3.3 </strong>Source code as starting point for own developments</a></li><li class="goog-toc"><a href="#TOC-Conversion-of-disk-images-using-LibDMG-s-HFS-implementation"><strong>3.4 </strong>Conversion of disk images using LibDMG's HFS+ implementation</a></li></ol></li></ol></div></div></div></div>
+</div><h3><a name="TOC-Hard-disk-images"></a>Hard disk images</h3>
+<h4><a name="TOC-.dmg-disk-image-"></a><span style="font-weight:normal">.</span>dmg (disk image)</h4>
+<div>.dmg files can contain either an image of one volume (partition) or of an entire disk (device; including the MBR).</div>
+<div><br />
+</div>
+<div>These files are used on the Mac. They can be created by Disk Utility, for example.<br />
+file reports "VAX COFF executable - version 8122" for compressed images.<br />
+<br />To mount these on a PureDarwin system, they need to be uncompressed first using the <a href="http://vu1tur.eu.org/tools/" rel="nofollow" target="_blank">dmg2img</a> utility. Here is an example:<br /><br /><font size="2"><span style="font-family:courier new,monospace">URL="http://macfuse.googlecode.com/files/MacFUSE-2.0.3%2C2.dmg"</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">DMG="MacFUSE-2.0.3,2.dmg"</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">MOUNTPOINT=/Volumes/test/</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">VN=/dev/vn0</span><br style="font-family:courier new,monospace" /><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">set +v # be verbose</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">set +e # exit on errors</span><br style="font-family:courier new,monospace" /><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">wget -c "${URL}" # download compressed DMG</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">IMG=$(echo "${DMG}" | sed -e "s|.dmg$|.img|g" ) # get name of IMG</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">dmg2img "${DMG}" -o "/tmp/${IMG}" -v # uncompress to IMG, http://trac.macports.org/ticket/23489 </span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">vndevice attach /dev/vn0 "/tmp/${IMG}" # attach IMG to device</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">mkdir "${MOUNTPOINT}" # create mount point</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">mount -t hfs "${VN}" "${MOUNTPOINT}" # mount</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">find "${MOUNTPOINT}" -iname Archive.pax.gz # do something</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace"># install (to be written)...</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">umount "${MOUNTPOINT}" &amp;&amp; rm -r "${MOUNTPOINT}" # unmount</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">vndevice detach "${VN}" # detach device</span><br style="font-family:courier new,monospace" /><span style="font-family:courier new,monospace">rm "/tmp/${IMG}" # delete IMG</span></font><br /><br />The dmg2img utility can be compiled on a PureDarwin system using MacPorts (see <a href="http://trac.macports.org/ticket/23489" target="_blank">#23489</a>).<br /><br /></div>
+<h4><a name="TOC-.dd-.cdr-raw-image-"></a>.dd/.cdr (raw image)</h4>
+<div>These files are raw dumps, as the dd program uses them.</div>
+<div>You can convert .dmg files to these on the Mac, using the following command:</div>
+<pre><span style="font-family:courier new,monospace"><span style="font-size:small">hdiutil convert some.dmg -format UDTO -o some.dd</span></span></pre>hdiutil uses the suffix ".cdr" for these files, but in fact the result is a raw dump that can be used with standard, cross-platform tools such as dd. This is why we prefer the ".dd" suffix. </div><div><br /></div><div>To write a raw dump to a physical disk:<br /><span style="font-weight:bold">CAUTION: </span>the following commands are dangerous. You might accidentially wipe your hard disk.<br />Do not use this if you do not know what you are doing.</div>
+<div>
+<ul>
+<li>On the Mac, it can be written with<br />
+<pre><span style="font-family:courier new,monospace"><span style="font-size:small">dd if=some.dd of=/dev/rdiskX bs=2048</span></span></pre></li>
+<li>On Linux, it can be written with</li></ul></div><blockquote style="border:medium none;margin:0pt 0pt 0pt 40px;padding:0px"><span style="font-family:courier new;font-size:12px;white-space:pre">dd if=some.dd of=/dev/sdaX bs=2048</span></blockquote><div><pre><span style="font-family:Arial;white-space:normal"><h4><a name="TOC-.vmdk-Virtual-Machine-Disk-Format-"></a>.vmdk (Virtual Machine Disk Format)</h4>In this case we use <span style="font-style:italic">qemu-img</span>.<br /><pre><span style="font-family:courier new,monospace"><span style="font-size:small">qemu-img convert -O vmdk PureDarwin.iso PureDarwin.vmdk</span></span></pre></span></pre><pre><span style="font-family:Arial;font-size:18px;font-weight:bold;white-space:normal">CD/DVD images</span></pre>
+<div><span style="font-size:14px;font-weight:bold">.iso (ISO 9660 CD-ROM filesystem data)</span></div><div><br /></div><div>First, you need to populate a temporary directory that contains the boot-132 files and that has cdboot as its El Torito boot image (this allows BIOS-based machines to boot).</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">ELTORITOISO=/tmp/eltorito.iso</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cp cdboot ... /tmp/i386/</span></span></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cd /tmp/i386</span></span></div><div><br /></div><div>From the temporary directory, run <span style="font-style:italic">mkisofs</span>:</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">mkisofs -quiet -V "PureDarwin" -no-emul-boot -boot-load-size 4 -c boot.cat -b cdboot -o "$</span></span><span style="font-family:courier new,monospace"><span style="font-size:small">ELTORITOISO"</span></span></div><div><br /></div><div>In order to retreive the sector count:</div><div><br /></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">sectors=$(du "$ELTORITOISO" | tail -1 | awk '{print $1}')</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">size_mb=$(du -h "$ELTORITOISO" | tail -1 | awk '{print $1}')</span></span></div><div><br /></div><div>Then create, initialize and mount a HFS+ disk image (dmg)</div><div><br /></div></div></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">hdiutil create -fs HFS+J -o "$CDDMG" -size 256M -layout NONE -type UDIF -nospotlight</span></span></div><div><br /></div><div><div>Partitioning with pdisk + newfs_hfs.</div><div>(please add text)</div><div><br /></div></div><div>The tricky way is to "injects" parts of the temporary El Torito ISO into the dmg using</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">dd if="$ELTORITOISO" of=$rdev skip=64 seek=64 bs=512</span></span></div><div><span style="font-family:courier new;font-size:12px"><br /></span><div><div>(please add text)</div></div><h4><a name="TOC-Dump-a-CD-DVD-to-an-iso-image"></a>Dump a CD/DVD to an iso image</h4><span style="font-family:courier new,monospace"><span style="font-size:small">hdiutil create -srcdevice /dev/disk1s0 -format UDTO some.iso<br />mv some.iso.cdr some.iso</span></span><br /><h4><a name="TOC-Hybrid-media"></a>Hybrid media</h4>Up to four file systems supported: HFS+, ISO-9660, Joliet and/or UDF.<br /><br /><span>       </span><span style="font-family:courier new,monospace"><span style="font-size:small">-hfs Generate an HFS+ filesystem<br /><span>    </span>-iso Generate an ISO9660 filesystem<br /><span>    </span>-joliet Generate Joliet extensions to ISO9660<br /><span>    </span>-udf Generate a UDF filesystem<br /></span></span><br />(Please write some text)<br /><br /><span style="font-family:courier new,monospace"><span style="font-size:small">hdiutil makehybrid -o ... ...</span></span><br /></div><h3><a name="TOC-Bootable-CDs"></a>Bootable CDs</h3><div>For bootable CDs, see <a href="http://www.puredarwin.org/developers/booting/booting-from-cd-rom">here</a>.</div><h3><a name="TOC-Mounting-DMGs-on-PureDarwin"></a>Mounting DMGs on PureDarwin</h3><div>It looks like compressed DMGs (UDIF) cannot readily be mounted on PureDarwin since Darwin lacks the neccessary frameworks (e.g., DiskImages.framework) and/or kernel extensions (e.g., IOHDIXController.kext and its plug-ins) that Mac OS X uses for this purpose.</div><div><br /></div><div><span style="color:rgb(255,0,0)">IOHDIXController.kext used to be </span><a href="http://www.puredarwin.org/legal/binarydrivers"><span style="color:rgb(255,0,0)">distributed</span></a><span style="color:rgb(255,0,0)"> with Darwin under the Apple Binary License. Perhaps that's what we need to do for PureDarwin as well.</span></div><h4><a name="TOC-vndevice"></a>vndevice</h4><div>Using the raw BSD vndevice would mean that we cannot seemingly use compressed DMGs (UDIF).</div><div>Since we want to use a compressed filesystem, it appears that the raw vndevice approach is not an option for PureDarwin.</div><h4><a name="TOC-hdik"></a>hdik</h4><div>Mac OS X comes with a little tool called hdik. Its description reads like it could exactly do what we need in PureDarwin:</div><div><br /></div><div><div>     hdik is a lightweight tool that can be used to attach disk images in-ker-</div><div>     nel (i.e. not using a user-land process to providing the backing store).</div><div>     Only a subset of disk images can be mounted in this manner including</div><div>     read/write disk images, UDIF disk images that use zlib compression, shad-</div><div>     owed disk images, and sparse disk images.</div><div><br /></div><div>     hdik is intended for use in situations where linking against the DiskIm-</div><div>     ages framework is problematic or an extremely lightweight mechanism for</div><div>     attaching a disk image is needed.</div><div><br /></div><div>And it looks like it has no "impure" dependencies. However, it apparently calls /usr/libexec/load_hdi which, according to its man page, "is used to load the disk image driver.  load_hdi is invoked by the DiskImages framework when it needs to attach images and the user client in IOHDIXController.kext is not available".</div><div><br /></div><div>Besides, it looks like the source for hdik is not available. Apparently, hdik is part of the closed-source project DiskImages-195.</div><div>So it appears that it is not an option for PureDarwin either.</div></div><h4><a name="TOC-Source-code-as-starting-point-for-own-developments"></a>Source code as starting point for own developments</h4><div>For compressed DMGs (UDIF) see <a href="http://catacombae.svn.sourceforge.net/viewvc/catacombae/DMGExtractor/src/org/catacombae/udif/" rel="nofollow">here</a> (sample code in Java) and here (<a href="http://vu1tur.eu.org/tools/" rel="nofollow">C</a>)<br />Also have a look at this:<br /><a href="https://svn.greensocs.com/public/packages/qemu_systemc/qemu-0.9.1/block-dmg.c" rel="nofollow" target="_blank">https://svn.greensocs.com/public/packages/qemu_systemc/qemu-0.9.1/block-dmg.c</a><br /></div><div><br /></div><h4><a name="TOC-Conversion-of-disk-images-using-LibDMG-s-HFS-implementation"></a><b>Conversion of disk images using LibDMG's HFS+ implementation</b></h4><div><b><br /></b></div><div>This log should be cleaned up, when I (Tyson) get around to it:</div><div><br /></div><div><span><font size="2"><font color="#76451f">(11:04:38 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>hi<br /><span><font size="2"><font color="#76451f">(11:05:56 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>I just had a bit of experience with getting a dmg image converted into a raw disk image with 1 partion<br /><span><font size="2"><font color="#76451f">(11:06:12 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>so poweriso and dmg2img didn't work for me<br /><span><font size="2"><font color="#76451f">(11:06:30 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>both produced a wrong kind of image<br /><span><font size="2"><font color="#76451f">(11:06:46 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>which I couldn't validate with fdisk/parted<br /><span><font size="2"><font color="#76451f">(11:06:59 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>then I found this:<br /><span><font size="2"><font color="#76451f">(11:07:02 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span><a href="https://github.com/planetbeing/libdmg-hfsplus/">https://github.com/planetbeing/libdmg-hfsplus/</a><br /><span><font size="2"><font color="#76451f">(11:07:13 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>commit d4a253cae40fb4b38377273eb1f89f21c4cb224a<br /><span><font size="2"><font color="#76451f">(11:08:13 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>^ current state of the master branch is a bit broken, but all I had to do was just to add one variable which was not defined for some reason<br /><span><font size="2"><font color="#76451f">(11:08:53 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>after it compiled, I got the 'dmg' util to convert the image<br /><span><font size="2"><font color="#76451f">(11:09:19 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>and the result turned out to be valid in parted<br /><span><font size="2"><font color="#76451f">(11:09:29 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>now<br /><span><font size="2"><font color="#76451f">(11:09:53 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>the problem is that <a href="http://www.puredarwin.org/developers/diskimages">http://www.puredarwin.org/developers/diskimages</a> is not a wiki page<br /><span><font size="2"><font color="#76451f">(11:10:10 AM) </font></font></span><span style="color:rgb(118,69,31)">errordeveloper: </span>and I cannot simpy add this info there, so other might find it usefull</div><div><br /></div><div><br /></div>
+</div>
+</div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/developers/diskimages">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

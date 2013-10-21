@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:3c901a8506fd9c4a","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:14e564fed2922eea","revision":36,"title":"ZFS","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"zfs","path":"/curious/zfs","isSiteRtlLocale":false,"parentPath":"/curious"};
+webspace.page.breadcrumbs = [{"title":"For the curious","dir":"ltr","path":"/curious","deleted":false},{"title":"ZFS","dir":"ltr","path":"/curious/zfs","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="ZFS - PureDarwin" />
+<meta itemprop="name" content="ZFS - PureDarwin" />
+<meta property="og:title" content="ZFS - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>ZFS - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/curious">For the curious</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">ZFS</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><span style="border-collapse:separate;line-height:19px"><font face="arial, sans-serif">ZFS stands for "</font><a href="http://en.wikipedia.org/wiki/ZFS" rel="nofollow" target="_blank"><font face="arial, sans-serif">Zettabyte File System</font></a><font face="arial, sans-serif">". It was designed and implemented by a team at Sun Microsystems led by </font><span style="font-style:italic"><font face="arial, sans-serif">Jeff Bonwick</font></span><font face="arial, sans-serif">. Since the release of Darwin 9, ZFS became a core platform technology; and work is well underway to realise its full potential within PureDarwin</font></span><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">.<br />
+<br />
+</span>
+<div>
+<div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:432px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-MacZFS.org"><strong>1 </strong>MacZFS.org</a></li><li class="goog-toc"><a href="#TOC-Parts-of-ZFS"><strong>2 </strong>Parts of ZFS</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Filesystem-kext"><strong>2.1 </strong>Filesystem kext</a></li><li class="goog-toc"><a href="#TOC-Performance-Integrity-and-Stability"><strong>2.2 </strong>Performance, Integrity and Stability</a></li><li class="goog-toc"><a href="#TOC-Building-ZFS"><strong>2.3 </strong>Building ZFS</a></li><li class="goog-toc"><a href="#TOC-Resources"><strong>2.4 </strong>Resources</a></li></ol></li></ol></div></div></div></div></div>
+<div><br />
+</div>
+<div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">
+<h2 style="font-family:Arial,Verdana,sans-serif;line-height:normal"><a name="TOC-MacZFS.org"></a>MacZFS.org</h2>
+Enthusiasts of ZFS and of PureDarwin will want to read the whole web site from the beginning, for an idea of what's to come from the alliance of these two communities and their technologies. PureDarwin users will require <a href="http://code.google.com/p/maczfs/wiki/FAQ#How_do_I_install_MacZFS_manually?">manual installation</a> for now, in order to upgrade to the latest stable release of MacZFS. From there, all other MacZFS.org documentation is generally relevant.</span>
+<div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px"><br />
+</span>All development of ZFS on Mac OS takes place at <a href="http://maczfs.org/">MacZFS.org</a>. They host packages for Mac OS, and that can be manually installed upon PureDarwin.</div>
+</div>
+<div style="text-align:left"><br />
+</div>
+<div>
+The ZFS implementation that runs on Mac OS X (and Darwin) can be downloaded or compiled.<br />
+<div><br />
+</div>
+<div>Fyi, ZFS is <a href="http://www.puredarwin.org/developers/macports/purity" rel="nofollow" target="_blank">pure</a>.<br />
+<div>
+<h2><a name="TOC-Parts-of-ZFS"></a>Parts of ZFS</h2>
+On Mac OS X (and Darwin), ZFS consists of the following parts:<br />
+<div>
+<ol>
+<li><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">A filesystem kext, <span style="font-style:italic">System/Library/Extensions/</span><span style="font-weight:bold"><span style="font-style:italic">zfs.kext</span></span><br />
+Whenever zfs is used, this kext gets loaded. Being a filesystem kext, it is not loaded at boot time (unlike other kexts), but dynamically when needed (this requires a working kextload on the system).<br />
+There may also be a <span style="font-style:italic">zfs.readonly.kext</span>, which is a temporary placeholder on Mac OS X and is not needed for the purposes of PureDarwin.</span></li>
+<li><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">A filesystem,<span style="font-style:italic"> /System/Library/Filesystems/</span><span style="font-weight:bold"><span style="font-style:italic">zfs.fs</span><br />
+<span style="font-weight:normal">Contained therein is, among other things, a command-line tool called </span>zfs.util</span></span></li>
+<li><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">A library, <span style="font-weight:bold">libzfs.dylib</span></span></li>
+<li><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">Command-line tools in /usr/sbin, </span></li>
+<ol>
+<li><span style="font-weight:bold">zpool</span> (configures ZFS storage pools)</li>
+<li><span style="font-weight:bold">zfs</span> (configures ZFS file systems)</li>
+<li><span style="font-weight:bold">zoink</span> (misc)</li>
+<li>zfs.util (ZFS file system utility)</li>
+</ol>
+<li>A settings file, /etc/zfs/zpool.cache (a cache that describes active ZFS pools on the system)</li>
+<li>The device <span style="font-weight:bold">/dev/zfs</span>, this is created automatically when zfs.kext gets loaded (which happens whenever you call the zfs command-line tool, for example).</li>
+</ol>
+<div>
+<h4><a name="TOC-Filesystem-kext"></a>Filesystem kext</h4>
+As mentioned above, zfs.kext is not a regular kernel extension but instead is a filesystem kext. Among other things, this means that it is not loaded at boot time, but is loaded automatically on demand through kextload. Unfortunately, documentation on filesystem kexts is hard to find.</div>
+</div>
+<div>
+<h3><a name="TOC-Performance-Integrity-and-Stability"></a>Performance, Integrity and Stability</h3>
+Sun (and the FreeBSD project) recommend that at least 512MB of RAM is available, to ensure that ZFS performs reliably, although it will work on systems with less than 512MB with suboptimal performance. ZFS was designed to perform best on 64-bit systems, although it works on 32-bit systems.</div>
+<h3><a name="TOC-Building-ZFS"></a>Building ZFS</h3>
+<div><i>This section will be updated, pending the official integration of MacZFS into PureDarwin.  The old instructions are provided for reference in the hope that you will help to update it.</i></div>
+<div><br />
+</div>
+<div>Our favorite way is through <a href="http://www.puredarwin.org/developers/darwinbuild">darwinbuild</a> via a custom plist containing the paste below. You will notice that only two architectures have been specified, because it does not yet build on 64bits arch (ppc64 or x86_64). `darwinbuild zfs' is pretty straight forward.</div>
+<div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">zfs = {</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">configuration = "Leopard_Release";</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">dependencies = {</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">lib = (</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">Libsystem,</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">dyld,</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">libgcc,</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">ncurses,</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">);</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">};</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">environment = {</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">"RC_ARCHS" = "i386 ppc";</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">};</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">"source_sites" = (</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">"http://puredarwin.googlecode.com/hg/Mirror/",</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">"http://puredarwin.googlecode.com/svn/Mirror/",</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">);</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">version = "119";</span></span></div>
+<div><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">};</span></span></div>
+<h3><a name="TOC-Resources"></a>Resources</h3>
+<div><a href="http://en.wikipedia.org/wiki/ZFS" rel="nofollow">http://en.wikipedia.org/wiki/ZFS</a></div>
+<div><a href="http://opensolaris.org/os/community/zfs/" rel="nofollow">http://opensolaris.org/os/community/zfs/</a></div>
+<div>
+<div><span style="font-family:arial,sans-serif;font-size:12px"><a href="http://www.google.com/url?sa=D&amp;q=http://groups.google.com/group/zfs-macos" rel="nofollow" style="color:rgb(85,26,139)" target="_blank">http://groups.google.com/group/zfs-macos</a></span></div>
+<div><a href="http://maczfs.org/">http://maczfs.org/</a></div>
+<div><a href="http://docs.sun.com/app/docs/doc/819-5461?l=en" rel="nofollow" target="_blank">Sun Solaris ZFS Administration Guide</a></div>
+<a href="http://code.google.com/p/maczfs/wiki/GettingStarted">Getting Started Guide for MacZFS</a></div><div>
+<a href="http://code.google.com/p/maczfs/wiki/FAQ">MacZFS FAQ</a></div><div><a href="https://groups.google.com/forum/?fromgroups#!forum/zfs-macos">MacZFS mailing list</a>
+<div><br />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/curious/zfs">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4c8mGuuJwJ-osihTg6oOnebys2F-uq71AXHYNHqBjT7knvVaveIAESs1WSma9rMBXioV63BpmLY7rKovtBdEtChIGErsA/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

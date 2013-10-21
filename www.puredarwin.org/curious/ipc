@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:69a146563b307344","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:14e564fed2922eea","revision":14,"title":"Interprocess Communication (IPC)","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"ipc","path":"/curious/ipc","isSiteRtlLocale":false,"parentPath":"/curious"};
+webspace.page.breadcrumbs = [{"title":"For the curious","dir":"ltr","path":"/curious","deleted":false},{"title":"Interprocess Communication (IPC)","dir":"ltr","path":"/curious/ipc","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Interprocess Communication (IPC) - PureDarwin" />
+<meta itemprop="name" content="Interprocess Communication (IPC) - PureDarwin" />
+<meta property="og:title" content="Interprocess Communication (IPC) - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Interprocess Communication (IPC) - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/curious">For the curious</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Interprocess Communication (IPC)</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">Interprocess communication is a "means of information sharing and synchronization" (Singh) between processs. This page describes the various forms of IPC on a Darwin system and also shows forms of IPC not present in Darwin, but in Mac OS X.
+<div><br />
+</div>
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:250px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Introduction"><strong>1 </strong>Introduction</a></li><li class="goog-toc"><a href="#TOC-Forms-of-IPC"><strong>2 </strong>Forms of IPC</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Mach-IPC"><strong>2.1 </strong>Mach IPC</a></li><li class="goog-toc"><a href="#TOC-Mach-Exceptions"><strong>2.2 </strong>Mach Exceptions</a></li><li class="goog-toc"><a href="#TOC-Unix-Signals"><strong>2.3 </strong>Unix Signals</a></li><li class="goog-toc"><a href="#TOC-Unnamed-pipes"><strong>2.4 </strong>Unnamed pipes</a></li><li class="goog-toc"><a href="#TOC-Named-pipes-fifos-"><strong>2.5 </strong>Named pipes (fifos)</a></li><li class="goog-toc"><a href="#TOC-XSI-System-V-IPC"><strong>2.6 </strong>XSI/System V IPC</a></li><li class="goog-toc"><a href="#TOC-POSIX-IPC"><strong>2.7 </strong>POSIX IPC</a></li><li class="goog-toc"><a href="#TOC-notifyd"><strong>2.8 </strong>notifyd</a></li></ol></li><li class="goog-toc"><a href="#TOC-Missing-forms-of-IPC"><strong>3 </strong>Missing forms of IPC</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Distributed-Objects"><strong>3.1 </strong>Distributed Objects</a></li><li class="goog-toc"><a href="#TOC-Notifications"><strong>3.2 </strong>Notifications</a></li><li class="goog-toc"><a href="#TOC-Apple-Events"><strong>3.3 </strong>Apple Events</a></li></ol></li><li class="goog-toc"><a href="#TOC-Credits"><strong>4 </strong>Credits</a></li><li class="goog-toc"><a href="#TOC-References"><strong>5 </strong>References</a></li></ol></div></div></div></div>
+<br />
+</div>
+<h3><a name="TOC-Introduction"></a>Introduction</h3>
+<div>Processes on a typical Darwin system need to communicate with each other. The Darwin OS provides several mechanisms for such Interprocess Communication (IPC).</div>
+<h3><a name="TOC-Forms-of-IPC"></a>Forms of IPC</h3>
+<div>Since Darwin and Mac OS X are composed from various systems and infrastructures, they provide means for IPC on several different levels of the OS which will be discussed below. For a more detailed overview, read Chapter 9 of <a href="http://macosxbook.com/" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)" target="_blank">Mac OS X Internals</a> by Amit Singh which this page is loosely structured after. </div>
+<div>
+<h4 style="background-color:transparent;color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:14px;margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:0px"><a name="TOC-Mach-IPC"></a>Mach IPC</h4>
+<span style="font-size:13px;font-weight:normal">Mach IPC can approximately be compared with BSD sockets, but is more powerful and is mainly used for local machine communication. Mach IPC is a facility of the XNU kernel; it falls into two distinct categories, ports and messages. The XNU kernel implements most aspects of Mach IPC except network-transparent IPC.</span> </div><div><br /></div><div><span style="font-size:13px"><span style="font-weight:bold">Mach ports:</span></span><span style="font-size:13px"><span style="font-weight:bold"> </span></span><span style="font-size:13px;font-weight:normal">Kernel-provided queues of Mach messages. Tasks can send Mach messages to and receive Mach messages from Mach ports. The kernel blocks sending to full and receiving from empty Mach ports. There is also permission control for Mach ports ("port rights") so that unauthorized processes cannot randomly access Mach ports. The kernel itself provides Mach ports to interact with resources such as tasks, threads, etc. Hence, one can see the XNU kernel as a server that serves objects through Mach ports.</span> </div><div><br /></div><div><span style="font-size:13px"><span style="font-weight:bold">Mach messages:</span></span><span style="font-size:13px"><span style="font-weight:bold"> </span></span><span style="font-size:13px;font-weight:normal">Can be sent and received by userspace processes through the mach_msg family of functions. Mach messages in Darwin and Mac OS X have the following structure: header, body, and trailer. There are simple and complex Mach messages, where in simple messages the body is untyped and in complex messages the body is structured. Messages can be passive (meaningful only to the sender and the receiver, but not processed by the kernel) or active (interpreted by the kernel).</span> </div><div><br /></div><div><span style="font-size:13px"><span style="font-weight:bold">XNU aspects:</span> </span><span style="font-size:13px;font-weight:normal">The Mach IPC implementation of Darwin and Mac OS X resides in the osfmk/ipc/ and osfmk/kern/ipc_ trees of the XNU kernel source. It is an essential part of XNU, since Mach ports play a pivotal role in the creation of Mach tasks and threads.</span> </div><div><br /></div><div><span style="font-size:13px"><span style="font-weight:bold">launchd aspects:</span> </span><span style="font-size:13px;font-weight:normal">However, the Mach IPC implementation in Darwin and Mac OS X is not purely a matter of the XNU kernel. Mach systems typically use a <span style="font-style:italic">Network Message Server </span>as an intermediary between sender and receiver for implementing access control. Darwin and Mac OS X, however, use a <span style="font-style:italic">Bootstrap Server </span>as the intermediary instead, which is implemented in </span><span style="font-size:13px"><span style="font-style:italic">launchd</span></span><span style="font-size:13px;font-weight:normal">. The bootstrap server also acts as a <span style="font-style:italic">Name Server<span style="font-weight:bold"> </span><span style="font-style:normal">which allows to announce Mach ports under a human-readable name such as </span></span></span><span style="font-size:13px;font-weight:normal"><span style="font-family:courier new,monospace"><span style="font-size:small">com.apple.SecurityServer</span></span>. Tasks on the local machine can announce ports to launchd, and other tasks can send messages to the ports announced by launchd. Hence, launchd is required in order to allow tasks to use Mach IPC on a Darwin or Mac OS X system. Debug messages containing the word <span style="font-family:courier new,monospace"><span style="font-size:small">bootstrap</span></span> usually refer to this aspect of launchd. To view a list of announced Mach ports on a Darwin or Mac OS X system, use the command <span style="font-family:courier new,monospace"><span style="font-size:small">launchctl bslist</span></span>.</span></div><div><h4><a name="TOC-Mach-Exceptions"></a>Mach Exceptions</h4>
+<div>Mach Exceptions are interruptions of a program's normal flow of operation when special conditions arise, such as errors (e.g., trying to divide by zero), when debugging (e.g., breakpoints), when using emulation/virtualization or as part of memory management.</div><div><br /></div><div>When an exception occurs, Mach sends a Mach message to a special Mach port called an <span style="font-style:italic">e</span><span style="font-style:italic">xception port</span>, where an exception handler (e.g., a debugger) can pick it up and react to it. Exception ports exist at the host, task and thread levels. There is a special exception handler called the <span style="font-style:italic">Unix exception handler</span> which translates certain Mach exception messages to Unix signals (see below), thus bridging the Mach and Unix worlds.</div>
+</div>
+<div>
+<h4><a name="TOC-Unix-Signals"></a>Unix Signals</h4>
+<div>Unix signals are messages that are sent to running processes. Typical signals are SUGHUP, SIGKILL, SIGSEGV and others. Users most commonly use the <span style="font-family:courier new,monospace"><span style="font-size:small">kill</span></span> command to send signals to processes. For more information on Unix signals, see <a href="http://www.tech-faq.com/unix-signals.shtml" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)" target="_blank">Tech FAQ</a>. In Darwin and Mac OS X, Unix signals are implemented on top of Mach Exceptions, derived from FreeBSD's implementation.</div>
+<div>
+<h4><a name="TOC-Unnamed-pipes"></a>Unnamed pipes</h4>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">man ftok</span></span>?</div>
+<div>
+<h4><a name="TOC-Named-pipes-fifos-"></a>Named pipes (fifos)</h4>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">man 2 mkfifo</span></span></div>
+<div>
+<h4><a name="TOC-XSI-System-V-IPC"></a>XSI/System V IPC</h4>
+<div>The X/Open System Interface (XSI) defines a set of IPC interfaces similar to those of System V, especially <a href="http://www.opengroup.org/onlinepubs/009695399/basedefs/sys/msg.h.html" target="_blank">message queues</a>, <a href="http://www.opengroup.org/onlinepubs/009695399/basedefs/semaphore.h.html" target="_blank">semaphores</a>, and shared memory.</div>
+<div>
+<h4><a name="TOC-POSIX-IPC"></a>POSIX IPC</h4>
+<div>POSIX IPC is defined in the POSIX Real-time Extensions of the POSIX 1003.1b-1993 standard. They are different from XSI/System V IPC despite similar names.</div><div><br /></div><div><div>To be written</div><div><br /></div><h4><a name="TOC-notifyd"></a>notifyd</h4><p>notifyd is a daemon which provides basic system-wide notification support. Notifications, in the form of simple text labels, can be posted by any application using a basic Mach API. Other processes can register to receive notifications as they occur, either through signals or Mach ports.</p><p>On OS X, CoreFoundation provides features, through its CFNotificationCenter functions, to post and listen for these notifications. These are missing in CFLite, although the presence of the notifyd means that patching these back in should be relatively simple.</p><p><br /></p><h3><a name="TOC-Missing-forms-of-IPC"></a>Missing forms of IPC</h3></div>
+<div>
+<h4><a name="TOC-Distributed-Objects"></a>Distributed Objects</h4>
+<div>Distributed Objects are a form of Remote Procedure Call (RPC) which originally appeared under NeXT. They are a feature of the Foundation.framework, which is exclusive to Mac OS X. The PureFoundation project is (slowly) bringing its features to Darwin, and hopes to eventually provide a compatible implementation of Distributed Objects.</div><h4><a name="TOC-Notifications"></a>Notifications</h4><p>The form of notifications, as marshalled by notification centres, allow both intra- and interprocess communication. On OS X, compatible implementations are provided by both CoreFoundation and Foundation. CFLite lacks these functions. It is likely that a version of these functions will be patched back into CFLite.</p><div>
+<h4><a name="TOC-Apple-Events"></a>Apple Events</h4>
+<div>Apple Events is an IPC mechanism provided by Mac OS X, but not available on Darwin. Apple Events are mainly used by the AppleScript scripting language to communicate with GUI applications. Although supported by Foundation, the PureFoundation project currently has no plans to implement Apple Events.</div><div><br /></div>
+<h3><a name="TOC-Credits"></a>Credits</h3>
+<div>Chapter 9 of <a href="http://macosxbook.com/" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)" target="_blank">Mac OS X Internals</a> by Amit Singh</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3><a name="TOC-References"></a>References</h3>
+<div>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Inter-process_communication" target="_blank">Wikipedia: Inter-process communication</a></li>
+<li><a href="http://developer.apple.com/documentation/Darwin/Conceptual/KernelProgramming/boundaries/chapter_14_section_4.html" target="_blank">Apple: Mach Messaging and Mach Interprocess Communication (IPC)</a></li>
+<li><a href="http://macosxbook.com/" target="_blank">Amit Singh: Mac OS X Internals</a></li><li><a href="http://www.wodeveloper.com/omniLists/macosx-dev/2000/June/msg00137.html" target="_blank">Mach Exception Handlers 101</a></li><li><a href="http://www.tech-faq.com/unix-signals.shtml" target="_blank">Tech FAQ: What are Unix signals?</a></li>
+</ul>
+</div>
+</div>
+</div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/curious/ipc">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4c1G5M5s6HGK6XjONRtUkm1jdhbYRWWIFYA3bIkiZv5vebWH455m75KbaBHJcAMkzK762FHSZKupKe5Yw5KCy4ZOtHa_u/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

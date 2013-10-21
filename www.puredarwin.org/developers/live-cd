@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:25e81b84d49405ae","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:57f8d6af16b5f34e","revision":34,"title":"Live CD","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"live-cd","path":"/developers/live-cd","isSiteRtlLocale":false,"parentPath":"/developers"};
+webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"Live CD","dir":"ltr","path":"/developers/live-cd","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Live CD - PureDarwin" />
+<meta itemprop="name" content="Live CD - PureDarwin" />
+<meta property="og:title" content="Live CD - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Live CD - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Live CD</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">Live CDs are a very popular way to distribute operating systems.<div><br /><div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:250px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-How-Live-CDs-work"><strong>1 </strong>How Live CDs work</a></li><li class="goog-toc"><a href="#TOC-How-Mac-OS-X-Installation-DVDs-work"><strong>2 </strong>How Mac OS X Installation DVDs work</a></li><li class="goog-toc"><a href="#TOC-How-a-PureDarwin-Live-CD-might-work"><strong>3 </strong>How a PureDarwin Live CD might work</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Alternative-1:-Uncompressed-from-disc-"><strong>3.1 </strong>Alternative 1: Uncompressed from disc </a></li><li class="goog-toc"><a href="#TOC-Alternative-2:-Using-imageboot"><strong>3.2 </strong>Alternative 2: Using imageboot</a></li><li class="goog-toc"><a href="#TOC-Alternative-3:-Using-a-ZFS-file"><strong>3.3 </strong>Alternative 3: Using a ZFS file</a></li></ol></li><li class="goog-toc"><a href="#TOC-Shadow-files"><strong>4 </strong>Shadow files</a></li><li class="goog-toc"><a href="#TOC-References"><strong>5 </strong>References</a></li></ol></div></div></div></div>
+</div><div><h3><a name="TOC-How-Live-CDs-work"></a>How Live CDs work</h3><div>In order to make a PureDarwin Live CD, we essentially need to do two things:</div><div><ol><li><span style="font-weight:bold">Hardware detection</span>. Linux Live CDs configure themselves to use the correct drivers. While this is a major breaktrough for Linux distributions, Darwin has been working like this all the time. What this means for PureDarwin is that we essentially have to ensure that we ship a broad range of kexts, and the system does the rest "for free".</li><li><span style="font-weight:bold">Compressed main filesystem</span>. Linux Live CDs contain, besides the kernel, an initrd (a small filesystem) which loads the necessary drivers (roughly comparable to Extensions.mkext), mounts a 700 MB compressed filesystem (roughly comparable to a .dmg) that contains around 2GB of compressed software, switches over ("chroot") to that filesystem, and continues to boot from there. For PureDarwin, we can probably achieve this by using <span style="font-style:italic">NetBoot disk images</span> locally. </li><li><span style="font-weight:bold">Union filesystem</span>. Because the main compressed filesystem is read-only, write accesses must be redirected to an overlay/union filesystem. Most Linux Live CDs use unionfs/aufs for this purpose. Darwin can use <span style="font-style:italic">shadow volumes</span> for the same purpose. A PureDarwin Live CD would <span style="font-style:italic">attach a shadow volume</span> that is stored in a local ramdisk to the root disk image. Mac OS X does this using the <a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man8/nbdst.8.html" rel="nofollow" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)">nbdst</a> tool.</li></ol><div>If anyone knows more about how to use NetBoot images locally, please join work on the Live CD.</div><h3><a name="TOC-How-Mac-OS-X-Installation-DVDs-work"></a>How Mac OS X Installation DVDs work</h3><div>Mac OS X Installation DVDs are capable of running Mac OS X from a read-only medium. Maybe we can learn from that, hence we are looking at the procedure in this paragraph.</div><div><br /></div><div>As of Snow Leopard, Mac OS X Installation DVDs contain the launchd LaunchDaemon plist file /System/Library/LaunchDaemons/com.apple.install.cd.plist with the following content:</div><div><div><br /></div><div><font face="'courier new', monospace"><span style="font-size:small">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">&lt;plist version="1.0"&gt;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">&lt;dict&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;key&gt;Label&lt;/key&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;string&gt;com.apple.install.cd&lt;/string&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;key&gt;OnDemand&lt;/key&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;false/&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;key&gt;ProgramArguments&lt;/key&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;array&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;string&gt;/bin/sh&lt;/string&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;string&gt;/etc/rc.install&lt;/string&gt;</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">&lt;/array&gt;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">&lt;/dict&gt;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">&lt;/plist&gt;</span></font></div><div><br /></div></div><div>Hence, when the system is booted, the script <span style="font-family:courier new,monospace;font-size:small">/etc/rc.install <span style="font-family:Arial,Verdana,sans-serif;font-size:13px">is executed. This script mainly launches the Installer. However, there is also a script </span>/etc/rc.cdrom<span style="font-family:Arial,Verdana,sans-serif;font-size:13px"> which does the main magic of mounting ramdisks to </span></span></div><div><br /></div><div><div><font face="'courier new', monospace"><span style="font-size:small">#!/bin/sh</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># (...)</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">#</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># Disable prebinding-on-the-fly while we're CD booted</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">#</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">export DYLD_NO_FIX_PREBINDING=1</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">#</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># mount root_device to update vnode information</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">#</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">mount -u -o ro /</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># (...)</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">#</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># Create a RAM disk with same perms as mountpoint</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">#</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">RAMDisk()</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">{</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">  mntpt=$1</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">  rdsize=$2</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">  echo "Creating RAM Disk for $mntpt"</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">  dev=`hdik -drivekey system-image=yes -nomount ram://$rdsize`</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">  if [ $? -eq 0 ] ; then</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    newfs_hfs $dev</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    # save &amp; restore fs permissions covered by the mount</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    eval `/usr/bin/stat -s $mntpt`</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    mount -t hfs -o union -o nobrowse $dev $mntpt</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    chown $st_uid:$st_gid $mntpt</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    chmod $st_mode $mntpt</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">  fi</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">}</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b>RAMDisk /Volumes 1024</b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b>RAMDisk /var/tmp 1024</b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b>RAMDisk /var/run 1024</b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b><br /></b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b>RAMDisk /var/db 1024</b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">mkdir -m 1777 /var/db/mds</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># language prefs, colorsync need to be able to write some preferences (5424449)</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b>RAMDisk</b></span></font><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"><b> </b></span></font></span><font face="'courier new', monospace"><span style="font-size:small"><b>/Library/Preferences 1024</b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><b>RAMDisk /Library/ColorSync/Profiles/Displays 2048</b></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># use or create the boot cache playlist, and allow B&amp;I to force 32-bit playlist generation</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">FORCETHIRTYTWO="false"</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">if nvram boot-args | grep "no64exec" ; then</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">FORCETHIRTYTWO="true"</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">fi</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">SIXTYFOURBIT=`sysctl -n hw.cpu64bit_capable`</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">if [ $SIXTYFOURBIT = "0" -o $FORCETHIRTYTWO = "true" ] ; then</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">echo "using 32-bit bootcache playlist"</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">BootCacheControl -f /var/db/BootCache.playlist32 start</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">elif [ $SIXTYFOURBIT = "1" ] ; then</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">echo "using 64-bit bootcache playlist"</span></font></div><div><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"> </span></font></span><font face="'courier new', monospace"><span style="font-size:small">BootCacheControl -f /var/db/BootCache.playlist start</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">fi</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># tell launchd to commence with loading the system.</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># for the OS Install environment only, /etc/rc.install is included in this process.</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">launchctl load -D system</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"># this script sleeps forever; the installer or startup disk will always reboot the system. </span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">sleep 9999999</span></font></div><div><br /></div><div>How does this script get called? <b>How can hdik be replaced with what is in Darwin? </b><font color="#FF0000">Please let us know. Perhaps we could use a <a href="http://www.puredarwin.org/developers/macfuse">MacFUSE</a> based ramdisk from http://thebends.googlecode.com/svn/trunk/ramdisk/</font></div><div><br /></div>So far, when replacing the above RAMDisk function with one based on MacFUSE's mount_ramdisk, we get<br />launchctl error: launch_msg(): Socket is not connected<br /><span style="color:rgb(255,0,0)">Please let us know if you know how to solve this.</span></div><h3><a name="TOC-How-a-PureDarwin-Live-CD-might-work"></a>How a PureDarwin Live CD might work</h3><h4><a name="TOC-Alternative-1:-Uncompressed-from-disc-"></a>Alternative 1: Uncompressed from disc </h4><div>Run the system uncompressed from the CD medium (like PureDarwin nano or like the Mac OS X Install DVD). </div><div><br /></div><div>This is not a workable option for two reasons: It's slow (since more data needs to be read from the slow optical disc) and it's too small (700 MB is not much space).</div><h4><a name="TOC-Alternative-2:-Using-imageboot"></a>Alternative 2: Using imageboot</h4><div>The XNU kernel contains some references to "imageboot", e.g., here:</div><div><a href="http://fxr.watson.org/fxr/source/bsd/kern/imageboot.c?v=xnu-1228" rel="nofollow" target="_blank">http://fxr.watson.org/fxr/source/bsd/kern/imageboot.c?v=xnu-1228</a> </div><div><br /></div><div>Apparently, one should be able to boot using a boot argument like <span style="font-family:courier new;font-size:12px">-v rp=file:///some.dmg</span></div><div>then the system would mount /some.dmg as the root device and continue booting from there.</div><div><br /></div><div>How this works is largely undocumented. Below is a proof-of-concept for imagebooting PureDarwin nano on a Mac host.</div><div><br /></div><div>What follows are proof-of-concept instructions that show how to boot into puredarwin.iso (from the PureDarwin nano image on the download page) that is located at / on a <span style="font-style:italic">Mac</span> running Mac OS X 10.5.4. <span style="font-weight:bold">Please do not try this on a production machine. Only try this if you have a spare Mac.</span></div><div><ul><li>Download PureDarwin nano, it contains puredarwin.iso which we will use as the imageboot image</li><li>On the Mac running Mac OS X (tested with 10.5.4), copy puredarwin.iso to /</li><li>Change IOHDIXController.kext and its plug-ins so that they are loaded at boot time<br />(normally, this is only the case for NetBoot):</li><ul><li><span style="font-family:courier new,monospace"><span style="font-size:small">cd /System/Library/Extensions/IOHDIXController.kext/</span></span></li><li><span style="font-family:courier new,monospace"><span style="font-size:small">find . -type f | xargs perl -i -p -e 'print STDERR \<br />    "changed $val values on line $. of $ARGV\n" if($val = s@Network-Root@Root@g)'</span></span></li><li><span style="font-family:courier new,monospace"><span style="font-size:small">touch /System/Library/Extensions</span></span></li></ul><li>Edit /Library/Preferences/SystemConfiguration/com.apple.Boot.plist so that it contains:<br /><span style="font-family:courier new,monospace"><span style="font-size:small">&lt;key&gt;Kernel Flags&lt;/key&gt;<br />&lt;string&gt;<span style="font-weight:bold">-v r</span><span style="font-weight:bold">p=file:///puredarwin.iso</span>&lt;/string&gt;</span></span></li><li><div>Reboot the Mac. It should now boot into PureDarwin, running from puredarwin.iso</div></li></ul></div><div>You have now performed an ImageBoot of PureDarwin nano on a Mac OS X host. </div><div><br /></div><div>To undo, remove the extra Kernel Flags from your Boot.plist.</div><div><br /></div><div>There are (unverified) news reports that cite "ImageBoot" as an official feature in the not-yet-released Snow Leopard:</div><div><a href="http://www.macnn.com/articles/08/10/20/more.snow.leopard.changes" rel="nofollow" target="_blank">http://www.macnn.com/articles/08/10/20/more.snow.leopard.changes</a> </div><div><br /></div><div><div>However, all attempts to make this work on a Darwin host so far resulted in <span style="font-family:courier new;font-size:12px">di_root_image failed<span style="font-family:Arial;font-size:13px"> as it appears that IOHDIXController.kext (a kernel extension from Mac OS X that deals with disk images) and its respective plug-ins must be present and loaded for imageboot to work. Unfortunately, this kext seems not to be available for Darwin at this time (even though <a href="http://lists.apple.com/archives/darwin-development/2002/Oct/msg00302.html" rel="nofollow" target="_blank">this posting</a> suggests that it might be available as a binary root under the Driver License).</span></span></div><div><br /></div><div>According to Singh, the kernel can be forced to use the BSD vndevice instead of hdix by specifying vndevice=1 as a boot argument. In this case, the function netboot_setup() from netboot.c is supposed to mount the file system contained in the vndevice node. But we can't get it to work yet (and it would only work for uncompressed images).</div><div><a href="http://www.puredarwin.org/developers/live-cd/imageboot%20failed%20ro.png?attredirects=0" imageanchor="1" style="color:rgb(78,125,191);outline-style:none;outline-width:initial;outline-color:initial;padding-top:7px;padding-right:7px;padding-bottom:7px;padding-left:7px;background-repeat:initial;background-color:initial;border-bottom-style:none;border-bottom-width:initial;border-bottom-color:initial"><img border="0" src="http://www.puredarwin.org/_/rsrc/1248650808188/developers/live-cd/imageboot%20failed%20ro.png" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial" /></a></div><div><br /></div><div><span style="color:rgb(255,0,0)">Please let us know if you know if you are aware of a working solution that does not involve IOHDIXController.kext, or where  a recent version of IOHDIXController.kext can be downloaded under a suitable license. (It used to be available under the Apple Binary License, but it made its last appearance in Darwin 6...)</span></div><div><span style="color:rgb(255,0,0)"><br /></span></div><div>As a totally desperate worst-case fallback scenario: The source code for mounting filesystem images is available, and there is source code for uncompressing compressed DMGs available. Maybe it would be feasible to write a minimal IOHDIXController.kext replacement that is able to mount compressed DMGs. <span style="color:rgb(255,0,0)">Volunteers?</span></div><div><span style="color:rgb(255,0,0)"><br /></span></div><div>A set of NetBoot files created by System Image Utility looks like this:</div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./i386</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./i386/booter</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./i386/mach.macosx</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./i386/mach.macosx.mkext</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./NBImageInfo.plist</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./NetBoot.dmg</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./ppc</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./ppc/booter</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./ppc/mach.macosx</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">./ppc/mach.macosx.mkext</span></span></div></div><div><br /></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">file NetBoot.dmg </span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">NetBoot.dmg: Apple Partition data block size: 2048, first type: Apple_partition_map, name: Apple, number of blocks: 63, second type: Apple_Driver43, name: Macintosh, number of blocks: 56, third type: Apple_Free, name: , number of blocks: 0, fourth type: Apple_Driver_ATAPI, name: Macintosh, number of blocks: 56</span></span></div><div><span style="font-family:courier new;font-size:12px"><br /></span></div><div><span style="font-family:courier new;font-size:12px"><div>file i386/booter</div><div>i386/booter: Universal EFI binary with 2 architectures, i386, x86_64</div><div><br /></div></span></div></div><div><br /></div><div>(to be continued)</div></div><h4><a name="TOC-Alternative-3:-Using-a-ZFS-file"></a>Alternative 3: Using a ZFS file</h4><div>Maybe using a compressed ZFS file and manual trickery...</div><h3><a name="TOC-Shadow-files"></a>Shadow files</h3><div>This is a work in progress.</div><div><br /></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">#!/bin/bash -e -x</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">mount -uw /</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">touch /shadowfile</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/libexec/vndevice attach /dev/vn0 /uncompressed.dmg</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/libexec/vndevice shadow /dev/vn0 /shadowfile</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">mount -t hfs /dev/vn0 /live/</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><br /></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"># /usr/libexec/vndevice detach /dev/vn0</span></span></div><div><br /></div></div><h3><a name="TOC-References"></a>References</h3><div><ul><li>System Image Utility.app (part of <a href="http://www.apple.com/downloads/macosx/apple/macosx_updates/serveradmintools105.html" rel="nofollow">Server Admin Tools</a> for Mac OS X) can create NetBoot images; probably the same can be achieved with lower-level command line tools</li><li><a href="http://www.opensource.apple.com/darwinsource/10.5/launchd-257/launchd/src/rc.netboot" rel="nofollow">/etc/rc.netboot</a> (<a href="http://lists.apple.com/archives/Macos-x-server/2007/Dec/msg00150.html" rel="nofollow">mailing list entry</a>)</li><li><a href="http://www2.tba.t-com.ne.jp/beanz/BootManiaDoc/index_e.html" rel="nofollow">BootMania</a>, a software that supposedly can boot Darwin (8) with NetBoot</li><li><a href="http://www.apple.com/support/downloads/serveradmintools105.html" rel="nofollow" target="_blank">Server Admin Tools 10.5</a>, contains <span style="font-style:italic">System Image Utility</span> which is used in Mac OS X to make NetBoot images</li></ul></div></div></div></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/developers/live-cd">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

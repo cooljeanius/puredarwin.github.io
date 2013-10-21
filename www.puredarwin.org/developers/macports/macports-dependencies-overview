@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:438bd6fa1e8bf234","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:3f4424d762b79d03","revision":22,"title":"Visualize dependencies in MacPorts","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"macports-dependencies-overview","path":"/developers/macports/macports-dependencies-overview","isSiteRtlLocale":false,"parentPath":"/developers/macports"};
+webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"Using MacPorts","dir":"ltr","path":"/developers/macports","deleted":false},{"title":"Visualize dependencies in MacPorts","dir":"ltr","path":"/developers/macports/macports-dependencies-overview","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Visualize dependencies in MacPorts - PureDarwin" />
+<meta itemprop="name" content="Visualize dependencies in MacPorts - PureDarwin" />
+<meta property="og:title" content="Visualize dependencies in MacPorts - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Visualize dependencies in MacPorts - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎<A dir="ltr" href="/developers/macports">Using MacPorts</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Visualize dependencies in MacPorts</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px;display:inline;float:right"><div style="display:block;margin-left:auto;text-align:right"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/graphviz.png?attredirects=0" imageanchor="1" style="color:rgb(0,102,204);outline-style:none;outline-width:initial;outline-color:initial"><img border="0" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/graphviz.png" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial" /></a></div><div style="display:block;text-align:left"><br /></div></div>This page describes a way to track dependencies and related satellite information (e.g: as variants or blockers) in MacPorts.<div><div><br /></div><div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:360px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Overview-of-dependencies-variants-and-blockers"><strong>1 </strong>Overview of dependencies, variants and blockers</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Installing-Graphviz"><strong>1.1 </strong>Installing Graphviz</a></li><li class="goog-toc"><a href="#TOC-Using-pd_portviz-to-generate-a-graph"><strong>1.2 </strong>Using pd_portviz to generate a graph</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Preliminary"><strong>1.2.1 </strong>Preliminary</a></li><li class="goog-toc"><a href="#TOC-An-example-across-rrdtool-dependencies"><strong>1.2.2 </strong>An example across rrdtool dependencies</a></li><li class="goog-toc"><a href="#TOC-Purity-"><strong>1.2.3 </strong>Purity?</a></li></ol></li><li class="goog-toc"><a href="#TOC-Miscellaneous"><strong>1.3 </strong>Miscellaneous</a></li></ol></li><li class="goog-toc"><a href="#TOC-Ressources"><strong>2 </strong>Ressources</a></li></ol></div></div></div></div>
+<h2><a name="TOC-Overview-of-dependencies-variants-and-blockers"></a><span style="font-size:18px">O</span>verview of dependencies, variants and blockers</h2><div><a href="http://www.graphviz.org/" target="_blank">Graphviz</a> is an opensource graph visualization software from AT&amp;T Laboratories and Bell Laboratories (Lucent Technologies).</div><h4 style="background-color:transparent;color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:14px;margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:0px"><a name="TOC-Installing-Graphviz"></a>Installing Graphviz</h4><div>Not so common to beginning (instead of ending) with a "snake eating his tail", we will use <span style="font-style:italic">graphviz</span> from MacPorts to track dependencies and other information.</div><div> </div><div><span style="font-family:courier new,monospace"><span style="font-size:small">port install graphviz +the_variants_you_need</span></span></div><div><br /></div><div>or grab and compile the source from <a href="http://graphviz.org/" style="color:rgb(0,102,204);outline-style:none;outline-width:initial;outline-color:initial">graphviz.org</a>.</div><div><br /></div><div><span style="text-decoration:underline">Note:</span> On Mac OS X, <a href="http://www.pixelglow.com/graphviz/" target="_blank">Pixelglow</a> is a nice a front-end, you can even see the graph being built in real-time.</div><h3><a name="TOC-Using-pd_portviz-to-generate-a-graph"></a>Using pd_portviz to generate a graph</h3><div>The <span style="font-style:italic"><a href="http://code.google.com/p/puredarwin/source/browse/trunk/scripts/pd_portviz" target="_blank">pd_portviz</a></span> tool is available in the <a href="http://code.google.com/p/puredarwin/source/browse/trunk/scripts/" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(0,0,0)" target="_blank">svn or hg trunk</a> location.</div><h4 style="background-color:transparent;color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:14px;margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:0px"><a name="TOC-Preliminary"></a>Preliminary</h4><div>A rudimentary legend is generated in the DOT language:</div><div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/portviz%20legend.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/portviz%20legend.png" /></a></div></div><br /></div><div>Three kinds of dependencies can be found in MacPorts:</div><div><ul><li>Build dependencies</li><li>Library dependencies</li><li>Runtime dependencies</li></ul>Sometimes there isn't any dependency, or the port is not installed ("Not here" in the legend), so we cannot scrutinize the content since there is no content.</div><div>When a port is already installed, the content is examined in order to find and count "<a href="http://www.puredarwin.org/blockers">current blocker</a>".</div><div>Also, notice any variant explicitly given will be detected (if available) and highlighted on any dependencies.</div><h4><a name="TOC-An-example-across-rrdtool-dependencies"></a>An example across rrdtool dependencies</h4><div>An example of hierarchical overview of <span style="font-style:italic">rrdtool</span> dependencies, where <span style="font-style:italic">glib2</span> (18 problematic objects) is identified as "impure":</div><div><div style="display:block;text-align:left"><div style="display:block;text-align:left">Here the current script output:</div></div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small">./pd_portviz.sh rrdtool +puredarwin</span></span></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small"><span style="color:rgb(68,68,68)"><br /></span></span></span></div><div style="display:block;text-align:left"><span style="color:rgb(68,68,68);font-family:courier new;font-size:12px"><div style="display:block;text-align:left">Generate dependencies graphs of rrdtool +puredarwin</div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left"> Legend:</div><div style="display:block;text-align:left"> 1<span style="white-space:pre"> </span> + foo (variant_x1, ..., variant_xn)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`. bar (variant_y1, ..., variant_yn)               No dependency found</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ baz <span style="font-weight:bold">impure</span><span style="font-weight:bold">!</span> /Blocker_1 -&gt; file_involved_1       Impurity detected</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ baz <span style="font-weight:bold">impure</span><span style="font-weight:bold">!</span> /Blocker_. -&gt; file_involved_.       Impurity detected</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ baz <span style="font-weight:bold">impure!</span> /Blocker_n -&gt; file_involved_n       Impurity detected</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ baz (variant_z1, ..., variant_zn)               Has Dependenc{y|ies}</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- dependency_bar ()                             Already processed</div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">Now generating dependencies tree and checking for ``purity'', please wait...</div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left"><div style="display:block;text-align:left"> 1<span style="white-space:pre"> </span> + rrdtool (universal python)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`. XFree86 (darwin puredarwin macosx)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ xrender (universal)</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- XFree86 ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`+ render ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`. pkgconfig (universal darwin_6)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`. expat (universal no_static examples)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ fontconfig (universal doc vera macosx)</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`+ libiconv (universal darwin_7 darwin_8 freebsd linux disable_utf8mac disable_extra_encodings enable_cp932fix)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`. gperf (universal)</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- expat ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`+ freetype (universal bytecode doc)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`. zlib (universal examples)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- freetype ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ glib2 (universal puredarwin darwin powerpc darwin_6 darwin_9)</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- pkgconfig ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`+ gettext (universal darwin_6)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- libiconv ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`+ ncurses (universal freebsd)</div><div style="display:block;text-align:left"> 5<span style="white-space:pre"> </span> | | | |`. ncursesw (universal)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- expat ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- libiconv ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`. perl5.8 (darwin threads shared darwin_8 darwin_9)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- libiconv ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- gettext ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ pango (universal no_x11)</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- pkgconfig ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- glib2 ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- XFree86 ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`+ Xft2 (universal)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- pkgconfig ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`+ xorg-xproto ()</div><div style="display:block;text-align:left"> 5<span style="white-space:pre"> </span> | | | |`+ xorg-util-macros ()</div><div style="display:block;text-align:left"> 6<span style="white-space:pre"> </span> | | | | |`- pkgconfig ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- zlib ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- xrender ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- freetype ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- fontconfig ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- expat ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`+ cairo (universal glitz no_x11 macosx)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- pkgconfig ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`. libpixman (universal)</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- xrender ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- fontconfig ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- freetype ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`+ libpng (universal)</div><div style="display:block;text-align:left"> 5<span style="white-space:pre"> </span> | | | |`- zlib ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- render ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- zlib ()</div><div style="display:block;text-align:left"> 4<span style="white-space:pre"> </span> | | |`- expat ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- fontconfig ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- cairo ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- perl5.8 ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`. tcl (universal threads memdebug)</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- zlib ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`- libpng ()</div><div style="display:block;text-align:left"> 2<span style="white-space:pre"> </span> |`+ libxml2 (universal debug)</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- libiconv ()</div><div style="display:block;text-align:left"> 3<span style="white-space:pre"> </span> | |`- zlib ()</div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">Generation of rrdtool.dot complete.</div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">Now drawing graphs from rrdtool.dot, please wait...</div><div style="display:block;text-align:left">Generation of rrdtool_directed.png complete.</div><div style="display:block;text-align:left">Generation of rrdtool_circular.png complete.</div><div style="display:block;text-align:left">Generation of rrdtool_radial.png complete.</div><div style="display:block;text-align:left">Generation of rrdtool_undirected.png complete.</div><div style="display:block;text-align:left">Generation of rrdtool_undirectedBIS.png complete.</div></div></span></div><div><br /></div><div><div>The dot file, then five PNG graphs are generated.</div><div><ul><li>rrdtool.dot</li><li>rrdtool_directed.png</li><li>rrdtool_circular.png</li><li>rrdtool_radial.png</li><li>rrdtool_undirected.png</li><li>rrdtool_undirectedBIS.png</li></ul></div></div></div><div style="display:block;text-align:left">The directed (hierarchical) view:</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/rrdtool_directed.png?attredirects=0" imageanchor="1"><img border="0" height="219" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/rrdtool_directed.png?height=219&amp;width=420" width="420" /></a></div></div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">The circular view:</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/rrdtool_circular.png?attredirects=0" imageanchor="1"><img border="0" height="420" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/rrdtool_circular.png?height=420&amp;width=401" width="401" /></a></div><br /></div><div style="display:block;text-align:left"><div style="display:block;text-align:left">The radial view:</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/rrdtool_radial.png?attredirects=0" imageanchor="1"><img border="0" height="349" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/rrdtool_radial.png?height=349&amp;width=420" width="420" /></a></div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">The first undirected view:</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/rrdtool_undirected.png?attredirects=0" imageanchor="1"><img border="0" height="372" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/rrdtool_undirected.png?height=372&amp;width=420" width="420" /></a></div><br /></div><div style="display:block;text-align:left">The second undirected view:</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/rrdtool_undirectedBIS.png?attredirects=0" imageanchor="1"><img border="0" height="229" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/rrdtool_undirectedBIS.png?height=229&amp;width=420" width="420" /></a></div><div style="display:block;text-align:left"><br /></div><h4><a name="TOC-Purity-"></a>Purity?</h4><div style="display:block;text-align:left">Here an example of impurities detected in a port:</div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small">[...]</span></span></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small"> 1</span></span><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small"> + graphviz <span style="font-weight:bold">impure!</span> /ApplicationServices.framework -&gt; /Applications/MacPorts/Graphviz.app/Contents/Frameworks/graphviz.framework/graphviz </span></span></div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small"> 1</span></span><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small"> + graphviz <span style="font-weight:bold">impure!</span> /ApplicationServices.framework -&gt; /Applications/MacPorts/Graphviz.app/Contents/Frameworks/graphviz.framework/Versions/A/graphviz </span></span></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small"> 1</span></span><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small"> + graphviz <span style="font-weight:bold">impure!</span> /Cocoa.framework -&gt; /Applications/MacPorts/Graphviz.app/Contents/MacOS/Graphviz </span></span></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small"> 1</span></span><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small"> + graphviz (universal darwin_6 darwin_7 darwin_8 darwin_9 guile lua ocaml perl php python ruby tcl smyrna no_pangocairo no_x11 gui)</span></span></div><div style="display:block;text-align:left"><span style="font-family:courier new,monospace"><span style="font-size:small">[...]</span></span></div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">And the corresponding result:</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/pd_portviz%20graphviz%20radial.png?attredirects=0" imageanchor="1"><img border="0" height="380" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/pd_portviz%20graphviz%20radial.png?height=380&amp;width=420" width="420" /></a></div></div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left"><div style="display:block;text-align:left">Also, see the <a href="http://www.puredarwin.org/developers/macports/purity" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)">purity checking</a> page.</div></div></div></div></div></div></div></div><h3><a name="TOC-Miscellaneous"></a>Miscellaneous</h3><div style="display:block;text-align:left">Illustration of irony?</div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/graphviz_undirectedBIS.png?attredirects=0" imageanchor="1"><img border="0" height="304" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/graphviz_undirectedBIS.png?height=304&amp;width=420" width="420" /></a></div></div><div style="display:block;text-align:left"><br /></div><div style="display:block;text-align:left">Why is it hard to compile a "pure" <span style="font-style:italic">kde3</span>?</div></div><div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/pd_portviz%20kde_directed.png?attredirects=0" imageanchor="1"><img border="0" height="267" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/pd_portviz%20kde_directed.png?height=267&amp;width=420" width="420" /></a></div><br /></div><div style="display:block;text-align:left">Why is it also hard to compile a "pure" <span style="font-style:italic">gnome?</span></div><div style="display:block;text-align:left"><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/macports/macports-dependencies-overview/pd_portviz%20gnome_directed.png?attredirects=0" imageanchor="1"><img border="0" height="119" src="http://www.puredarwin.org/_/rsrc/1224167778940/developers/macports/macports-dependencies-overview/pd_portviz%20gnome_directed.png?height=119&amp;width=420" width="420" /></a></div><h2><a name="TOC-Ressources"></a>Ressources</h2><div style="display:block;text-align:left"><a href="http://www.graphviz.org">http://www.graphviz.org</a> </div></div></div></div></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/developers/macports/macports-dependencies-overview">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4c8VYfgNCq37L4cy7UbcRAu7q-vbxlYAXW2wmF5OVn7YnMJl4VezR6_7hLjX60Cb3cA7G80vKybykkPkEaNYSDoIyqaUM/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

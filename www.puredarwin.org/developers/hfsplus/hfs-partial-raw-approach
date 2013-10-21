@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:4b83610836d28508","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:2dfb1efb8dfefadd","revision":7,"title":"HFS+ partial raw approach","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"hfs-partial-raw-approach","path":"/developers/hfsplus/hfs-partial-raw-approach","isSiteRtlLocale":false,"parentPath":"/developers/hfsplus"};
+webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"HFS+","dir":"ltr","path":"/developers/hfsplus","deleted":false},{"title":"HFS+ partial raw approach","dir":"ltr","path":"/developers/hfsplus/hfs-partial-raw-approach","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="HFS+ partial raw approach - PureDarwin" />
+<meta itemprop="name" content="HFS+ partial raw approach - PureDarwin" />
+<meta property="og:title" content="HFS+ partial raw approach - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>HFS+ partial raw approach - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎<A dir="ltr" href="/developers/hfsplus">HFS+</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">HFS+ partial raw approach</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">draft.<div><br /></div><div><br /></div><div>How did we get there? Needed to replace some <a href="http://www.puredarwin.org/blockers">blocker</a> as `hdid' in <a href="http://code.google.com/p/puredarwin/source/browse/setup/pd_setup" target="_blank">pd_setup</a> in order to be able to build PureDarwin images not only from Mac but also from PureDarwin.</div><div><div><br /></div><div>Each piece is build and then "assembled" on this example:</div><div><br /></div><div><div><font face="'courier new', monospace"><span style="font-size:small"> <span style="background-color:rgb(213,166,189)"> Partition map (with 512 byte blocks) on 'PureDarwin_nano.iso' </span></span></font></div><div><div><font face="'courier new', monospace"><span style="font-size:small"> <span style="background-color:rgb(213,166,189)">  #:                type name       length   base   ( size )   </span></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"> <span style="background-color:rgb(213,166,189)">  1: Apple_partition_map Apple          63 @ 1                 </span></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"> <font color="#D5A6BD"><span style="background-color:rgb(213,166,189)"> </span></font><span style="background-color:rgb(246,178,107)"> 2:          Apple_Free Extra        2016 @ 64               </span><span style="background-color:rgb(213,166,189)"> </span></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"> <span style="background-color:rgb(213,166,189)"> </span><span style="background-color:rgb(159,197,232)"> 3:           Apple_HFS PureDarwin 305056 @ 2080   (149.0M)  </span><span style="background-color:rgb(213,166,189)"> </span></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"> <span style="background-color:rgb(213,166,189)">  4:          Apple_Free Extra          64 @ 307136            </span></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div></div></div><div><ol><li>The raw target image file itself is created..<br /><span style="font-family:courier new,monospace;font-size:small">dd if=/dev/zero of="$TARGET" bs=512k count=$(expr $SIZE '*' 2)<br /><span style="font-family:Arial,Verdana,sans-serif;font-size:13px"><br />..and attached to a vndevice node (does not behave as a disk device node)<br /><span style="font-family:courier new,monospace;font-size:small">/usr/libexec/vndevice attach /dev/vn0 "$TARGET"<br /><span style="font-family:Arial,Verdana,sans-serif;font-size:13px"><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font>Then the image/device is initialized and populated with a minimal partition map.<br /><span style="font-family:courier new,monospace;font-size:small">pdisk $RDEVICE -initialize<br />pdisk $RDEVICE -createPartition "$VOLNAME" Apple_HFS $sectors $(expr $blocks - $sectors) &gt; /dev/null<br /><br /></span></span></span></span></span></li><li>The El torito image will host the volume name, the cdboot bootloader and several bootloader files. <br /><font face="'courier new', monospace"><span style="font-size:small">"$MKISOFS_BIN" -quiet -V "$VOLNAME" -no-emul-boot -boot-load-size 4 -c boot.cat -b $CDBOOT -o "$T_TARGET_P2" <br /></span></font><br />The result is then deployed via to the target image<br /><font face="'courier new', monospace"><span style="font-size:small">dd if="$T_TARGET_P2" of=$RDEVICE skip=64 seek=64 bs=512<br /></span></font><br /></li><li>The HFS partition image comes also originally from /dev/zero via `dd'.<span style="white-space:pre"><br /></span><font face="'courier new', monospace"><span style="font-size:small">dd if=/dev/zero of="$T_TARGET_P3" bs=1024k count=600<br /></span></font><span style="white-space:pre">
+`vndevice' is still involved but on another node.<br /></span><font face="'courier new', monospace"><span style="font-size:small">/usr/libexec/vndevice attach /dev/vn3 "$T_TARGET_P3"<br /></span></font><span style="white-space:pre">
+Construct a fresh HFS+ fs..<br /></span><font face="'courier new', monospace"><span style="font-size:small">newfs_hfs -s -J -v "$VOLNAME" ${RDEVICE}<br /></span></font><span style="white-space:pre">
+..and mount it<br /></span><font face="'courier new', monospace"><span style="font-size:small">mount -t hfs -o perm ${DEVICE} "$MOUNT"<br /></span></font><br />Finally, the HFS image is also deployed to the target image<span style="white-space:pre"><br /></span><font face="'courier new', monospace"><span style="font-size:small">echo "ddying $T_TARGET_P2 to $RDEVICE"</span></font><span style="white-space:pre"><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></span><font face="'courier new', monospace"><span style="font-size:small">dd if="$T_TARGET_P3" of=$RDEVICE seek=$sectors bs=2048</span></font></li></ol></div><div><div><div><div><div><div>Notes: detach is not mentioned but should be used.:wq</div><div><br /></div><div><br /></div><div>etc..</div><div>fsck !!</div><div>etc..</div><div><br /></div><h3><a name="TOC-State"></a>State</h3><div>The HFS partition can be mounted in a running PureDarwin OS.</div><div>If the cdrom device is attached to the node /dev/disk1: <font face="'courier new', monospace"><span style="font-size:small">mount -o ro -t hfs /dev/disk1s0s3 /mnt</span></font></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/hfsplus/hfs-partial-raw-approach/mount%20puredarwin%20iso%20from%20puredarwin.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1263579413219/developers/hfsplus/hfs-partial-raw-approach/mount%20puredarwin%20iso%20from%20puredarwin.png" /></a></div><br /></div><div><div><br /></div><div>The "<font face="'courier new', monospace"><span style="font-size:small">phys_blksz 2048 does not match journal header size 512</span></font>" error message is not the first symptom of this problem, because after disabling the journalization (removing -J in `newfs_hfs'), the previous error message will not appear but the same kernel panic for same reason(s) will occur.</div><div><br /></div><div>The `fsck' tool will complain about bad volume header, as Disk Utility (front-end of fsck for this part).</div></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/hfsplus/hfs-partial-raw-approach/HFS%20and%20disk%20utility%20repair.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1263579479736/developers/hfsplus/hfs-partial-raw-approach/HFS%20and%20disk%20utility%20repair.png" /></a></div></div><div><br /></div><div><div>It boots up to 'jnl' in case of a "bootstrap" or a "full" release, and without any problem if it is a "nano" release.</div></div><div>kernel panic if `fsck -fy' has not been run on this image before as show just below:</div><div><br /></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/hfsplus/hfs-partial-raw-approach/HFS%20bad%20volume%20header%20kernel%20panic.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1263577921945/developers/hfsplus/hfs-partial-raw-approach/HFS%20bad%20volume%20header%20kernel%20panic.png" /></a></div></div><div><br /></div><h2><a name="TOC-Diffing-the-volume-header"></a>Diffing the volume header</h2><div><div>Diff a partition built with `dd' and `vndevice' against the same one but after `fsck -fy' on it reveals differences.</div></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/hfsplus/hfs-partial-raw-approach/HFS%20diff%20part3.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1263577672858/developers/hfsplus/hfs-partial-raw-approach/HFS%20diff%20part3.png" /></a></div><br /></div><div>This documentation has been really usefull in this process of problem resolution: http://developer.apple.com/mac/library/technotes/tn/tn1150.html</div><div><br /></div><div>That has also confirmed that the partition is correctly copied via `dd' into the image, at least the problematic part we focus on.</div><div><br /></div><div><div>OK The first 1024 bytes of volume (before the volume header), and the last 512 bytes of the volume (after the alternate volume header) are reserved.</div><div><div>OK The volume header is always located at 1024 bytes from the start of the volume.</div><div><br /></div><div>NO A copy of the volume header, known as the alternate volume header, is stored starting at 1024 bytes before the end of the volume.</div><div><br /></div><div><div>Note: All of the allocation blocks containing the volume header, alternate volume header,</div><div>or the reserved areas before the volume header or after the alternate volume header,</div><div>are marked as used in the allocation file. The actual number of allocation blocks marked this way depends on the allocation block size</div><div><br /></div><div>From top to bottom, the address is growing:</div><div><div><font face="'courier new', monospace"><span style="font-size:small">0      reserved (Start of the volume)</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">.      ...</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">1023   reserved</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">1024   Start of the volume header</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">.      ...</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">n-1024 Start of the alternate volume header (copy of the volume header)</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">.</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">n-512  reserved</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">.      ...</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">n      reserver (End of the volume)</span></font></div><div><br /></div><div><br /></div><div>Technically, we inspect this structure in these first 1024+n bytes:</div><div><div><font face="'courier new', monospace"><span style="font-size:x-small">struct HFSPlusVolumeHeader {</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt16              signature;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt16              version;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              attributes;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              lastMountedVersion;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              journalInfoBlock;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              createDate;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              modifyDate;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              backupDate;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              checkedDate;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              fileCount;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              folderCount;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              blockSize;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              totalBlocks;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              freeBlocks;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              nextAllocation;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              rsrcClumpSize;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              dataClumpSize;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    HFSCatalogNodeID    nextCatalogID;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              writeCount;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt64              encodingsBitmap;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    UInt32              finderInfo[8];</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    HFSPlusForkData     allocationFile;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    HFSPlusForkData     extentsFile;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    HFSPlusForkData     catalogFile;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    HFSPlusForkData     attributesFile;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">    HFSPlusForkData     startupFile;</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">};</span></font></div><div><font face="'courier new', monospace"><span style="font-size:x-small">typedef struct HFSPlusVolumeHeader HFSPlusVolumeHeader;</span></font></div><div><br /></div><div>Back to the above diff of the beginning of the Volume header, take in account that not all fields, even if a difference occurs, appeard important "to patch" (e.g.: modifyDate). The main interesting diffs found are:</div><div><br /></div><div><div><font face="'courier new', monospace"><span style="font-size:small">    UInt32              fileCount;          0000 2eec --- ( -0x3 ) ---&gt; 0000 2ee9  </span></font></div><div><font face="'courier new', monospace"><span style="font-size:small">    UInt32              folderCount;        0000 052a --- ( -0x2 ) ---&gt; 0000 0528 </span></font></div><div><div><font face="'courier new', monospace"><span style="font-size:small">    UInt32              freeBlocks;         0000 5090 --- (+0x1F3) ---&gt; 0000 5283 </span></font></div><div><div><font face="'courier new', monospace"><span style="font-size:small">    UInt32              nextAllocation;     0001 d839 --- (-0x1F1) ---&gt; 0001 d648</span></font></div><div><div><font face="'courier new', monospace"><span style="font-size:small">    HFSCatalogNodeID    nextCatalogID;      0000 356d --- ( -0x7 ) ---&gt; 0000 3566     </span></font></div><div><br /></div><div><br /></div><div><br /></div><h3><a name="TOC-Details"></a>Details</h3><div>Quick info related to fields where diffs have been found before and after fsck.</div><h4><a name="TOC-attributes"></a>attributes</h4><div><div><font face="'courier new', monospace"><span style="font-size:small">UInt32              attributes;</span></font></div><div><br /></div><div>Volume attributes (set of one bit-flags).</div><div><br /></div><div>before fsck</div><div>8000 2100</div><div><span style="font-size:small"><font face="'courier new', monospace">binary: 0000 0000 0001 0010 0000 0000 0000 1000</font></span></div><div><span style="font-size:small"><font face="'courier new', monospace">reserv: xxxx xxx         x  xxxx xxxx xxxx xxxx</font></span></div><div><span style="font-size:small"><font face="'courier new', monospace">enable:              x                      </font></span></div><br />kHFSBootVolumeInconsistentBit is set (bit 11).<br />Similar to kHFSVolumeUnmountedBit, but inverted in meaning.</div><div>Bit should be set when a volume for writing is mounted, and be clear at the end of unmount. </div><div>If this bit is already set at mount, a consistency checking from the assumption that the volume is corrupt could be needed.</div><div><br />-0x100<br /><br />after fsck<br /><div>8000 2000</div><div><div><font face="'courier new', monospace"><span style="font-size:small">binary: 1000 0000 0000 0000 0010 0000 0000 0000</span></font></div><div><div><font face="'courier new', monospace"><span style="font-size:small">reserv: xxxx xxx         x  xxxx xxxx xxxx xxxx</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div></div></div><div>http://developer.apple.com/mac/library/technotes/tn/tn1150.html#VolumeAttributes</div><h4><a name="TOC-fileCount"></a>fileCount</h4><div><font face="'courier new', monospace"><span style="font-size:small">UInt32              fileCount;</span></font></div><div><br /></div><div><div>The total number of files on the volume.</div><div>The fileCount field does not include the special files.</div><div>It should equal the number of file records found in the catalog file.</div><div><br /></div></div><div>before fsck</div><div>0000 2ee9</div><div><br /></div><div>-3</div><div><br /></div><div>after fsck</div><div>0000 2eec</div><h4><a name="TOC-folderCount-"></a>folderCount    </h4><div><font face="'courier new', monospace"><span style="font-size:small">UInt32              folderCount;</span></font></div><div><br /></div><div>Total number of folders on the volume not including the root folder.</div><div>Should equal number of folder records in the catalog file minus one (the root folder in Catalog)</div><div><div><br /></div><div>before fsck</div><div>0000 0528 </div></div><div><br /></div><div>+2</div><div><br /></div><div><div>after fsck</div><div>0000 052a</div><div><br /></div></div><h4><a name="TOC-freeBlocks"></a>freeBlocks</h4><div><font face="'courier new', monospace"><span style="font-size:small">UInt32              freeBlocks;</span></font></div><div><br /></div><div>Contains the total number of unused allocation blocks.</div><div><br /></div><div>before fsck</div><div>0000 5283 </div><div><br /></div><div><div>+0x1F3 (499)</div><div><br /></div></div><div><div>after fsck</div><div>0000 5090</div></div><h4><a name="TOC-nextAllocation"></a>nextAllocation</h4><div><font face="'courier new', monospace"><span style="font-size:small">UInt32              nextAllocation;</span></font></div><div><br /></div><div>Used to find where to start searching for free allocation blocks when allocation space for a file.</div><div>It contains the allocation block number where the search should start. </div><div><br /></div><div><div>before fsck</div><div>0001 d648</div></div><div><br /></div><div>+0x1F1</div><div><br /></div><div>after fsck</div><div><div>0001 d839</div><div><br /></div></div><div>Can be threated as reserved</div><div><br /></div><div>http://developer.apple.com/mac/library/technotes/tn/tn1150.html#AllocationFile</div><h4><a name="TOC-nextCatalogID"></a>nextCatalogID</h4><div><font face="'courier new', monospace"><span style="font-size:small">HFSCatalogNodeID    nextCatalogID;</span></font></div><div><br /></div><div>It appears to be an usual UInt32 which points to the next "unused" catalog ID.</div><div>A catalog ID is a B-Tree.</div><div><div><br /></div><div>before fsck</div><div>0000 3566</div><div><br /></div><div>+0x7</div><div><br /></div></div><div>after fsck</div><div>0000 356d</div><div><br /></div><div><div>See <font face="arial, sans-serif"><span style="font-size:small"><a href="http://developer.apple.com/mac/library/technotes/tn/tn1150.html#CatalogFile" rel="nofollow" target="_blank">Technical Note TN1150: HFS Plus Volume Format</a></span></font> for more information.</div><div><br /></div></div><div><br /></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/developers/hfsplus/hfs-partial-raw-approach">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4c_Sh8riKZJ_XSvBccZvbiGemOQ_CESjEPykf8RuIobdikpEEgLQBYC3Mq0Ee3IEqzF5w0Q3u2v_cUR2KlHBU7guzV0-x/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

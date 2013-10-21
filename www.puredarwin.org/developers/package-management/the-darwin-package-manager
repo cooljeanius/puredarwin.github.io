@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",f="tick",g="wtsrt_",h="tbsd_",k="tbnd_",l="start",n="_wtsrt",p="_tbnd";(function(){function m(a){this.t={};this.tick=function(a,c,d){this.t[a]=[void 0!=d?d:(new Date).getTime(),c]};this[f](l,null,a)}var a=new m;b.jstiming={Timer:m,load:a};if(b.performance&&b.performance.timing){var a=b.performance.timing,c=b.jstiming.load,d=a.navigationStart,a=a.responseStart;0<d&&a>=d&&(c[f](n,void 0,d),c[f](g,n,a),c[f](h,g))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),c&&0<d&&(c[f](p,void 0,b[e].csi().startE),c[f](k,p,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),
+null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[f](p,void 0,b.external.startE),c[f](k,p,d))),a&&(b.jstiming.pt=a)}catch(q){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d24ef8/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:3be035938cb3a52a","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:4f76d8d9724d9dd9","revision":16,"title":"The Darwin Package Manager","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"the-darwin-package-manager","path":"/developers/package-management/the-darwin-package-manager","isSiteRtlLocale":false,"parentPath":"/developers/package-management"};
+webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"Package management","dir":"ltr","path":"/developers/package-management","deleted":false},{"title":"The Darwin Package Manager","dir":"ltr","path":"/developers/package-management/the-darwin-package-manager","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/trogedit.css',
+    '/_/rsrc/1381649936000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/codeeditor.css',
+    '/_/rsrc/1381649936000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/d24ef8/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="The Darwin Package Manager - PureDarwin" />
+<meta itemprop="name" content="The Darwin Package Manager - PureDarwin" />
+<meta property="og:title" content="The Darwin Package Manager - PureDarwin" />
+<meta itemprop="image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<meta property="og:image" content="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/d24ef8/system/app/themes/default/standard-css-default-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/overlay.css?cb=defaultundefineda150goog-ws-left" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1381649936000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>The Darwin Package Manager - PureDarwin</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/5609/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1204251241201/config/app/images/customLogo/pd.png?revision=1" alt="Logo" class="sites-logo " /></a><h2></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
+<!--
+google_ad_client="pub-3519492571996731";
+google_ad_host="pub-6693688277674466";
+google_ad_width=120;
+google_ad_height=600;
+google_ad_format="120x600_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="000000";
+google_color_url="4E7DBF";
+google_color_text="5E6A72";
+//-->
+</script>
+<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p></span></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎<A dir="ltr" href="/developers/package-management">Package management</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">The Darwin Package Manager</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="direction:ltr">This is Stuart and Aladin's proposal for "dm", a Darwin Package Manager. It is based on the discussion on the <a href="http://www.puredarwin.org/developers/package-management">Package management</a> page.</div><div style="direction:ltr">Feel free to rip it apart.</div>
+<div style="direction:ltr"><br /></div><div style="direction:ltr">
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:378px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Scope"><strong>1 </strong>Scope</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Supersets"><strong>1.1 </strong>Supersets</a></li><li class="goog-toc"><a href="#TOC-Subsets"><strong>1.2 </strong>Subsets</a></li><li class="goog-toc"><a href="#TOC-Mandatory-files-involved-at-run-time"><strong>1.3 </strong>Mandatory files involved at run-time</a></li></ol></li><li class="goog-toc"><a href="#TOC-darwinup"><strong>2 </strong>darwinup</a></li><li class="goog-toc"><a href="#TOC-The-PureDarwin-Package-Database"><strong>3 </strong>The PureDarwin Package Database</a></li><li class="goog-toc"><a href="#TOC-Groups-and-Systems"><strong>4 </strong>Groups and Systems</a></li><li class="goog-toc"><a href="#TOC-The-core-group"><strong>5 </strong>The "core" group</a></li><li class="goog-toc"><a href="#TOC-Updates"><strong>6 </strong>Updates</a></li><li class="goog-toc"><a href="#TOC-Security"><strong>7 </strong>Security</a></li><li class="goog-toc"><a href="#TOC-Language"><strong>8 </strong>Language</a></li><li class="goog-toc"><a href="#TOC-Usage"><strong>9 </strong>Usage</a></li><li class="goog-toc"><a href="#TOC-At-Installation-Time"><strong>10 </strong>At Installation Time</a></li><li class="goog-toc"><a href="#TOC-Package-Database-Admin-Toold"><strong>11 </strong>Package Database Admin Toold</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-dbaudit"><strong>11.1 </strong>dbaudit</a></li><li class="goog-toc"><a href="#TOC-dbstats"><strong>11.2 </strong>dbstats</a></li><li class="goog-toc"><a href="#TOC-pdpdmake"><strong>11.3 </strong>pdpdmake</a></li><li class="goog-toc"><a href="#TOC-dtbi"><strong>11.4 </strong>dtbi</a></li></ol></li></ol></div></div></div></div>
+</div><h3><a name="TOC-Scope"></a>Scope</h3><div style="direction:ltr">"dm" will be a command line tool used to manage the darwinbuild components of a Darwin system, namely:</div>
+<div style="direction:ltr"><ul><li>Binary roots available from src.macosforge.org/Roots</li><li>Patched binaries from code.google.com/p/puredarwin (inc. PureDarwin pd_* scripts and PureFoundation)</li></ul></div>
+<div style="direction:ltr">These locations would be checked in turn for binaries, in the same way that darwinbuild currently checks for patch files and tarballs.</div><h4><a name="TOC-Supersets"></a>Supersets</h4><div style="direction:ltr">darwinup</div><div style="direction:ltr">darwinxref</div><div style="direction:ltr"><div style="direction:ltr">(patched MacPorts?)</div></div><h4><a name="TOC-Subsets"></a>Subsets</h4>
+<div style="direction:ltr">"dm" would also be used to install other package managers (e.g., MacPorts), which would then be used to install other packages.</div><div style="direction:ltr"> (is a tweaked DarwinBuild where the pseudo-chroot is in fact the root (/) plausible?)</div><div style="direction:ltr"><br /></div><div style="direction:ltr"><h4><a name="TOC-Mandatory-files-involved-at-run-time"></a>Mandatory files involved at run-time</h4><div style="direction:ltr">The Darwin Package Manager should take a filename (if possible) which does not exist in any UNIX distribution and/or GNU/Linux distro.</div><div style="direction:ltr">Some propositions for the filename crossed with other involved filenames (if possible too) described later:</div><div style="direction:ltr"><ul><li>dm (<span style="font-style:italic">Darwin package Database</span>)<br />pdpd or pd2 (<span><span style="font-style:italic">PureDarwin Package Database</span>)</span></li><li><span>dpm(g) (<span style="font-style:italic">Darwin Package Mana(g)er</span>)<br />dpd(b) (<span style="font-style:italic">Darwin Package Data(b)ase</span>)</span></li><li>dtpm (Darwin's Trivial Package Manager)</li><li>dtbi (Darwin's Trivial Binary Installer)</li></ul><span><span style="text-decoration:underline">Note:</span> If we choose to patch `port' from the MacPorts project, no filename is needed, but some new getopt in port perhaps.</span></div><div style="direction:ltr"><span><br /></span></div><div style="direction:ltr"><div style="direction:ltr">Where the "dm" tool should be installed has to be discussed, it could be in:</div></div><div><div style="direction:ltr"><ul><li><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/local/sbin</span></span><br />According to <span style="font-style:italic">hier</span> it could also be in /usr/local/sbin and by default "dm" is not included in the basic operating system (Darwin)..<br /><span style="font-family:courier new;font-size:12px">     /usr/         contains the majority of user utilities and applications<br />                   local/    executables, libraries, etc. not included by the basic operating system</span></li><li><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/sbin/<br /><span style="font-family:Arial;font-size:13px">According to <span style="font-style:italic">hier..</span><br /><span style="font-family:courier new;font-size:12px">     /usr/         contains the majority of user utilities and applications<br />                   sbin/     system daemons &amp; system utilities (executed by users)</span></span></span></span></li></ul></div><div style="direction:ltr"><div><div><ul><li><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/libexec/</span></span><br /><span style="font-family:courier new;font-size:12px">     /usr/         contains the majority of user utilities and applications<br />                   libexec/  system daemons &amp; system utilities (executed by other programs)</span></li><li><span style="font-family:courier new;font-size:12px">/opt/local/bin/port<br /><span style="font-family:arial,sans-serif"><span style="text-decoration:underline">Note:</span> If we pach `port' from the MacPorts project, then the default location is obvious.</span></span></li></ul></div></div></div></div><div><div style="direction:ltr"><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><tbody><tr><td style="width:108px;height:14px"><span style="font-weight:bold">Filename</span></td><td style="width:455px;height:14px"><span style="font-style:italic">To be determined</span>...</td></tr><tr><td style="width:108px;height:43px"><span style="font-weight:bold">Permissions</span></td><td style="width:455px;height:43px">Admin privileges, executable, read..<br />(-r-xr-xr-x root  admin ?)<br /><span>Admin users can then use it to add and remove packages as needed.</span></td></tr><tr><td style="width:108px;height:14px"><span style="font-weight:bold">Path</span></td><td style="width:455px;height:14px"><span style="font-style:italic">To be determined...</span></td></tr><tr><td style="width:108px;height:14px"><span style="font-weight:bold">Miscellaneous</span></td><td style="width:455px;height:14px">The Darwin Package Manager</td></tr></tbody></table></div><div><hr /></div><div>The PureDarwin Package Database ("pdpd" or "pd2") is still abstract at this time.</div><div>For the potential filename:</div><div><ul><li>"pdpd" or "pd2" for PureDarwin Package Database</li><li>"<span>dpd(b)" for Darwin Package Data(b)ase</span></li></ul></div><div><span style="text-decoration:underline">Note:</span> If we choose to patch `port' from the MacPorts project, this repository will be useless except if we want to log and/or record in parallel the events.</div><div><br /></div><div><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;margin-top:1px;margin-right:1px;margin-bottom:1px;margin-left:1px"><tbody><tr><td style="vertical-align:top!important;width:105px;height:14px"><span style="font-weight:bold">Filename</span></td><td style="vertical-align:top!important;width:453px;height:14px"><span style="font-style:italic">To be determined...</span></td></tr><tr><td style="vertical-align:top!important;width:105px;height:17px"><span style="font-weight:bold">Permissions</span></td><td style="vertical-align:top!important;width:453px;height:17px"><span><span style="font-style:italic">To be determined...</span></span></td></tr><tr><td style="vertical-align:top!important;width:105px;height:14px"><span style="font-weight:bold">Path</span></td><td style="vertical-align:top!important;width:453px;height:14px"><span style="font-style:italic">To be determined...</span></td></tr><tr><td style="vertical-align:top!important;width:105px;height:29px"><span style="font-weight:bold">Miscellaneous</span></td><td style="vertical-align:top!important;width:453px;height:29px">The (Pure)Darwin Package Database<br /><br /></td></tr></tbody></table></div><div><hr /></div><div>A launchd plist file (<span style="font-family:courier new,monospace"><span style="font-size:small">org.puredarwin.xyzt.plist</span></span>?) in <span style="font-family:courier new,monospace"><span style="font-size:small">/System/Library/LaunchDaemons/</span></span></div><div><br /></div><div><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;margin-top:1px;margin-right:1px;margin-bottom:1px;margin-left:1px"><tbody><tr><td style="vertical-align:top!important;width:96px;height:14px"><span style="font-weight:bold">Filename</span></td><td style="vertical-align:top!important;width:437px;height:14px">org.puredarwin.[<span style="font-style:italic">tobedetermined</span>].plist</td></tr><tr><td style="vertical-align:top!important;width:96px;height:14px"><span style="font-weight:bold">Permissions</span></td><td style="vertical-align:top!important;width:437px;height:14px">(-rw-r--r--  root  wheel)<br /></td></tr><tr><td style="vertical-align:top!important;width:96px;height:19px"><span style="font-weight:bold">Path</span></td><td style="vertical-align:top!important;width:437px;height:19px">/System/Library/LaunchDaemons/</td></tr><tr><td style="vertical-align:top!important;width:96px;height:29px"><span style="font-weight:bold">Miscellaneous</span></td><td style="vertical-align:top!important;width:437px;height:29px">Launchd plist (scheduling, update..)</td></tr></tbody></table></div></div></div>
+<h3><a name="TOC-darwinup"></a>darwinup</h3>
+<div style="direction:ltr">"dm" will use darwinup for the lowest-level installation and un-installation. darwinup works much like a version control system, keeping track of which files are altered during an install so that it can then "roll back" the file system at un-install time. It does not, however, have any idea of dependencies or the ability to fetch files from repositories. These are the features which "dm" will provide.</div><div style="direction:ltr"><br /></div><div style="direction:ltr">If we use `darwinup', we could need to list <span style="font-style:italic">all</span> features/possibilities provided by `darwinup', list what we clearly need for a plausible start, and make a diff between both lists.<br /><h3><a name="TOC-The-PureDarwin-Package-Database"></a>The PureDarwin Package Database</h3>Central to "dm" will be the PureDarwin Package Database ("pdpd" or "pd2"). This will be based on a complete package list and dependency information extracted from the darwinxref database, augmented with information about packages provided by PureDarwin and others. The tools described below can help compile this information, but the amount of work involved should not be under estimated. Package management systems simplify matters for the user by shifting the task of tracking and resolving package inter-dependencies to those who administer the packaging system.</div>
+<div style="direction:ltr"><ul><li>For simplicity I'm not planning on keeping darwinxref's detailed file list information (the contents of each package). Will this be a problem? Will users want to search for individual files? And if they do, could we just use a wrapper around xref.puredarwin.org to retrieve this info? <span style="font-weight:bold">Answer:</span> Each package produced and packages by darwinbuild has a receipt (/usr/local/darwinbuild/receipts/&lt;package&gt;) which lists all of the files added. This will solve the problem for installed packages.</li></ul></div>
+<div style="direction:ltr">To the data from darwinxref we will add:</div>
+<div style="direction:ltr"><ul><li>Localised descriptions of each package</li><li>"groups" and "systems" information (explained below)</li></ul></div>
+<div style="direction:ltr">One of the first things "dm" should do when it's run is to check for an updated version of the pd2 database and download it.</div>
+<h3><a name="TOC-Groups-and-Systems"></a>Groups and Systems</h3>
+<div style="direction:ltr">Groups and Systems provide a way of grouping collections of packages together to make it easier for the user to choose and install the packages they need.</div>
+<div style="direction:ltr"><ul><li>Groups are collections of packages, assembled by theme eg. "web_services" or "perl_and_libraries"</li><li>Systems are collections of packages, forming complete special-purpose Darwin distributions eg. "full_desktop", "rescue_tools", "office_server", "web_server"</li></ul></div>
+<div style="direction:ltr">Group and Systems names should never be the same as package names.</div>
+<h3><a name="TOC-The-core-group"></a>The "core" group</h3>
+<div style="direction:ltr">There should be a special "core" group which contains all of the components every PureDarwin installation needs (eg. the kernel(s), launchd, general .KEXTs, the main frameworks). This should always be installed, and cannot be un-installed, but can be updated.</div>
+<div style="direction:ltr"><br />
+</div>
+<div style="direction:ltr">The "core" group could include all of the packages needed to create a network connection and run "dm". We could then make the first stage of the installation process preparing the destination disk and installing the "core" group, with the second part being running "dm" from the destination disk. (This would allow us to provide multiple first stages -- eg. install from LiveCD, Linux, Windows -- with a single common second stage).</div>
+<div style="direction:ltr"><br />
+</div>
+<div style="direction:ltr">The "core" group would probably be written directly to the destination disk and not installed via darwinup.</div>
+<h3><a name="TOC-Updates"></a>Updates</h3>
+<div style="direction:ltr">"dm" will have an <span style="font-family:courier new,monospace"><span style="font-size:small">--update</span></span> mode (possibly scheduled via launchd) which will check for updated versions of the installed packages.</div><div style="direction:ltr">Now, here we have a problem, since by default the binary roots we will be using don't include any version information in their files names. That said, it is very rare for the MacOSForge roots to be updated, and if need be we could add version information to the roots held by PureDarwin.</div>
+<div style="direction:ltr"><br />
+</div>
+<div style="direction:ltr">Update information will have to be dated. "dm" will keep track of when it last checked for updates. It will collect a list of all packages updated since that time, check which of those it has installed, and download these updates.</div><div style="direction:ltr"><br /></div><div style="direction:ltr">"dm" should also be also be able to update itself, via several ways (itself, macports, darwinbuild, etc.. at least it should be symetric to the installation ways and perhaps more).</div><h3><a name="TOC-Security"></a>Security</h3><div style="direction:ltr">Different "security" mechanisms could/should be provided, feel free to add and/or strike them:</div><div style="direction:ltr"><ul><li>Checksuming (md5, sha-1, sha-2 family, etc..) itself and packages for from integrity to security purposes.</li><li>If something is remotely retrieved, we should have the possibility (by default that would be nice) to establish a "secure" (many possible ways too..) connection.</li><li>If "dm" is aware of the resident binaries deployed in the system, checksum could also be possible against them (but it could take some resource, and this kind of process could be moved into a "spotlight-like" daemon).</li></ul></div>
+<h3><a name="TOC-Language"></a>Language</h3>
+<div style="direction:ltr">"dm" will need to be written in a language which allows the invocation of external commands (darwinup, curl), the processing (regex) and storage of text (the output from darwinup) and database access (pd2). If "dm" is going to be included in the "core" group then so will its support libraries/interpretter. A scripting language seems like the best option.</div><div style="direction:ltr"><br /></div><div style="direction:ltr">Mini poll:</div><div style="direction:ltr"><ul><li>Stuart suggests Perl: "<span style="font-style:italic">but I'm fairly flexible on this point. (Unlike Python and indentations.)</span>"</li><li>Aladin suggests to not reinvent the wheel and enhance the MacPorts project in patching `port' and creating special portfile for our needs. Stuart will look into this.</li><li>Alternatively,  <span style="font-family:courier new,monospace"><span style="font-size:small">#!/bin/sh</span></span> or Lua (this one is not in the "core" group).</li></ul></div>
+<h3><a name="TOC-Usage"></a>Usage</h3>
+<div style="direction:ltr"><span style="white-space:pre"><span><span style="font-size:12px"><span style="font-family:arial,sans-serif">For the </span><span style="font-style:italic"><span style="font-family:arial,sans-serif">style</span></span><span style="font-family:arial,sans-serif"> of "getopt/getlongopt" (the usage), we should think if we stick to something like `launchctl', `macports' or something else.</span></span></span></span></div><div style="direction:ltr"><span style="font-size:12px;white-space:pre"><span style="font-family:arial,sans-serif">So, could it be also possible that "dm" is a patch of `port' command (from the MacPorts project) which extends its functionalities to our needs because a lot of things and good features are already inside. We will provide some specific ports too. We could ask exactly the same for a tweaked darwinbuild which points to root. Also in the installation process, a lot of packages are for "user-land" and comes from darwinbuild (and/or macports) at this time.</span></span></div><div style="direction:ltr"><span style="font-size:12px;white-space:pre"><br /></span></div><div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:12px"> </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:12px">dm</span><span><span style="font-size:12px">  </span></span></span><span style="font-family:courier new,monospace"><span style="font-size:12px">--info { package | group | system }</span></span></div><div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:12px"> </span><span><span style="font-size:12px">    </span></span></span></span><span style="font-family:courier new,monospace"><span style="font-size:12px">--list { installed | available }</span></span></div>
+<div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span><span><span style="font-size:small">    </span></span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">--get [config_setting]</span></span></div>
+<div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span><span><span style="font-size:small">    </span></span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">--set config_setting value</span></span></div>
+<div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span><span><span style="font-size:small">    </span></span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">--add [options] package_list</span></span></div>
+<div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span><span><span style="font-size:small">    </span></span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">--remove [options] package_list</span></span></div>
+<div style="direction:ltr"><span style="white-space:pre"><span style="font-family:courier new,monospace"><span style="font-size:small"> </span><span><span style="font-size:small">    </span></span></span></span><span style="font-family:courier new,monospace"><span style="font-size:small">--update</span></span></div>
+<div style="direction:ltr"><span style="white-space:pre"> </span></div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace"><span style="font-size:small">--info</span></span><span style="font-size:small"> displays information about the given package, group or system -- whether it is currently installed, where it can be found, version, dependencies, and in the case of groups and systems, which packages they contain.</span></div>
+<div style="direction:ltr"><span style="font-size:small"><br /></span>
+</div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace"><span style="font-size:small">--list</span></span><span style="font-size:small"> without an argument lists all installed packages. With "available" option, list all packages in the package database.</span></div>
+<div style="direction:ltr"><span style="font-size:small"><br /></span>
+</div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace"><span style="font-size:small">--get</span></span><span style="font-size:small"> without an argument lists the current values of all all </span><span style="font-family:courier new,monospace"><span style="font-size:small">config_settings</span></span><span style="font-size:small"> (which will have default built-in values, values stored in /etc/dm.config, and can be over-ridden by the </span><span style="font-family:courier new,monospace"><span style="font-size:small">[options]</span></span><span style="font-size:small"> flags to </span><span style="font-family:courier new,monospace"><span style="font-size:small">--add</span></span><span style="font-size:small"> and </span><span style="font-family:courier new,monospace"><span style="font-size:small">--remove</span></span><span style="font-size:small">). If </span><span style="font-family:courier new,monospace"><span style="font-size:small">config_setting</span></span><span style="font-size:small"> is provided, the settings for just that setting are displayed.</span></div>
+<div style="direction:ltr"><span style="font-size:small"><br /></span>
+</div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace"><span style="font-size:small">--set</span></span><span style="font-size:small"> sets the value of a particular </span><span style="font-family:courier new,monospace"><span style="font-size:small">config_setting</span></span><span style="font-size:small"> (after checking that it's valid) and stores it in /etc/dm.config.</span></div>
+<div style="direction:ltr"><span style="font-size:small"><br /></span>
+</div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace"><span style="font-size:small">--add</span></span><span style="font-size:small"> adds the packages in </span><span style="font-family:courier new,monospace"><span style="font-size:small">package_list</span></span><span style="font-size:small"> to the current Darwin install.</span></div>
+<div style="direction:ltr"><span style="font-size:small"><br /></span>
+</div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace"><span style="font-size:small">--remove</span></span><span style="font-size:small"> removes the packages in </span><span style="font-family:courier new,monospace"><span style="font-size:small">package_list</span></span><span style="font-size:small"> from the current Darwin install.</span></div>
+<div style="direction:ltr"><br />
+</div>
+<div style="direction:ltr"><span style="white-space:pre"> </span><span style="font-family:courier new,monospace"><span style="font-size:small">package_list</span></span> </div><blockquote style="margin:0 0 0 40px;border:none;padding:0px">is a list of space-separated package, group and system names. If an entry contains a "." or a "/" it is treated as a path to a file, which is read. It is expected to contain a list of package, group or system names, which are then added to the <span style="font-family:courier new">package_list</span>. This will allow custom configurations to be built and used time and again. eg.</blockquote><div style="direction:ltr"><br />
+</div>
+<blockquote style="margin:0 0 0 40px;border:none;padding:0px"><span style="font-family:courier new"><span style="font-size:small">-</span><span style="font-size:small">-add curl-42</span><span style="white-space:pre"><span style="font-size:small"> </span></span></span><span style="font-family:courier new"><span style="font-size:small">perl python ruby</span></span><span style="white-space:pre"><span style="font-size:small"> </span></span><span style="font-size:small">will add the curl, perl, python and ruby packages<br /></span></blockquote><blockquote style="margin:0 0 0 40px;border:none;padding:0px"><span style="font-family:courier new"><span style="font-size:small">--add recovery_tools file_servers emacs</span><span><span style="font-size:small">    </span></span></span><span style="font-size:small">will add the emacs package, all packages from the file_servers group, and all packages from the recovery_tools system</span></blockquote><blockquote style="margin:0 0 0 40px;border:none;padding:0px"><span style="font-family:courier new"><span style="font-size:small">--add Chess packages.txt</span></span><span style="white-space:pre"><span style="font-size:small"> </span></span><span style="font-size:small">will add the Chess package, and any packages, groups or systems listed in packages.txt</span></blockquote>
+<div style="direction:ltr"><span style="font-size:small"><br /></span>
+</div>
+<div style="direction:ltr"><span style="white-space:pre"><span style="font-size:small"> </span></span><span style="font-family:courier new,monospace"><span style="font-size:small">options</span></span></div>
+<blockquote style="margin:0 0 0 40px;border:none;padding:0px"><span style="font-size:small">over-ride the defaults stored in /etc/dm.config for the duration of the single command. (This is not a complete list.)</span></blockquote>
+<div style="direction:ltr"><br />
+</div>
+<div style="direction:ltr"><ul><li><span style="font-family:courier new">--dependencies { YES | NO }</span> -- The dependencies <span style="font-family:courier new,monospace">config_setting</span>. By default this is YES, meaning that for every package added its dependencies are found and added at the same time. (I'm not really sure about how we handle removing dependencies. Either we store some form of reference count for packages, or we re-check dependencies at the time. Either way, we should stop the user from removing a package which other packages depend on.)</li><li><span style="font-family:courier new">--cache directory_path</span> -- The cache <span style="font-family:courier new,monospace">config_setting</span>. This is checked for packages before remote repositories. This will allow installation from CD images without needing networking.</li><li><span style="font-family:courier new">--temp directory_path</span> -- The temp <span style="font-family:courier new,monospace">config_setting</span>. This is where packages are downloaded to. It is also checked for packages before remote repositories.</li></ul></div>
+<div style="direction:ltr"><br />
+</div>
+<div style="direction:ltr"><span style="font-family:courier new,monospace">--update</span> fetches a list of package changes since the last update and compares it to the list of installed packages. It then downloads those packages which have changed and installs them.</div>
+<div style="direction:ltr"><br />
+</div>
+<h3><a name="TOC-At-Installation-Time"></a>At Installation Time</h3>
+<div style="direction:ltr">An interactive installer will present the user with lists of systems, groups or packages for them to choose from. Their choices will then be passed to "dm", which will resolve dependencies, download the packages, and install them.</div><div style="direction:ltr"><div><div><h3><a name="TOC-Package-Database-Admin-Toold"></a>Package Database Admin Toold</h3><p>dbtool.zip below contains a couple of simple Perl scripts, described below. These are a first attempt at producing some tools for creating and managing the package database. These are intended to be used by the packaging system admins, not by the end user. They mostly work on plain text files, so it should be possible to keep all of the associated resources (package lists, language files, core, group and system lists) under revision control and automate the process of producing the package database.</p><p>Please also note that at this point I see the "dm" tool more as a binary installer than a fully-fledged package manager.</p><h4><a name="TOC-dbaudit"></a>dbaudit</h4><p><span style="font-family:courier new,monospace">dbaudit</span> does a brute-force audit of a darwinbuild environment, finding which packages have binary roots and attempting to calculate dependencies for those that do.</p><p></p><div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="http://www.puredarwin.org/developers/package-management/the-darwin-package-manager/dbaudit.png?attredirects=0" imageanchor="1"><img border="0" height="237" src="http://www.puredarwin.org/_/rsrc/1237804812020/developers/package-management/the-darwin-package-manager/dbaudit.png?height=237&amp;width=420" width="420" /></a></div>The output package list is a simple text file with one line per package found. Each line has the format:<p></p><p><span>    PackageName Y build version { dependency1 dependency2 ... dependencyN }</span></p><p>Where "Y" could also be "N" and signals that a binary root was found. If no root was found, no version or dependency information will be provided.</p><p>Dependencies are listed as package names, if resolved, or the full path of linked library paths otherwise.</p><h4><a name="TOC-dbstats"></a><span>d</span>bstats</h4><p><span style="font-family:courier new,monospace">dbstats</span> produces a simple summary of the <span style="font-family:courier new,monospace">dbaudit</span> output file. The information in this file may go towards providing the dependency information needed by a Darwin package manager.</p><p>package_list.zip contains the package list which <span style="font-family:courier new,monospace">dbaudit</span> produced for a 9G55pd1 install of darwinbuild. It shows:</p><p></p><p><span>    </span><span style="font-family:courier new,monospace">423 packages, 79 missing binary roots, 79 unresolved dependencies</span></p><div>(The two 79s are purely coincidental and unrelated, I think.)</div><div><br /></div><h4><a name="TOC-pdpdmake"></a>pdpdmake</h4><div><span style="font-family:courier new,monospace">pdpdmake</span> takes a number of input files and either creates or updates a SQLite database file according to their contents.</div><div><div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="http://www.puredarwin.org/developers/package-management/the-darwin-package-manager/pdpdmake.png?attredirects=0" imageanchor="1"><img border="0" height="356" src="http://www.puredarwin.org/_/rsrc/1237805196013/developers/package-management/the-darwin-package-manager/pdpdmake.png?height=356&amp;width=420" width="420" /></a></div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto">As a minimum, at least one package list must be provided.</div><h4><a name="TOC-dtbi"></a>dtbi</h4><div style="text-align:left;display:block;margin-right:auto;margin-left:auto"><span style="font-family:courier new,monospace">dtbi</span> (Darwin Trivial Binary Installer) is a Perl prototype of a basic installer for Darwin. It's main purpose is to generate discussion. Currently it will query a pdpd database (there's one produced from the packages_list.txt file below provided as an example) for information about packages. If <span style="font-family:courier new,monospace">darwinup</span> is installed, <span style="font-family:courier new,monospace">dtbi</span> will query it for a list of installed packages. It will add a new package, plus any uninstalled packages which that package depends upon, downloading the binary from MacOSForge.</div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto"><br /></div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto">To try <span style="font-family:courier new,monospace">dtbi</span><span style="font-family:arial,sans-serif"> </span>in PureDarwinXmas:</div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto"><ol><li>Install the CPAN package (Perl modules, needed for database access).</li><li>Install <span style="font-family:courier new,monospace">curl</span> (if you want to try installing packages).</li><li>Install <span style="font-family:courier new,monospace">darwinup</span> (from <span style="font-family:courier new,monospace">darwinbuild</span>) into /usr/sbin/ (we can argue about where it <span style="font-style:italic">should</span> go later).</li><li>Copy <span style="font-family:courier new,monospace">dtbi</span> and the db database file into the same directory (/Users/Shared/ is nice).</li></ol></div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto">Currently, only the <span style="font-family:courier new,monospace">--info</span>,<span style="font-family:courier new,monospace"> --list</span> and <span style="font-family:courier new,monospace">--add</span> options have been implemented. Again, this is just a quick Perl prototype to get people talking and to see if this solves a problem for us. The fact that this version requires 10+Mb of Perl modules suggests we'll actually be using a different language for the production version.</div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto"><br /></div><div style="text-align:left;display:block;margin-right:auto;margin-left:auto">Your comments below or in #puredarwin, please.</div><br /></div><p></p></div></div></div>
+</div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-attachments">
+<div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:0px;"><div class="sites-translucent sites-symbol">Č</div></div></div><div class="sites-attachments-separator"></div>
+<div id="attachment-wuid:gx:106325ddb5b67b92"><div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:5px"><div class="sites-translucent sites-symbol">ċ</div></div><a href="/developers/package-management/the-darwin-package-manager/dbtools.zip?attredirects=0&amp;d=1" title="Download"><div id="attachment-download-wuid:gx:106325ddb5b67b92" class="sites-attachments-icon" style="right:0px"><span class="sites-symbol">ď</span></div></a><div class="sites-attachments-version"><a href="/system/app/pages/admin/revisions?wuid=wuid:gx:106325ddb5b67b92">v.3</a></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="http://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=cHVyZWRhcndpbi5vcmd8cHVyZWRhcndpbnxneDoxMDYzMjVkZGI1YjY3Yjky">dbtools.zip</a> <div class="sites-translucent">(10k)</div></div><div class="sites-attachments-author">Stuart Crook, <div class="sites-translucent">Mar 23, 2009, 3:53 AM</div></div></div></div><div class="sites-attachments-separator"></div></div>
+<div id="attachment-wuid:gx:f90e91a907e4f85"><div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:5px"><div class="sites-translucent sites-symbol">ċ</div></div><a href="/developers/package-management/the-darwin-package-manager/dtbi-prototype.zip?attredirects=0&amp;d=1" title="Download"><div id="attachment-download-wuid:gx:f90e91a907e4f85" class="sites-attachments-icon" style="right:0px"><span class="sites-symbol">ď</span></div></a><div class="sites-attachments-version"><a href="/system/app/pages/admin/revisions?wuid=wuid:gx:f90e91a907e4f85">v.1</a></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="http://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=cHVyZWRhcndpbi5vcmd8cHVyZWRhcndpbnxneDpmOTBlOTFhOTA3ZTRmODU">dtbi-prototype.zip</a> <div class="sites-translucent">(18k)</div></div><div class="sites-attachments-author">Stuart Crook, <div class="sites-translucent">Mar 23, 2009, 3:54 AM</div></div></div></div><div class="sites-attachments-separator"></div></div>
+<div id="attachment-wuid:gx:136281691a0db777"><div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:5px"><div class="sites-translucent sites-symbol">ċ</div></div><a href="/developers/package-management/the-darwin-package-manager/package_list.txt.zip?attredirects=0&amp;d=1" title="Download"><div id="attachment-download-wuid:gx:136281691a0db777" class="sites-attachments-icon" style="right:0px"><span class="sites-symbol">ď</span></div></a><div class="sites-attachments-version"><a href="/system/app/pages/admin/revisions?wuid=wuid:gx:136281691a0db777">v.3</a></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="http://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=cHVyZWRhcndpbi5vcmd8cHVyZWRhcndpbnxneDoxMzYyODE2OTFhMGRiNzc3">package_list.txt.zip</a> <div class="sites-translucent">(7k)</div></div><div class="sites-attachments-author">Stuart Crook, <div class="sites-translucent">Mar 21, 2009, 3:01 PM</div></div></div></div><div class="sites-attachments-separator"></div></div>
+<div style="height: 10px"></div>
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">Comments</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/puredarwin.org/puredarwin/developers/package-management/the-darwin-package-manager">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/d24ef8/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("5443624057807028", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_5443624057807028');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+          JOT_addListener('titleChange', 'JOT_RECENTCHANGES_titleChange', 'COMP_8098985916003585');
+        </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuiEJWuCB_LZagUAJWJE5fSAeie3STAS7tAHgFfprp4c48_vtUq-I5qyRMWtfVnzpQ5nvnU63MltLAK_zEsjsIDc70E8_HCxktoL4EGTAn5s1hagNUj8ZSzZx5lJ-7ZnEgmE9As/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([]);
+    gsites.Xhr.send('http://www.puredarwin.org/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+              JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

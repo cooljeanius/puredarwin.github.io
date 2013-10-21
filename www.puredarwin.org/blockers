@@ -164,7 +164,7 @@ google_color_text="5E6A72";
 <h4><a name="TOC-CF-missing-symbols"></a>CF missing symbols</h4>
 <p><span style="font-style:italic">_</span><span>_kCFBundleResourceSpecificationKey</span>referenced by some dependents (e.g., Security framework) is expected in CF but missing. Patching the source code to restore this symbol and others (for example, exception names) has proved successful. To apply these patches, follows the instructions for initialising the darwinbuild environment as described in <a href="http://www.puredarwin.org/developers/darwinbuild">Using DarwinBuild</a>.</p>
 <h4><a name="TOC-libauto.dylib-missing"></a>libauto.dylib <span style="text-decoration:line-through">missing</span></h4>
-<div><span style="color:rgb(39,78,19)">Apple has </span><a href="http://www.puredarwin.org/news/autozone"><span style="color:rgb(39,78,19)">released</span></a><span style="color:rgb(39,78,19)"> autozone-77 under the Apache License 2.0. Thanks, Apple!</span></div>
+<div><span style="color:rgb(39,78,19)">Apple has </span><a href="http://www.puredarwin.org/news/autozone"><span style="color:rgb(39,78,19)">released</span></a><span style="color:rgb(39,78,19)"> autozone, starting with autozone-77, under the Apache License 2.0. Thanks, Apple! (The latest version as of October 2013 is <a href="http://www.opensource.apple.com/source/libauto/libauto-185.4/">185.4</a>)</span></div>
 </div>
 </div>
 </div>

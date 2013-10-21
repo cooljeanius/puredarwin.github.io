@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:2682c13d3d043499","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"revision":8,"title":"Contact us","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"contact","path":"/contact","isSiteRtlLocale":false,"parentPath":null};
 webspace.page.breadcrumbs = [{"title":"Contact us","dir":"ltr","path":"/contact","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -137,7 +127,9 @@ google_color_text="5E6A72";
 </h3>
 <div id="sites-canvas-main" class="sites-canvas-main">
 <div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div>This PureDarwin wiki is a community effort. The PureDarwin <a href="http://www.puredarwin.org/team">team</a> can best be reached at </div><ul><li>contact@puredarwin.org<br /><br /></li><li>http://groups.google.com/group/puredarwin<br /><br /></li><li>#puredarwin on irc.freenode.net <br /></li></ul><div>The site administrator can be reached at</div><ul><li>admin@puredarwin.org</li></ul></div></td></tr></tbody></table>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div>This PureDarwin "wiki" is a community effort. The PureDarwin <a href="http://www.puredarwin.org/team">team</a> can best be reached at: </div><ul><li><a href="mailto:contact@puredarwin.org">contact@puredarwin.org</a><br /><br /></li>
+<li><a href="http://groups.google.com/group/puredarwin">http://groups.google.com/group/puredarwin</a><br /><br /></li>
+<li>#puredarwin on irc.freenode.net <br /></li></ul><div>The site administrator can be reached at: </div><ul><li><a href="mailto:admin@puredarwin.org">admin@puredarwin.org</a></li></ul></div></td></tr></tbody></table>
 </div> 
 </div> 
 <div id="sites-canvas-bottom-panel">

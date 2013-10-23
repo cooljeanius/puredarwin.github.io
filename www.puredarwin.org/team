@@ -128,7 +128,10 @@ google_color_text="5E6A72";
 </h3>
 <div id="sites-canvas-main" class="sites-canvas-main">
 <div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">We are a welcoming community of open source enthusiasts and developers. Everyone is invited to join the <a href="http://www.puredarwin.org/welcome/about">PureDarwin project</a>, as long as you agree to promote true open source spirit and abide by any <a href="http://www.puredarwin.org/legal">licenses</a> that apply. Unix knowledge is a must at this point.<div><br /></div><div>If you would like to get an puredarwin.org account, please visit #puredarwin on irc.freenode.net. Also, send an e-mail, including your full name, contact information and your desired puredarwin username (ideally the same as your IRC nickname) to admin@puredarwin.org. </div><div><br /></div><div>If you like, you can also include information about your hardware so that we can coordinate testing better.</div></div></td></tr></tbody></table>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">We are a welcoming community of open source enthusiasts and developers. Everyone is invited to join the <a href="http://www.puredarwin.org/welcome/about">PureDarwin project</a>, as long as you agree to promote true open source spirit and abide by any <a href="http://www.puredarwin.org/legal">licenses</a> that apply. Unix knowledge is a must at this point.<div><br /></div>
+<div>If you would like to get an puredarwin.org account, please visit #puredarwin on irc.freenode.net. Also, send an e-mail, including your full name, contact information and your desired puredarwin username (ideally the same as your IRC nickname) to <a href="mailto:admin@puredarwin.org">admin@puredarwin.org</a>. </div>
+<div><br /></div>
+<div>If you like, you can also include information about your hardware so that we can coordinate testing better.</div></div></td></tr></tbody></table>
 </div> 
 <div id="jot-content" class="list-page sites-clear">
 <div id="goog-ws-list-floatingBar">

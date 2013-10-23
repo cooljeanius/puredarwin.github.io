@@ -227,14 +227,14 @@ Via the command-line, assuming that <span style="font-family:courier new,monospa
 <span style="font-family:courier new,monospace"><font size="2"><span style="font-size:small">/Applications/VirtualBox.app/Contents/MacOS/</span></font><span style="font-size:small"><font size="2">VBoxManage modifyvm PureDarwin -pae on</font><br /><br /></span></span>
 Via the VirtualBox gui, it is a simple checkbox in the settings.<br />
 <h2><a name="TOC-Resources"></a>Resources</h2>
-<li><a href="http://alex.csgraf.de/self/?part/projects&amp;folder/Qemu%20OSX&amp;type/&amp;project/projects&amp;parameters/id=Qemu%20OSX/qemu" rel="nofollow" style="color:rgb(78,125,191)">http://alex.csgraf.de/self/?part/projects&amp;folder/Qemu%20OSX&amp;type/&amp;project/projects&amp;parameters/id=Qemu%20OSX/qemu</a></li>
+<li><a href="http://alex.csgraf.de/self/?part/projects&amp;folder/Qemu%20OSX&amp;type/&amp;project/projects&amp;parameters/id=Qemu%20OSX/qemu" rel="nofollow" style="color:rgb(78,125,191)">http://alex.csgraf.de/self/?part/projects&amp;folder/Qemu%20OSX&amp;type/&amp;project/projects&amp;parameters/id=Qemu%20OSX/qemu</a> (Note: this link is dead and <a href="https://archive.org/">archive.org</a> does not have a cached copy. Please let us know if you have one.)</li>
 <br />
-<li><a href="http://www.virtualbox.org/ticket/1071" rel="nofollow" style="color:rgb(78,125,191)">http://www.virtualbox.org/ticket/1071</a></li>
+<li><a href="http://www.virtualbox.org/ticket/1071" rel="nofollow" style="color:rgb(78,125,191)">http://www.virtualbox.org/ticket/1071</a> (This ticket has been closed as "fixed")</li>
 <br />
-<li><a href="http://www.virtualbox.org/ticket/1751" rel="nofollow" style="color:rgb(78,125,191)">http://www.virtualbox.org/ticket/1751</a> (Allow SMBIOS information to be copied from host)</li>
+<li><a href="http://www.virtualbox.org/ticket/1751" rel="nofollow" style="color:rgb(78,125,191)">http://www.virtualbox.org/ticket/1751</a> (Allow SMBIOS information to be copied from host) (This ticket is still open as of October 2013)</li>
 <br />
 <br />
-<li><a href="http://softwarecommunity.intel.com/articles/eng/1107.htm" rel="nofollow" style="color:rgb(78,125,191)">http://softwarecommunity.intel.com/articles/eng/1107.htm</a> (MacCPUID.app)</li>
+<li><a href="http://software.intel.com/en-us/articles/download-maccpuid" rel="nofollow" style="color:rgb(78,125,191)">http://software.intel.com/en-us/articles/download-maccpuid</a> (MacCPUID.app)</li>
 </div>
 <div style="display:block;text-align:left"><br /></div>
 <div style="display:block;text-align:left"><li><a href="http://code.google.com/p/xnu-dev" style="color:rgb(78,125,191)" target="_blank">http://code.google.com/p/xnu-dev</a> / (A fork of the XNU kernel)</li></div>

@@ -132,13 +132,13 @@ google_color_text="5E6A72";
 <div><b>The following info is kept here for historical reasons!</b></div>
 <div><b><br /></b></div>
 <div><b><br /></b></div>
-<div><b><span style="font-family:Arial,sans-serif;font-weight:normal"><div>(Pure)Darwin 9 guest OS is <b><font color="#ff0000">not supported</font></b> or it does NOT seem to be trivial to make it work properly.</div>
-<div>No problem concerning loading the bootloader.</div>
+<div><b><span style="font-family:Arial,sans-serif;font-weight:normal"><div>(Pure)Darwin 9 guest OS is <b><font color="#ff0000">not supported</font></b>, or it does NOT seem to be trivial to make it work properly.</div>
+<div>There should be no problem concerning loading the bootloader.</div>
 <div>Latest versions tested:<br />
 <ul><li>VirtualBox 3.0.2 on Mac OS X</li>
 <li>VirtualBox 3.0.6 on Windows XP 32 bits</li></ul></div></span></b></div>
 <div><b><br /></b></div>
-<div><b>Problem:</b> black screen at kernel loading (just after kexts decompression), perhaps the framebuffer is unsupported?</div>
+<div><b>Problem:</b> there is a black screen when the kernel is loading (just after the decompression of the kexts); perhaps the framebuffer is unsupported?</div>
 <h2 style="text-align:left"><a name="TOC-Settings"></a>Settings</h2>
 <h3><a name="TOC-VirtualBox-random-settings"></a>VirtualBox random settings</h3>
 Set up "OS Type" variable as a "FreeBSD" machine.<br />
@@ -152,7 +152,7 @@ PAE/NX seems to be needed<sup>1</sup> and enabled<sup>2</sup><br />
 <div><span style="font-style:italic">The actual number of address bits beyond 32 is not defined, and is implementation-specific.</span>" said Intel MacCPUID.app.</div>
 <div><h2><a name="TOC-Boot"></a>Boot</h2>
 <div><h3><a name="TOC-Boot-arguments"></a>Boot arguments</h3>
-Manually setting the "<i>-v</i>" boot-arg is <i><not</i> needed, since it is enabled by default.<br />
+Manually setting the "<i>-v</i>" boot-arg is <i>not</i> needed, since it is enabled by default.<br />
 (please add more text)</div>
 <h3><a name="TOC-dfe-bootloader"></a>dfe bootloader</h3></div>
 <div><u>Note:</u> Pressing <i>?</i> + <i>Enter </i>does NOT give any output.<br />

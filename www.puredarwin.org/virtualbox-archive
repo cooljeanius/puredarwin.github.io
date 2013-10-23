@@ -167,7 +167,7 @@ Manually setting the "<i>-v</i>" boot-arg is <i>not</i> needed, since it is enab
 <h4><a name="TOC-memory-flag"></a>?memory flag</h4>
 <div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/virtualbox/memory.png?attredirects=0" imageanchor="1" style="color:rgb(78,125,191);background-color:transparent;border-bottom-style:none;border-bottom-width:0px;border-bottom-color:initial;border-top-width:0px;border-right-width:0px;border-left-width:0px;background-repeat:initial initial"><img height="79" src="http://www.puredarwin.org/_/rsrc/1217702113592/developers/virtualbox/memory.png?height=79&amp;width=420" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px" width="420" /></a></div><br /></div>
 <div>A bit obscure...</div>
-<div><span style="color:rgb(255,0,0)">Please let us know if you know about this.</span></div>
+<div><span style="color:rgb(255,0,0)">Please let us know if you know anything about the messages contained in the above screenshot.</span></div>
 <h4><a name="TOC-SMBIOS-table-not-found"></a>SMBIOS table not found</h4>
 <div>Then it fails, attempting to find SMBIOS table.<br />
 <br />
@@ -175,7 +175,7 @@ Manually setting the "<i>-v</i>" boot-arg is <i>not</i> needed, since it is enab
 <div><div style="display:block;text-align:left"><img height="264" src="http://www.puredarwin.org/_/rsrc/1217620838320/developers/virtualbox/CPU_FSB_multiplier_equal_0.png?height=264&amp;width=420" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" width="420" /></div><br />
 Pressing 'y' leads irremediably to a (resized) blank screen, full cpu load, and a critical error forcing the user to power off the vm.<br />
 <br />
-<div>See corresponding VirtualBox log of pressing 'y':</div>
+<div>See the corresponding VirtualBox log that results from pressing 'y':</div>
 <div><br />
 <span style="font-family:courier new,monospace"><span style="font-size:small">00:00:03.572 Display::handleDisplayResize(): uScreenId = 0, pvVRAM=184d9000 w=640 h=480 bpp=32 cbLine=0xA00<br />
 00:00:05.906 Guest Log: Key pressed: 0086<br />

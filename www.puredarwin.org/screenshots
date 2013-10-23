@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:381949cce98f8fe1","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"revision":23,"title":"Screenshots","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"screenshots","path":"/screenshots","isSiteRtlLocale":false,"parentPath":null};
 webspace.page.breadcrumbs = [{"title":"Screenshots","dir":"ltr","path":"/screenshots","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -171,7 +161,7 @@ google_color_text="5E6A72";
 <div style="display:block;text-align:left"><span style="color:rgb(85,26,139)"><span style="color:rgb(0,0,0)">
 <div style="display:block;text-align:center">
 <div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="http://www.puredarwin.org/screenshots/enlightenment%20XFree86%20vmware.png?attredirects=0" imageanchor="1"><img border="0" height="278" src="http://www.puredarwin.org/_/rsrc/1223252860105/screenshots/enlightenment%20XFree86%20vmware.png?height=278&amp;width=420" width="420" /></a></div><br /></div>
-<div style="display:block;text-align:center">Enlightenment 17 ( 0.16.999.037) on PureDarwin on VMware Fusion 2.0b</div>
+<div style="display:block;text-align:center">Enlightenment 17 (0.16.999.037) on PureDarwin on VMware Fusion 2.0b</div>
 <div style="display:block;text-align:center"><br /></div>
 <div style="display:block;text-align:center"><br /></div>
 <div style="display:block;text-align:center">
@@ -179,18 +169,18 @@ google_color_text="5E6A72";
 <div style="display:inline!important;text-align:center"><a href="http://www.puredarwin.org/screenshots/xterm%20fluxbox%20bis%20XFree86%20vmware.png?attredirects=0" imageanchor="1"><span style="text-decoration:none"><img border="0" height="277" src="http://www.puredarwin.org/_/rsrc/1223133339357/screenshots/xterm%20fluxbox%20bis%20XFree86%20vmware.png?height=277&amp;width=420" width="420" /></span></a></div></div></div></span></span></div></div>
 <div style="display:block;text-align:center">
 <div style="display:block;text-align:center"><br /></div>
-<div style="display:block;text-align:center">Fluxbox 1.1.0.1 on PureDarwin running on VMware Fusion 2.02b</div>
+<div style="display:block;text-align:center">Fluxbox 1.1.0.1 on PureDarwin running on VMware Fusion 2.02b</div>
 <div style="display:block;text-align:center"><br /></div>
 <div style="display:block;text-align:center"><br /></div></div>
 <div>
 <div style="display:block;text-align:center"><a href="http://sites.google.com/a/puredarwin.org/puredarwin/_/rsrc/1223112720564/developers/xfree86/windowmaker%20XFree86%20vmware.png?height=278&amp;width=420" imageanchor="1" style="color:rgb(85,26,139);outline-style:none"><img border="0" height="275" src="http://sites.google.com/a/puredarwin.org/puredarwin/_/rsrc/1223112720564/developers/xfree86/windowmaker%20XFree86%20vmware.png?height=278&amp;width=420" style="border-top-width:0px;border-left-width:0px;border-bottom-width:0px;border-right-width:0px" width="420" /></a></div>
 <div style="text-align:center"><br /></div></div>
-<div style="text-align:center">Window Maker 0.92.0 on PureDarwin running on VMware Fusion 2.02b</div>
+<div style="text-align:center">Window Maker 0.92.0 on PureDarwin running on VMware Fusion 2.02b</div>
 <div style="text-align:center"><br /></div>
 <div style="text-align:center"><br /></div>
 <div style="text-align:center">
 <div style="display:block;text-align:center"><a href="http://www.puredarwin.org/screenshots/wmii%20XFree86%20wmware.png?attredirects=0" imageanchor="1"><img border="0" height="277" src="http://www.puredarwin.org/_/rsrc/1223133439303/screenshots/wmii%20XFree86%20wmware.png?height=277&amp;width=420" width="420" /></a></div><br /></div>
-<div style="text-align:center">wmii 3.1 on PureDarwin running on VMware Fusion 2.02b</div>
+<div style="text-align:center">wmii 3.1 on PureDarwin running on VMware Fusion 2.02b</div>
 <div style="text-align:center"><br /></div>
 <div style="text-align:center"><br /></div>
 <div style="display:block;text-align:left">
@@ -200,10 +190,10 @@ google_color_text="5E6A72";
 <div style="display:block;text-align:left">
 <div style="text-align:center"><br /></div></div>
 <div style="text-align:center">PureDarwin nano running on VMware Player 2.5 on Ubuntu</div>
-<div style="text-align:center"> </div>
+<div style="text-align:center"> </div>
 <div style="text-align:center">
 <div style="display:block;margin-left:auto;margin-right:auto;zoom:1;text-align:center"><a href="http://www.puredarwin.org/screenshots/xp.jpg?attredirects=0" imageanchor="1"><img border="0" height="336" src="http://www.puredarwin.org/_/rsrc/1231119735625/screenshots/xp.jpg?height=336&amp;width=420" width="420" /></a></div></div>
-<div style="text-align:center"> </div>
+<div style="text-align:center"> </div>
 <div style="text-align:center">PureDarwin nano running on VMware Player 2.5.1 on Windows</div>
 <div style="text-align:center"><br /></div></div>
 <div style="display:block;text-align:center"><br /></div>
@@ -214,7 +204,7 @@ google_color_text="5E6A72";
 <div style="display:block;text-align:center"><font face="arial, sans-serif"><br /></font></div>
 <div style="display:block;text-align:center">
 <div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><a href="http://www.puredarwin.org/screenshots/pd_wmaker.png?attredirects=0" imageanchor="1"><font face="arial, sans-serif"><img border="0" height="359" src="http://www.puredarwin.org/_/rsrc/1229733010088/screenshots/pd_wmaker.png?height=359&amp;width=420" width="420" /></font></a></div>
-<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font face="arial, sans-serif">PureDarwin </font><span style="font-size:12px"><font face="arial, sans-serif">9F_20081219 on VMware Fusion 2</font></span></div><div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font size="3"><span style="font-size:12px"><font face="arial, sans-serif"><br /></font></span></font></div><div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font size="3"><span style="font-size:12px"><div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="http://www.puredarwin.org/screenshots/Bildschirmfoto%202010-01-23%20um%2018.18.23.png?attredirects=0" imageanchor="1"><font face="arial, sans-serif"><img border="0" height="300" src="http://www.puredarwin.org/_/rsrc/1264267200717/screenshots/Bildschirmfoto%202010-01-23%20um%2018.18.23.png?height=300&amp;width=400" width="400" /></font></a></div><font face="arial, sans-serif"><br /></font></span></font></div><div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font size="3"><span style="font-size:12px"><font face="arial, sans-serif">PureDarwin 9 running gtk-demo via TightVNC</font></span></font></div><br /></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td></tr></tbody></table>
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font face="arial, sans-serif">PureDarwin </font><span style="font-size:12px"><font face="arial, sans-serif">9F_20081219 on VMware Fusion 2</font></span></div><div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font size="3"><span style="font-size:12px"><font face="arial, sans-serif"><br /></font></span></font></div><div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font size="3"><span style="font-size:12px"><div style="display:block;margin-right:auto;margin-left:auto;text-align:center"><a href="http://www.puredarwin.org/screenshots/Bildschirmfoto%202010-01-23%20um%2018.18.23.png?attredirects=0" imageanchor="1"><font face="arial, sans-serif"><img border="0" height="300" src="http://www.puredarwin.org/_/rsrc/1264267200717/screenshots/Bildschirmfoto%202010-01-23%20um%2018.18.23.png?height=300&amp;width=400" width="400" /></font></a></div><font face="arial, sans-serif"><br /></font></span></font></div><div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><font size="3"><span style="font-size:12px"><font face="arial, sans-serif">PureDarwin 9 running gtk-demo via TightVNC</font></span></font></div><br /></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td></tr></tbody></table>
 </div> 
 </div> 
 <div id="sites-canvas-bottom-panel">

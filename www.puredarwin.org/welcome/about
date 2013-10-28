@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:4a4f299d95a6a1f9","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:4422b4ead1f22f3f","revision":18,"title":"About","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"about","path":"/welcome/about","isSiteRtlLocale":false,"parentPath":"/welcome"};
 webspace.page.breadcrumbs = [{"title":"Welcome","dir":"ltr","path":"/welcome","deleted":false},{"title":"About","dir":"ltr","path":"/welcome/about","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -131,7 +121,7 @@ google_color_text="5E6A72";
 <div id="sites-canvas">
 <div id="goog-ws-editor-toolbar-container"> </div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
-<A dir="ltr" href="/welcome">Welcome</A>‎ &gt; ‎
+<A dir="ltr" href="/welcome">Welcome</A>  &gt;  
   </div>
 <h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
 <span id="sites-page-title" dir="ltr">About</span>
@@ -140,7 +130,17 @@ google_color_text="5E6A72";
 <div id="sites-canvas-main-content">
 <table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">This page describes some part of the PureDarwin project and the motivation behind it, as well how it relates to other projects.
 <div><br />
-<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:500px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Goals"><strong>1 </strong>Goals</a></li><li class="goog-toc"><a href="#TOC-Organization"><strong>2 </strong>Organization</a></li><li class="goog-toc"><a href="#TOC-Contributing"><strong>3 </strong>Contributing</a></li><li class="goog-toc"><a href="#TOC-Sponsors"><strong>4 </strong>Sponsors</a></li><li class="goog-toc"><a href="#TOC-Frequently-asked-questions"><strong>5 </strong>Frequently asked questions</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Why-spend-time-on-Darwin-"><strong>5.1 </strong>Why spend time on Darwin?</a></li><li class="goog-toc"><a href="#TOC-How-does-PureDarwin-relate-to-the-former-OpenDarwin-project-"><strong>5.2 </strong>How does PureDarwin relate to the former OpenDarwin project?</a></li><li class="goog-toc"><a href="#TOC-How-does-PureDarwin-relate-to-the-DarwinBuild-project-"><strong>5.3 </strong>How does PureDarwin relate to the DarwinBuild project?</a></li><li class="goog-toc"><a href="#TOC-What-does-the-Pure-in-PureDarwin-stand-for-"><strong>5.4 </strong>What does the "Pure" in PureDarwin stand for?</a></li><li class="goog-toc"><a href="#TOC-Where-can-I-find-an-ISO-image-"><strong>5.5 </strong>Where can I find an ISO image?</a></li><li class="goog-toc"><a href="#TOC-When-do-you-plan-to-release-a-full-ISO-image-"><strong>5.6 </strong>When do you plan to release a full ISO image?</a></li></ol></li><li class="goog-toc"><a href="#TOC-PureDarwin-Logo"><strong>6 </strong>PureDarwin Logo</a></li></ol></div></div></div></div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:500px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Goals"><strong>1 </strong>Goals</a></li>
+<li class="goog-toc"><a href="#TOC-Organization"><strong>2 </strong>Organization</a></li>
+<li class="goog-toc"><a href="#TOC-Contributing"><strong>3 </strong>Contributing</a></li>
+<li class="goog-toc"><a href="#TOC-Sponsors"><strong>4 </strong>Sponsors</a></li>
+<li class="goog-toc"><a href="#TOC-Frequently-asked-questions"><strong>5 </strong>Frequently asked questions</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Why-spend-time-on-Darwin-"><strong>5.1 </strong>Why spend time on Darwin?</a></li>
+<li class="goog-toc"><a href="#TOC-How-does-PureDarwin-relate-to-the-former-OpenDarwin-project-"><strong>5.2 </strong>How does PureDarwin relate to the former OpenDarwin project?</a></li>
+<li class="goog-toc"><a href="#TOC-How-does-PureDarwin-relate-to-the-DarwinBuild-project-"><strong>5.3 </strong>How does PureDarwin relate to the DarwinBuild project?</a></li>
+<li class="goog-toc"><a href="#TOC-What-does-the-Pure-in-PureDarwin-stand-for-"><strong>5.4 </strong>What does the "Pure" in PureDarwin stand for?</a></li>
+<li class="goog-toc"><a href="#TOC-Where-can-I-find-an-ISO-image-"><strong>5.5 </strong>Where can I find an ISO image?</a></li>
+<li class="goog-toc"><a href="#TOC-When-do-you-plan-to-release-a-full-ISO-image-"><strong>5.6 </strong>When do you plan to release a full ISO image?</a></li></ol></li>
+<li class="goog-toc"><a href="#TOC-PureDarwin-Logo"><strong>6 </strong>PureDarwin Logo</a></li></ol></div></div></div></div>
 <h3><a name="TOC-Goals"></a>Goals</h3>
 
 The goal of the PureDarwin project is to make Darwin more usable for open source enthusiasts and developers by providing documentation and by enabling them to retrieve, understand, modify, build, and distribute Darwin.
@@ -151,13 +151,28 @@ The PureDarwin project is organized very informally at this stage. There are no 
 Like other open source projects, PureDarwin is looking for contributors for all aspects of the project.
 <div><br />
 </div>
-<div>The PureDarwin project is always looking for talented individuals to contribute to and join the project. To contribute to the PureDarwin project, you should first familiarize yourself with the contents of this wiki. You can also join some IRC discussion on the #puredarwin channel on irc.freenode.net and helping each others. Contributing to the project can take various forms, from adding documentation to sending in patches and constructive feedback in the <a href="http://code.google.com/p/puredarwin/" target="_blank">"Google Code" repository</a>.</div><div><br /></div><div>A non exhaustive list of the field where investigation has still not yet been done is available <a href="http://www.puredarwin.org/todo">here</a>.</div><div><h3><a name="TOC-Sponsors"></a>Sponsors</h3>
+<div>The PureDarwin project is always looking for talented individuals to contribute to and join the project. To contribute to the PureDarwin project, you should first familiarize yourself with the contents of this wiki. You can also join some IRC discussion on the #puredarwin channel on irc.freenode.net and helping each others. Contributing to the project can take various forms, from adding documentation to sending in patches and constructive feedback in the <a href="http://code.google.com/p/puredarwin/" target="_blank">"Google Code" repository</a>.</div>
+<div><br /></div>
+<div>A non exhaustive list of the field where investigation has still not yet been done is available <a href="http://www.puredarwin.org/todo">here</a>.</div>
+<div><h3><a name="TOC-Sponsors"></a>Sponsors</h3>
 
-We have no official sponsors as of yet. We would however like to thank Google for hosting this site. We'd also like to thank Apple, Inc. for making Darwin available and especially for maintaining the DarwinBuild project.</div><div><h3><a name="TOC-Frequently-asked-questions"></a>Frequently asked questions</h3>
+We have no official sponsors as of yet. We would however like to thank Google for hosting this site. We would also like to thank Apple, Inc. for making Darwin available and especially for maintaining the DarwinBuild project.</div>
+<div><h3><a name="TOC-Frequently-asked-questions"></a>Frequently asked questions</h3>
 <h4><a name="TOC-Why-spend-time-on-Darwin-"></a>Why spend time on Darwin?</h4>
 For learning and fun.
 <h4><a name="TOC-How-does-PureDarwin-relate-to-the-former-OpenDarwin-project-"></a>How does PureDarwin relate to the former OpenDarwin project?</h4>
-Although some people have been seeing PureDarwin as the informal successor to OpenDarwin, there is no official relationship other than the fact that OpenDarwin and PureDarwin are both downstream Darwin projects. Also, there is no secret that PureDarwin would not exist if OpenDarwin had not closed down. Coming later in time, PureDarwin is in the fortunate position to be able to benefit from the valuable contributions that were rooted in the OpenDarwin project.</div><h4 style="background-color:transparent;color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:14px;margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:0px"><a name="TOC-How-does-PureDarwin-relate-to-the-DarwinBuild-project-"></a>How does PureDarwin relate to the DarwinBuild project?</h4><a href="http://www.puredarwin.org/developers/darwinbuild">DarwinBuild</a> is one of PureDarwin's main upstream projects. <div><h4><a name="TOC-What-does-the-Pure-in-PureDarwin-stand-for-"></a>What does the "Pure" in PureDarwin stand for?</h4><a href="http://en.wikipedia.org/wiki/Reinheitsgebot" target="_blank">Pure as in beer</a>! It means that we just use components specifically released by Apple for use with Darwin, as well as other Open Source components (collectively called "upstream code"). Specifically, it means that we do not use any components from Mac OS X. It also means that we try to stay as close as possible to the "outside world" as in Mac OS X (e.g., regarding the choice of compilers, options, etc.). It does <span style="font-style:italic">not</span> mean, however, that we do not modify and add to the upstream code, to the extent that the respective licenses allow.</div><h4><a name="TOC-Where-can-I-find-an-ISO-image-"></a>Where can I find an ISO image?</h4><div><span style="border-collapse:separate">A ready-made VMware virtual machine is available in the <a href="http://www.puredarwin.org/downloads" target="_blank">Downloads page</a>. This virtual machine contains an ISO that could be used on real hardware as well. It is a proof-of-concept of a minimal Darwin 9 system built from the DarwinBuild project. Please, note that you need the latest VMware (Player 2.5, Fusion 2).</span></div><h4><a name="TOC-When-do-you-plan-to-release-a-full-ISO-image-"></a>When do you plan to release a full ISO image?</h4><div><span style="border-collapse:separate">Probably when the DarwinBuild project and the MacPorts project will be able to run on a <span style="font-style:italic">mature</span> PureDarwin release without any "<a href="http://www.puredarwin.org/developers/macports/purity" target="_blank">impurity</a>".</span></div><h3><a name="TOC-PureDarwin-Logo"></a>PureDarwin Logo</h3><div>Click on the logo below to see a larger version of the PureDarwin logo.</div><div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/curious/hexley/puredarwin.jpg?attredirects=0" imageanchor="1" style="border-width:0px;background-color:transparent;color:rgb(0,102,204);outline-style:none"><img src="http://www.puredarwin.org/_/rsrc/1212050528612/curious/hexley/puredarwin.jpg" style="border-width:0px" /></a></div></div></div>
+Although some people have been seeing PureDarwin as the informal successor to OpenDarwin, there is no official relationship other than the fact that OpenDarwin and PureDarwin are both downstream Darwin projects. Also, there is no secret that PureDarwin would not exist if OpenDarwin had not closed down. Coming later in time, PureDarwin is in the fortunate position to be able to benefit from the valuable contributions that were rooted in the OpenDarwin project.</div>
+<h4 style="background-color:transparent;color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:14px;margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:0px"><a name="TOC-How-does-PureDarwin-relate-to-the-DarwinBuild-project-"></a>How does PureDarwin relate to the DarwinBuild project?</h4>
+<a href="http://www.puredarwin.org/developers/darwinbuild">DarwinBuild</a> is one of PureDarwin's main upstream projects. 
+<div><h4><a name="TOC-What-does-the-Pure-in-PureDarwin-stand-for-"></a>What does the "Pure" in PureDarwin stand for?</h4>
+<a href="http://en.wikipedia.org/wiki/Reinheitsgebot" target="_blank">Pure as in beer</a>! It means that we just use components specifically released by Apple for use with Darwin, as well as other Open Source components (collectively called "upstream code"). Specifically, it means that we do not use any components from Mac OS X. It also means that we try to stay as close as possible to the "outside world" as in Mac OS X (e.g., regarding the choice of compilers, options, etc.). It does <span style="font-style:italic">not</span> mean, however, that we do not modify and add to the upstream code, to the extent that the respective licenses allow.</div>
+<h4><a name="TOC-Where-can-I-find-an-ISO-image-"></a>Where can I find an ISO image?</h4>
+<div><span style="border-collapse:separate">A ready-made VMware virtual machine is available in the <a href="http://www.puredarwin.org/downloads" target="_blank">Downloads page</a>. This virtual machine contains an ISO that could be used on real hardware as well. It is a proof-of-concept of a minimal Darwin 9 system built from the DarwinBuild project. Please, note that you need the latest VMware (Player 2.5, Fusion 2).</span></div>
+<h4><a name="TOC-When-do-you-plan-to-release-a-full-ISO-image-"></a>When do you plan to release a full ISO image?</h4>
+<div><span style="border-collapse:separate">Probably when the DarwinBuild project and the MacPorts project will be able to run on a <span style="font-style:italic">mature</span> PureDarwin release without any "<a href="http://www.puredarwin.org/developers/macports/purity" target="_blank">impurity</a>".</span></div>
+<h3><a name="TOC-PureDarwin-Logo"></a>PureDarwin Logo</h3>
+<div>Click on the logo below to see a larger version of the PureDarwin logo.</div>
+<div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/curious/hexley/puredarwin.jpg?attredirects=0" imageanchor="1" style="border-width:0px;background-color:transparent;color:rgb(0,102,204);outline-style:none"><img src="http://www.puredarwin.org/_/rsrc/1212050528612/curious/hexley/puredarwin.jpg" style="border-width:0px" /></a></div></div></div>
 </div>
 </div></td></tr></tbody></table>
 </div> 

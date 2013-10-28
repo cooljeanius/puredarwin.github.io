@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:19523e8257868c3d","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:19ca24e3c9b23b1a","revision":40,"title":"PureDarwin nano","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"puredarwin-nano","path":"/downloads/puredarwin-nano","isSiteRtlLocale":false,"parentPath":"/downloads"};
 webspace.page.breadcrumbs = [{"title":"Downloads","dir":"ltr","path":"/downloads","deleted":false},{"title":"PureDarwin nano","dir":"ltr","path":"/downloads/puredarwin-nano","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -105,7 +95,12 @@ var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ag
 <table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
 <tr>
 <td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
-<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_5443624057807028" class="sites-embed"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/news" jotId="wuid:gx:117960ccf6cea3d3" class="sites-navigation-link">News</a></div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/screenshots" jotId="wuid:gx:381949cce98f8fe1" class="sites-navigation-link">Screenshots</a></div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/downloads" jotId="wuid:gx:19ca24e3c9b23b1a" class="sites-navigation-link">Downloads</a></div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/contact" jotId="wuid:gx:2682c13d3d043499" class="sites-navigation-link">Contact us</a></div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/legal" jotId="wuid:gx:77c2ee3613fb2cc2" class="sites-navigation-link">Legal</a></div></li>
+<li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2258cc2a13247b09" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="COMP_22101909201592207" class="sites-embed"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><img src="http://www.puredarwin.org/_/rsrc/1211558361866/config/app/images/hi-medium.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px" /> The goal of this project is to make Darwin more usable by providing an installation ISO, documentation, and add-on software. You are welcome to join #puredarwin on irc.freenode.net if you would like to join PureDarwin development and to add to this site.</div></div></div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="COMP_8098985916003585" class="sites-embed"><h4 class="sites-embed-title">Recent site activity</h4><div class="sites-embed-content sites-sidebar-recent-activity"><ul><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 1.3 beta release</a><div><span class="sites-text-secondary">edited by PD admin</span></div><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div></li><li><a jotid="wuid:gx:48db54bc6a1c5a93" dir="ltr" href="http://www.puredarwin.org/news/newpuredarwin9l30betarelease">New PureDarwin 9L30 beta release</a><div><span class="sites-text-secondary">edited by Daniel Bethe</span></div><div><span class="sites-text-secondary">created by PD admin</span></div></li><li><a jotid="wuid:gx:117960ccf6cea3d3" dir="ltr" href="http://www.puredarwin.org/news">News</a><div><span class="sites-text-secondary">edited by Ferdinand Klinzer</span></div></li><li><a jotid="wuid:gx:30ad1d3f494a9d46" dir="ltr" href="http://www.puredarwin.org/developers/vmware">VMware</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li><a jotid="wuid:gx:52a0425ce78e58d8" dir="ltr" href="http://www.puredarwin.org/news/pcnet32-driver-for-puredarwin">PCnet32 driver for PureDarwin</a><div><span class="sites-text-secondary">edited by PD admin</span></div></li><li class="sites-sidebar-recent-activity-viewall"><a href="/system/app/pages/recentChanges">View All</a></li></ul></div></div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08458635257557034" class="sites-embed"><div class="sites-embed-content-notitle"><span jotId="content"><p><script type="text/javascript">
@@ -131,30 +126,57 @@ google_color_text="5E6A72";
 <div id="sites-canvas">
 <div id="goog-ws-editor-toolbar-container"> </div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
-<A dir="ltr" href="/downloads">Downloads</A>‎ &gt; ‎
+<A dir="ltr" href="/downloads">Downloads</A>  &gt;  
   </div>
 <h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
 <span id="sites-page-title" dir="ltr">PureDarwin nano</span>
 </h3>
 <div id="sites-canvas-main" class="sites-canvas-main">
 <div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div dir="ltr">This page describes the minimal components needed for a minimal PureDarwin system (also known as "PureDarwin nano"). 
-        
-        
-  
-
-        
-      
-        
-        
-      
-          <div><br /></div><div>
-<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:300px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Download"><strong>1 </strong>Download</a></li><li class="goog-toc"><a href="#TOC-Components"><strong>2 </strong>Components</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Bootloader"><strong>2.1 </strong>Bootloader</a></li><li class="goog-toc"><a href="#TOC-Installer"><strong>2.2 </strong>Installer</a></li><li class="goog-toc"><a href="#TOC-Interactive-mode"><strong>2.3 </strong>Interactive mode</a></li></ol></li><li class="goog-toc"><a href="#TOC-Virtual-machine"><strong>3 </strong>Virtual machine</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-VMware"><strong>3.1 </strong>VMware</a></li><li class="goog-toc"><a href="#TOC-QEMU"><strong>3.2 </strong>QEMU</a></li></ol></li></ol></div></div></div></div><br />This system is a <span style="font-weight:bold">proof-of-concept</span> of a minimal bootable Darwin 9 system that can be built from the components that Apple provides through the <a href="http://darwinbuild.macosforge.org/" rel="nofollow" target="_blank">DarwinBuild</a> project.<br /><br /><div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/puredarwin.jpg?attredirects=0" style="border-width:0px;background-color:transparent"><img src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/puredarwin.jpg" style="border-width:0px" /></a></div></div><h2><a name="TOC-Download"></a>Download</h2><div>A ready-made VMware virtual machine containing a minimal Darwin 9 system (PureDarwin nano (based on 9C31)) can be downloaded <a href="http://www.puredarwin.org/downloads" style="color:rgb(85,26,139);outline-style:none">here</a>.</div><div><span style="font-family:courier new,monospace;font-size:small">MD5 (puredarwinnano0df46.tbz2) = f6853449e263dd83bba0ac9662f29143</span></div><div><font face="'courier new', monospace"><span style="font-size:small">SHA1 (puredarwinnano0df46.tbz2) = 7a32331fcb443538f0737c172160f3cef6067ec9</span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div><div><font face="'courier new', monospace"><span style="font-size:small"><span style="font-family:Arial,Verdana,sans-serif;font-size:13px"><div>The virtual machine contains an ISO that could be used on real hardware as well.</div></span></span></font></div><h2><a name="TOC-Components"></a>Components</h2>
-<div>Here is what such a minimal system needs to consist of:</div><div><br /></div>
-<div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/Bild%202.png?attredirects=0" style="border-width:0px;background-color:transparent"><img src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/Bild%202.png" style="border-width:0px" /></a></div><div style="display:block;text-align:left"><br /></div></div>
-<div><span style="text-decoration:underline">Notes:</span> <a href="http://www.puredarwin.org/developers/xnu/ps2-controller">VoodooPS2*</a> or (exclusively) <a href="http://code.google.com/p/puredarwin/source/browse/Roots/pd/ACPIPS2Nub.root.tar.gz" target="_blank">ACPIPS2Nub.kext</a> and <a href="http://code.google.com/p/puredarwin/source/browse/Roots/pd/ApplePS2Controller.root.tar.gz" rel="nofollow" style="color:rgb(78,125,191);outline-style:none" target="_blank">ApplePS2Controller.kext</a> (<a href="http://tgwbd.org/darwin/extensions.html" rel="nofollow">sources</a>) are only required if you want to use a PS/2 keyboard and/or mouse.</div><div>The number of files can be further brought down by using a <a href="http://www.puredarwin.org/developers/xnu">prelinked mach_kernel</a>. This removes the need for the System directory.</div><div>Using <span style="font-style:italic">kextcache</span>, the boot process can be faster, the image bigger.<br /></div>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div dir="ltr">This page describes the minimal components needed for a minimal PureDarwin system (also known as "PureDarwin nano").
+<div><br /></div>
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:300px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Download"><strong>1 </strong>Download</a></li>
+<li class="goog-toc"><a href="#TOC-Components"><strong>2 </strong>Components</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Bootloader"><strong>2.1 </strong>Bootloader</a></li>
+<li class="goog-toc"><a href="#TOC-Installer"><strong>2.2 </strong>Installer</a></li>
+<li class="goog-toc"><a href="#TOC-Interactive-mode"><strong>2.3 </strong>Interactive mode</a></li></ol></li>
+<li class="goog-toc"><a href="#TOC-Virtual-machine"><strong>3 </strong>Virtual machine</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-VMware"><strong>3.1 </strong>VMware</a></li>
+<li class="goog-toc"><a href="#TOC-QEMU"><strong>3.2 </strong>QEMU</a></li></ol></li></ol></div></div></div></div><br />
+This system is a <span style="font-weight:bold">proof-of-concept</span> of a minimal bootable Darwin 9 system that can be built from the components that Apple provides through the <a href="http://darwinbuild.macosforge.org/" rel="nofollow" target="_blank">DarwinBuild</a> project.<br /><br />
+<div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/puredarwin.jpg?attredirects=0" style="border-width:0px;background-color:transparent"><img src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/puredarwin.jpg" style="border-width:0px" /></a></div></div>
+<h2><a name="TOC-Download"></a>Download</h2>
+<div>A ready-made VMware virtual machine containing a minimal Darwin 9 system (PureDarwin nano (based on 9C31)) can be downloaded <a href="http://www.puredarwin.org/downloads" style="color:rgb(85,26,139);outline-style:none">here</a>.</div>
+<div><span style="font-family:courier new,monospace;font-size:small">MD5 (puredarwinnano0df46.tbz2) = f6853449e263dd83bba0ac9662f29143</span></div>
+<div><font face="'courier new', monospace"><span style="font-size:small">SHA1 (puredarwinnano0df46.tbz2) = 7a32331fcb443538f0737c172160f3cef6067ec9</span></font></div>
+<div><font face="'courier new', monospace"><span style="font-size:small"><br /></span></font></div>
+<div><font face="'courier new', monospace"><span style="font-size:small"><span style="font-family:Arial,Verdana,sans-serif;font-size:13px"><div>The virtual machine contains an ISO that could be used on real hardware as well.</div></span></span></font></div>
+<h2><a name="TOC-Components"></a>Components</h2>
+<div>Here is what such a minimal system needs to consist of:</div>
+<div><br /></div>
+<div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/Bild%202.png?attredirects=0" style="border-width:0px;background-color:transparent"><img src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/Bild%202.png" style="border-width:0px" /></a></div>
+<div style="display:block;text-align:left"><br /></div></div>
+<div><span style="text-decoration:underline">Notes:</span> <a href="http://www.puredarwin.org/developers/xnu/ps2-controller">VoodooPS2*</a> or (exclusively) <a href="http://code.google.com/p/puredarwin/source/browse/Roots/pd/ACPIPS2Nub.root.tar.gz" target="_blank">ACPIPS2Nub.kext</a> and <a href="http://code.google.com/p/puredarwin/source/browse/Roots/pd/ApplePS2Controller.root.tar.gz" rel="nofollow" style="color:rgb(78,125,191);outline-style:none" target="_blank">ApplePS2Controller.kext</a> (<a href="http://tgwbd.org/darwin/extensions.html" rel="nofollow">sources</a>) are only required if you want to use a PS/2 keyboard and/or mouse.</div>
+<div>The number of files can be further brought down by using a <a href="http://www.puredarwin.org/developers/xnu">prelinked mach_kernel</a>. This removes the need for the System directory.</div>
+<div>Using <span style="font-style:italic">kextcache</span>, the boot process can be faster, the image bigger.<br /></div>
 <h3><a name="TOC-Bootloader"></a>Bootloader</h3>
-<div>Of course, the system needs to be made bootable by <a href="http://www.puredarwin.org/developers/booting/boot">boot</a> and/or <a href="http://www.puredarwin.org/developers/booting/efiboot">efiboot</a>. </div><div>Chameleon is reported to work.</div><div><h3><a name="TOC-Installer"></a>Installer</h3><div>An installer is currently being prepared.</div><h3><a name="TOC-Interactive-mode"></a>Interactive mode</h3><div>An interactive shell is run by default. In fact, <span style="font-family:courier new,monospace"><span style="font-size:small">/sbin/launchd</span></span> is replaced by a shell script that runs <span style="font-family:courier new,monospace"><span style="font-size:small">/bin/bash</span></span></div><div><br /></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/bash%20interactive%20mode%20in%20nano.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/bash%20interactive%20mode%20in%20nano.png" /></a></div><br /></div><div>The Z shell (zsh) is also usable as an interactive UNIX command interpreter (shell).</div><div><br /></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/VMware%20running%20PureDarwin%20nano%20with%20interactive%20commands.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/VMware%20running%20PureDarwin%20nano%20with%20interactive%20commands.png" /></a></div></div><div><h2><a name="TOC-Virtual-machine"></a>Virtual machine</h2><div><div>"PureDarwin nano" reported to work with VMware products (Fusion and Player), QEMU and VirtualBox<br /></div><div>See <a href="http://www.puredarwin.org/developers/vmware" style="color:rgb(78,125,191);outline-style:none">VMware</a> page, <a href="http://www.puredarwin.org/developers/qemu" style="color:rgb(85,26,139);outline-style:none">QEMU</a> page and <a href="http://www.puredarwin.org/developers/virtualbox">VirtualBox</a> page for more information.</div><h3><a name="TOC-VMware"></a>VMware</h3></div><div><span style="color:rgb(0,102,204)"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/nanovmwarelittlegray.png?attredirects=0" imageanchor="1" style="color:rgb(0,102,204);outline-style:none"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/nanovmwarelittlegray.png" style="border-width:0px" /></a></span></div><h3><a name="TOC-QEMU"></a>QEMU</h3><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/qemu%20running%20nano.png?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/qemu1.png?attredirects=0" imageanchor="1"><img border="0" height="321" src="http://www.puredarwin.org/_/rsrc/1254082132956/downloads/puredarwin-nano/qemu1.png?height=321&amp;width=420" width="420" /></a></div></div></div></div></div>
+<div>Of course, the system needs to be made bootable by <a href="http://www.puredarwin.org/developers/booting/boot">boot</a> and/or <a href="http://www.puredarwin.org/developers/booting/efiboot">efiboot</a>. </div>
+<div>Chameleon is reported to work.</div>
+<div><h3><a name="TOC-Installer"></a>Installer</h3>
+<div>An installer is currently being prepared.</div>
+<h3><a name="TOC-Interactive-mode"></a>Interactive mode</h3>
+<div>An interactive shell is run by default. In fact, <span style="font-family:courier new,monospace"><span style="font-size:small">/sbin/launchd</span></span> is replaced by a shell script that runs <span style="font-family:courier new,monospace"><span style="font-size:small">/bin/bash</span></span></div>
+<div><br /></div>
+<div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/bash%20interactive%20mode%20in%20nano.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/bash%20interactive%20mode%20in%20nano.png" /></a></div><br /></div>
+<div>The Z shell (zsh) is also usable as an interactive UNIX command interpreter (shell).</div>
+<div><br /></div>
+<div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/VMware%20running%20PureDarwin%20nano%20with%20interactive%20commands.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/VMware%20running%20PureDarwin%20nano%20with%20interactive%20commands.png" /></a></div></div>
+<div><h2><a name="TOC-Virtual-machine"></a>Virtual machine</h2>
+<div><div>"PureDarwin nano" reported to work with VMware products (Fusion and Player), QEMU and VirtualBox<br /></div>
+<div>See <a href="http://www.puredarwin.org/developers/vmware" style="color:rgb(78,125,191);outline-style:none">VMware</a> page, <a href="http://www.puredarwin.org/developers/qemu" style="color:rgb(85,26,139);outline-style:none">QEMU</a> page and <a href="http://www.puredarwin.org/developers/virtualbox">VirtualBox</a> page for more information.</div>
+<h3><a name="TOC-VMware"></a>VMware</h3></div>
+<div><span style="color:rgb(0,102,204)"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/nanovmwarelittlegray.png?attredirects=0" imageanchor="1" style="color:rgb(0,102,204);outline-style:none"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234090957898/downloads/puredarwin-nano/nanovmwarelittlegray.png" style="border-width:0px" /></a></span></div>
+<h3><a name="TOC-QEMU"></a>QEMU</h3>
+<div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/qemu%20running%20nano.png?attredirects=0" imageanchor="1"></a><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/downloads/puredarwin-nano/qemu1.png?attredirects=0" imageanchor="1"><img border="0" height="321" src="http://www.puredarwin.org/_/rsrc/1254082132956/downloads/puredarwin-nano/qemu1.png?height=321&amp;width=420" width="420" /></a></div></div></div></div></div>
 </div>
 </div></div></div></td></tr></tbody></table>
 </div> 

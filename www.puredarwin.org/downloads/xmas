@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:3a530cd182119f40","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:19ca24e3c9b23b1a","revision":42,"title":"PureDarwin Xmas","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"xmas","path":"/downloads/xmas","isSiteRtlLocale":false,"parentPath":"/downloads"};
 webspace.page.breadcrumbs = [{"title":"Downloads","dir":"ltr","path":"/downloads","deleted":false},{"title":"PureDarwin Xmas","dir":"ltr","path":"/downloads/xmas","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -131,7 +121,7 @@ google_color_text="5E6A72";
 <div id="sites-canvas">
 <div id="goog-ws-editor-toolbar-container"> </div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
-<A dir="ltr" href="/downloads">Downloads</A>‎ &gt; ‎
+<A dir="ltr" href="/downloads">Downloads</A>  &gt;  
   </div>
 <h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
 <span id="sites-page-title" dir="ltr">PureDarwin Xmas</span>
@@ -151,19 +141,23 @@ google_color_text="5E6A72";
 </div>
 <div><br />
 </div>
-<div><a href="http://en.wikipedia.org/wiki/Darwin_%28operating_system%29" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)">Darwin</a> is the Open Source operating system from Apple that forms the basis for Mac OS X, and PureDarwin is a community project to make Darwin more usable (some people think of it as the informal successor to OpenDarwin). One current goal of this project is to provide a bootable ISO of Darwin 9.x (the version that corresponds to 10.5.x Leopard). Another goal of this project is to provide additional documentation. <a href="http://www.puredarwin.org/welcome/about" style="color:rgb(0,102,204);outline-style:none;outline-width:initial;outline-color:initial">More</a>...</div>
+<div><a href="http://en.wikipedia.org/wiki/Darwin_%28operating_system%29" style="outline-style:none;outline-width:initial;outline-color:initial;color:rgb(85,26,139)">Darwin</a> is the Open Source operating system from Apple that forms the basis for Mac OS X, and PureDarwin is a community project to make Darwin more usable (some people think of it as the informal successor to OpenDarwin). One current goal of this project is to provide a bootable ISO of Darwin 9.x (the version that corresponds to 10.5.x Leopard). Another goal of this project is to provide additional documentation. <a href="http://www.puredarwin.org/welcome/about" style="color:rgb(0,102,204);outline-style:none;outline-width:initial;outline-color:initial">More</a>...</div>
 <div>
 <br />
 </div>
 <div>
-<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:399px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Download"><strong>1 </strong>Download</a></li><li class="goog-toc"><a href="#TOC-Showcase"><strong>2 </strong>Showcase</a></li><li class="goog-toc"><a href="#TOC-Known-issues"><strong>3 </strong>Known issues</a></li><li class="goog-toc"><a href="#TOC-Frequently-asked-questions"><strong>4 </strong>Frequently asked questions</a></li><li class="goog-toc"><a href="#TOC-Screenshots"><strong>5 </strong>Screenshots</a></li></ol></div></div></div></div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:399px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Download"><strong>1 </strong>Download</a></li>
+<li class="goog-toc"><a href="#TOC-Showcase"><strong>2 </strong>Showcase</a></li>
+<li class="goog-toc"><a href="#TOC-Known-issues"><strong>3 </strong>Known issues</a></li>
+<li class="goog-toc"><a href="#TOC-Frequently-asked-questions"><strong>4 </strong>Frequently asked questions</a></li>
+<li class="goog-toc"><a href="#TOC-Screenshots"><strong>5 </strong>Screenshots</a></li></ol></div></div></div></div>
 <br />
 </div>
 <h3><a name="TOC-Download"></a><font size="3">Download</font></h3>
 <div>
-<ul><li><a href="http://code.google.com/p/puredarwin/downloads/detail?name=puredarwinxmas.tar.xz">XZ-compressed TAR archive</a> (hosted on Google Code) - SHA-1 checksum: 
+<ul><li><a href="http://code.google.com/p/puredarwin/downloads/detail?name=puredarwinxmas.tar.xz">XZ-compressed TAR archive</a> (hosted on Google Code) - SHA-1 checksum: 
 <span style="font-family:arial,sans-serif;white-space:nowrap">80f88f44cc540ea05aa847bb18b94bdd133b6c07</span></li>
-<li><a href="http://xref.puredarwin.org/puredarwinxmas.tar.bz2">BZip2-compressed TAR archive</a> (hosted on XRef) - MD5 checksum: fd0ade4da224475e5dc33c2c11d9d0bc</li></ul>
+<li><a href="http://xref.puredarwin.org/puredarwinxmas.tar.bz2">BZip2-compressed TAR archive</a> (hosted on XRef) - MD5 checksum: fd0ade4da224475e5dc33c2c11d9d0bc</li></ul>
 </div>
 <div><a href="http://www.puredarwin.org/developers/vmware">VMware</a> Fusion 2 virtual machine or <a href="http://www.puredarwin.org/developers/virtualbox">VirtualBox</a></div>
 <div>
@@ -172,7 +166,7 @@ google_color_text="5E6A72";
 <div>
 <ul><li>with VMware</li>
 <ul><li>Darwin 9 boots in a VMware Fusion 2 virtual machine on a Macintosh</li>
-<li>DTrace </li>
+<li>DTrace </li>
 <li>X11</li>
 <li>ZFS</li></ul>
 <li>with VirtualBox</li>
@@ -190,10 +184,10 @@ google_color_text="5E6A72";
 <li style="padding:1px 0px">Lots of error messages during the boot process</li>
 <li style="padding:1px 0px">X11 does not work with mach_kernel.voodoo</li>
 <li style="padding:1px 0px">WindowMaker will not be the default WM</li>
-<li style="padding:1px 0px">halt doesn't work reliably, "shutdown -h now" doesn't work reliably</li>
+<li style="padding:1px 0px">halt does NOT work reliably, "shutdown -h now" does NOT work reliably</li>
 <li style="padding:1px 0px">/var/log gets filled quickly</li>
 <li style="padding:1px 0px">No network</li>
-<li style="padding:1px 0px">Due to a <a href="http://communities.vmware.com/thread/183426" target="_blank">restriction</a> of VMware Fusion 2.0.1, you cannot run PureDarwin Xmas on 32-bit CPUs such as the Core Duo in the first-generation Intel Macs (Thanks gireesh). However, you can downgrade to VMware Fusion 2.0.0 which <span style="font-family:arial">seems to run Darwin fine on a 32-bit CPU (thanks Stuart).</span></li>
+<li style="padding:1px 0px">Due to a <a href="http://communities.vmware.com/thread/183426" target="_blank">restriction</a> of VMware Fusion 2.0.1, you cannot run PureDarwin Xmas on 32-bit CPUs such as the Core Duo in the first-generation Intel Macs (Thanks gireesh). However, you can downgrade to VMware Fusion 2.0.0 which <span style="font-family:arial">seems to run Darwin fine on a 32-bit CPU (thanks Stuart).</span></li>
 </ul>
 <div>Want to help us on these? Check out the code from svn or hg repository and start hacking...</div>
 </div>
@@ -205,7 +199,7 @@ google_color_text="5E6A72";
 <ul><li><span style="font-weight:bold">What is PureDarwin Xmas?<br />
 </span>This is a developer preview to get people interested in PureDarwin and to attract developers.<br />
 It is intended to run on VMware Fusion 2 on Macintosh.<br />
-We call this developer preview "Xmas" because it contains X11, and after all it's Christmas time.</li>
+We call this developer preview "Xmas" because it contains X11, and after all it was Christmas time when it was released.</li>
 <li><span style="font-weight:bold">Is this close to what the final PureDarwin will be?<br />
 </span>Not at all. It is just a proof-of-concept to show that Darwin 9 is alive.</li>
 <li><span style="font-weight:bold">Is this an Apple product?<br />
@@ -213,7 +207,7 @@ We call this developer preview "Xmas" because it contains X11, and after all it'
 <li><span style="font-weight:bold">Which license is this under?<br />
 </span>This is a distribution that packages various individual parts. What the PureDarwin project has done from scratch is generally licensed under the new BSD license. However, most parts come from upstream (Apple and third-party) projects and are licensed under their respective licenses, such as the APSL, the Apple Driver License, the GPL, and others.</li>
 <li><span style="font-weight:bold">Where are the sources?</span><br />
-Sources for Darwin can be found at <a href="http://opensource.apple.com/" target="_blank">http://opensource.apple.com</a> and <a href="http://darwinbuild.macosforge.org/" target="_blank">http://darwinbuild.macosforge.org/</a>, sources for third-party software can be found at <a href="http://www.macports.org/" target="_blank">http://www.macports.org/</a> , and sources from the PureDarwin project can be found at <a href="http://code.google.com/p/puredarwin/source/checkout" target="_blank">http://code.google.com/p/puredarwin/source/checkout</a> </li>
+Sources for Darwin can be found at <a href="http://opensource.apple.com/" target="_blank">http://opensource.apple.com</a> and <a href="http://darwinbuild.macosforge.org/" target="_blank">http://darwinbuild.macosforge.org/</a>, sources for third-party software can be found at <a href="http://www.macports.org/" target="_blank">http://www.macports.org/</a> , and sources from the PureDarwin project can be found at <a href="http://code.google.com/p/puredarwin/source/checkout" target="_blank">http://code.google.com/p/puredarwin/source/checkout</a> </li>
 <li><span style="font-weight:bold">How do I contact the PureDarwin project?<br />
 </span>We are on #puredarwin on irc.freenode.net most of the time, and this is our preferred communications channel. We also read the Darwin mailing lists, especially darwin-dev and darwinbuild-dev.</li>
 </ul>
@@ -221,12 +215,12 @@ Sources for Darwin can be found at <a href="http://opensource.apple.com/" target
 <table border="1" bordercolor="#888888" cellspacing="0" style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse">
 <tbody>
 <tr>
-<td style="width:60px;background-color:rgb(102,0,0);text-align:center"> <span style="color:rgb(238,238,238)">X11</span></td>
-<td style="width:60px;background-color:rgb(39,78,19);text-align:center"> <span style="color:rgb(238,238,238)">DTrace</span></td>
+<td style="width:60px;background-color:rgb(102,0,0);text-align:center"> <span style="color:rgb(238,238,238)">X11</span></td>
+<td style="width:60px;background-color:rgb(39,78,19);text-align:center"> <span style="color:rgb(238,238,238)">DTrace</span></td>
 </tr>
 <tr>
-<td style="width:60px;background-color:rgb(7,55,99);text-align:center"> <span style="color:rgb(238,238,238)">ZFS</span></td>
-<td style="width:60px;background-color:rgb(127,96,0);text-align:center"> <span style="color:rgb(238,238,238)">Darwin</span></td>
+<td style="width:60px;background-color:rgb(7,55,99);text-align:center"> <span style="color:rgb(238,238,238)">ZFS</span></td>
+<td style="width:60px;background-color:rgb(127,96,0);text-align:center"> <span style="color:rgb(238,238,238)">Darwin</span></td>
 </tr>
 </tbody>
 </table>

@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:6fda8b50c98da832","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:77c2ee3613fb2cc2","revision":4,"title":"APSL","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"apsl","path":"/legal/apsl","isSiteRtlLocale":false,"parentPath":"/legal"};
 webspace.page.breadcrumbs = [{"title":"Legal","dir":"ltr","path":"/legal","deleted":false},{"title":"APSL","dir":"ltr","path":"/legal/apsl","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -131,7 +121,7 @@ google_color_text="5E6A72";
 <div id="sites-canvas">
 <div id="goog-ws-editor-toolbar-container"> </div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
-<A dir="ltr" href="/legal">Legal</A>‎ &gt; ‎
+<A dir="ltr" href="/legal">Legal</A>  &gt;  
   </div>
 <h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
 <span id="sites-page-title" dir="ltr">APSL</span>
@@ -145,7 +135,7 @@ For a quick first glance, here is an excerpt (emphasis added):
 <div>2. (...) Apple hereby grants You, (...) a world-wide, royalty-free, non-exclusive license (...) to do the following:<br />
 <br />
 
-2.1 Unmodified Code. </div>
+2.1 Unmodified Code. </div>
 <div><span style="font-weight:bold">You may (...) Externally Deploy verbatim, unmodified copies</span> of the Original Code, for commercial or non-commercial purposes, provided that in each instance:<br />
 
 (a) You must retain (...) the <span style="font-weight:bold">copyright and other proprietary notices</span> (...)<br />
@@ -153,18 +143,18 @@ For a quick first glance, here is an excerpt (emphasis added):
 (b) You must <span style="font-weight:bold">include a copy of this License</span> (...) and You may not (...) alter or restrict this License (...)<br />
 <br />
 
-2.2	Modified Code. </div>
+2.2	Modified Code. </div>
 <div><span style="font-weight:bold">You may modify (...) and Externally Deploy Your Modifications</span> and Covered Code, for commercial or non-commercial purposes, provided that (...):<br />
 
 (a) You must <span style="font-weight:bold">satisfy all the conditions of Section 2.1</span> (...)<br />
 
 (b) You must duplicate (...) the <span style="font-weight:bold">notice in Exhibit A</span> in each file of the Source Code of all Your Modifications, and cause the modified files to carry prominent <span style="font-weight:bold">notices stating that You changed the files and the date of any change</span>; and<br />
 
-(c) If You Externally Deploy Your Modifications, You must <span style="font-weight:bold">make Source Code</span> (...) <span style="font-weight:bold">available</span> (...)<span style="font-weight:bold"> </span>under the terms set forth in this License, including the license grants set forth in Section 3 below (...).<br />
+(c) If You Externally Deploy Your Modifications, You must <span style="font-weight:bold">make Source Code</span> (...) <span style="font-weight:bold">available</span> (...)<span style="font-weight:bold"> </span>under the terms set forth in this License, including the license grants set forth in Section 3 below (...).<br />
 <br />
 
-2.3 Distribution of Executable Versions. </div>
-<div>(...) must include a prominent notice, in the code itself as well as in related documentation, stating that Source Code of the Covered Code is available under the terms of this License with <span style="font-weight:bold">information on how and where to obtain</span> (...) <span style="font-weight:bold">Source Code</span>.<br /><br />
+2.3 Distribution of Executable Versions. </div>
+<div>(...) must include a prominent notice, in the code itself as well as in related documentation, stating that Source Code of the Covered Code is available under the terms of this License with <span style="font-weight:bold">information on how and where to obtain</span> (...) <span style="font-weight:bold">Source Code</span>.<br /><br />
 </div><div>3. Your Grants. <br />(...) You hereby <span style="font-weight:bold">grant</span> (...) a non-exclusive, royalty-free, perpetual, irrevocable <span style="font-weight:bold">license</span>, (...) of the same scope and extent as Apple's licenses under Sections 2.1 and 2.2 above.<br /><br />
 
 4. Larger Works. <br />You <span style="font-weight:bold">may create a Larger Work</span> by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product. (...)<br /><br /></div>

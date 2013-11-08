@@ -144,16 +144,16 @@ google_color_text="5E6A72";
 <div><div><span style="font-family:courier new,monospace"><span style="font-size:small">darwinbuild darwinbuild</span></span></div>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">ERROR: project not found: darwinbuild</span></span></div>
 <div><br /></div>
-<div>Somebody needs to fix that (<span style="font-weight:bold">TODO:</span> add darwinbuild)</div></div>
+<div>Somebody will need to fix that (<span style="font-weight:bold">TODO:</span> add darwinbuild plist for darwinbuild itself)</div></div>
 <h3><a name="TOC-Compiling-Darwinbuild-in-a-PureDarwin-chroot"></a>Compiling Darwinbuild in a PureDarwin chroot</h3>
-<div>See <a href="http://www.puredarwin.org/developers/macports/macportsonpuredarwin">Deploying MacPorts on PureDarwin</a> for some prerequisites (gcc stuff and some usefull dev tools).</div>
+<div>See <a href="http://www.puredarwin.org/developers/macports/macportsonpuredarwin">Deploying MacPorts on PureDarwin</a> for some prerequisites (gcc stuff and some useful dev tools).</div>
 <div><br /></div>
 <div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cd /Volumes/PureDarwin<br /></span></span><br /></div>
 <div>These dependencies will be needed:</div></div>
 <div><div><span style="font-family:courier new,monospace"><span style="font-size:small">tar xzvf /Volumes/Builds/9G55/Roots/.DownloadCache/libdyld.root.tar.gz                    </span></span></div>
 <div><div><span style="font-family:courier new,monospace"><span style="font-size:small">tar xzvf /Volumes/Builds/9G55/Roots/.DownloadCache/Libsyscall.root.tar.gz</span></span></div>
 <div><br /></div></div>
-<div><div>We will temporary grab an old trick used by darwinbuild previously in order to avoid some project to raise this error: </div></div>
+<div><div>We will temporarily grab an old trick used by darwinbuild previously in order to avoid some project to raise this error: </div></div>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">/bin/sh: dsymutil: command not found</span></span></div>
 <div><div><br /></div>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">chroot .</span></span></div>

@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:32264632c25512f1","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:37324d672479c184","revision":5,"title":"Deploying DarwinBuild on PureDarwin","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"darwinbuildonpuredarwin","path":"/developers/darwinbuild/darwinbuildonpuredarwin","isSiteRtlLocale":false,"parentPath":"/developers/darwinbuild"};
 webspace.page.breadcrumbs = [{"title":"For developers","dir":"ltr","path":"/developers","deleted":false},{"title":"Using DarwinBuild","dir":"ltr","path":"/developers/darwinbuild","deleted":false},{"title":"Deploying DarwinBuild on PureDarwin","dir":"ltr","path":"/developers/darwinbuild/darwinbuildonpuredarwin","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -131,16 +121,51 @@ google_color_text="5E6A72";
 <div id="sites-canvas">
 <div id="goog-ws-editor-toolbar-container"> </div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
-<A dir="ltr" href="/developers">For developers</A>‎ &gt; ‎<A dir="ltr" href="/developers/darwinbuild">Using DarwinBuild</A>‎ &gt; ‎
+<A dir="ltr" href="/developers">For developers</A> &gt; <A dir="ltr" href="/developers/darwinbuild">Using DarwinBuild</A> &gt; 
   </div>
 <h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
 <span id="sites-page-title" dir="ltr">Deploying DarwinBuild on PureDarwin</span>
 </h3>
 <div id="sites-canvas-main" class="sites-canvas-main">
 <div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">This page is about attempting to run DarwinBuild on a PureDarwin system (consequently, making PureDarwin a bit more self-hosted).<div><span style="color:rgb(255,0,0)">This a work in progress.</span></div><br /><div>
-<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:350px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Get-Darwinbuild"><strong>1 </strong>Get Darwinbuild</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-SVN"><strong>1.1 </strong>SVN</a></li><li class="goog-toc"><a href="#TOC-MacPorts"><strong>1.2 </strong>MacPorts</a></li><li class="goog-toc"><a href="#TOC-DarwinBuild"><strong>1.3 </strong>DarwinBuild</a></li></ol></li><li class="goog-toc"><a href="#TOC-Compiling-Darwinbuild-in-a-PureDarwin-chroot"><strong>2 </strong>Compiling Darwinbuild in a PureDarwin chroot</a></li></ol></div></div></div></div>
-<br /></div><h3><a name="TOC-Get-Darwinbuild"></a>Get Darwinbuild</h3><h4><a name="TOC-SVN"></a>SVN</h4><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">svn co http://svn.macosforge.org/repository/darwinbuild/trunk darwinbuild</span></span></div></div><h4><a name="TOC-MacPorts"></a>MacPorts</h4><div><span style="font-family:courier new;font-size:12px">port archive darwinbuild</span></div><h4><a name="TOC-DarwinBuild"></a>DarwinBuild</h4><div>Unfortunately, there is no darwinbuild project in darwinbuild:</div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">darwinbuild darwinbuild</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">ERROR: project not found: darwinbuild</span></span></div><div><br /></div><div>Somebody needs to fix that (<span style="font-weight:bold">TODO:</span> add darwinbuild)</div></div><h3><a name="TOC-Compiling-Darwinbuild-in-a-PureDarwin-chroot"></a>Compiling Darwinbuild in a PureDarwin chroot</h3><div>See <a href="http://www.puredarwin.org/developers/macports/macportsonpuredarwin">Deploying MacPorts on PureDarwin</a> for some prerequisites (gcc stuff and some usefull dev tools).</div><div><br /></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cd /Volumes/PureDarwin<br /></span></span><br /></div><div>These dependencies will be needed:</div></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">tar xzvf /Volumes/Builds/9G55/Roots/.DownloadCache/libdyld.root.tar.gz                    </span></span></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">tar xzvf /Volumes/Builds/9G55/Roots/.DownloadCache/Libsyscall.root.tar.gz</span></span></div><div><br /></div></div><div><div>We will temporary grab an old trick used by darwinbuild previously in order to avoid some project to raise this error: </div></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/bin/sh: dsymutil: command not found</span></span></div><div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">chroot .</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cp /usr/bin/true /usr/bin/dsymutil</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">LDFLAGS=-L/opt/local/lib make</span></span></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">make install</span></span></div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cd somewhere</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">darwinbuild -init &lt;build version&gt;</span></span></div><div><span style="font-family:courier new;font-size:12px"><br /></span></div>o//<br /></div><div><br /></div><div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/darwinbuild/darwinbuildonpuredarwin/osxpddbmp_interact.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234069590942/developers/darwinbuild/darwinbuildonpuredarwin/osxpddbmp_interact.png" /></a></div><br /></div></div></div></div></td></tr></tbody></table>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">This page is about attempting to run DarwinBuild on a PureDarwin system (consequently, making PureDarwin a bit more self-hosted).<div><span style="color:rgb(255,0,0)">This a work in progress.</span></div><br />
+<div>
+<div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:350px;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-6"><p>Contents</p><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Get-Darwinbuild"><strong>1 </strong>Get Darwinbuild</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-SVN"><strong>1.1 </strong>SVN</a></li>
+<li class="goog-toc"><a href="#TOC-MacPorts"><strong>1.2 </strong>MacPorts</a></li>
+<li class="goog-toc"><a href="#TOC-DarwinBuild"><strong>1.3 </strong>DarwinBuild</a></li></ol></li>
+<li class="goog-toc"><a href="#TOC-Compiling-Darwinbuild-in-a-PureDarwin-chroot"><strong>2 </strong>Compiling Darwinbuild in a PureDarwin chroot</a></li></ol></div></div></div></div>
+<br /></div>
+<h3><a name="TOC-Get-Darwinbuild"></a>Get Darwinbuild</h3><h4><a name="TOC-SVN"></a>SVN</h4>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">svn co http://svn.macosforge.org/repository/darwinbuild/trunk darwinbuild</span></span></div></div>
+<h4><a name="TOC-MacPorts"></a>MacPorts</h4>
+<div><span style="font-family:courier new;font-size:12px">port archive darwinbuild</span></div>
+<h4><a name="TOC-DarwinBuild"></a>DarwinBuild</h4>
+<div>Unfortunately, there is no darwinbuild project in darwinbuild:</div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">darwinbuild darwinbuild</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">ERROR: project not found: darwinbuild</span></span></div>
+<div><br /></div>
+<div>Somebody needs to fix that (<span style="font-weight:bold">TODO:</span> add darwinbuild)</div></div>
+<h3><a name="TOC-Compiling-Darwinbuild-in-a-PureDarwin-chroot"></a>Compiling Darwinbuild in a PureDarwin chroot</h3>
+<div>See <a href="http://www.puredarwin.org/developers/macports/macportsonpuredarwin">Deploying MacPorts on PureDarwin</a> for some prerequisites (gcc stuff and some usefull dev tools).</div>
+<div><br /></div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">cd /Volumes/PureDarwin<br /></span></span><br /></div>
+<div>These dependencies will be needed:</div></div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">tar xzvf /Volumes/Builds/9G55/Roots/.DownloadCache/libdyld.root.tar.gz                    </span></span></div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">tar xzvf /Volumes/Builds/9G55/Roots/.DownloadCache/Libsyscall.root.tar.gz</span></span></div>
+<div><br /></div></div>
+<div><div>We will temporary grab an old trick used by darwinbuild previously in order to avoid some project to raise this error: </div></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">/bin/sh: dsymutil: command not found</span></span></div>
+<div><div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">chroot .</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">cp /usr/bin/true /usr/bin/dsymutil</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">LDFLAGS=-L/opt/local/lib make</span></span></div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">make install</span></span></div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">cd somewhere</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">darwinbuild -init &lt;build version&gt;</span></span></div>
+<div><span style="font-family:courier new;font-size:12px"><br /></span></div>o//<br /></div>
+<div><br /></div>
+<div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/developers/darwinbuild/darwinbuildonpuredarwin/osxpddbmp_interact.png?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1234069590942/developers/darwinbuild/darwinbuildonpuredarwin/osxpddbmp_interact.png" /></a></div><br /></div></div></div></div></td></tr></tbody></table>
 </div> 
 </div> 
 <div id="sites-canvas-bottom-panel">

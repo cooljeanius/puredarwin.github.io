@@ -262,7 +262,7 @@ google_color_text="5E6A72";
 <li>loading of unapproved partition or disk</li>
 <li>target disk mode at startup</li></ul>
 <h3><a name="TOC-BIOS"></a>BIOS</h3></div>
-<div>"Cliché", assign a BIOS password in order to prevent potential way to access the OS by booting alternative media.</div>
+<div>"Cliche", assign a BIOS password in order to prevent potential way to access the OS by booting alternative media.</div>
 <div><h3><a name="TOC-Fortify-single-user-mode"></a>Fortify single-user mode</h3>
 <h4><a name="TOC-Altering-rc.common-caution-"></a>Altering rc.common (caution)</h4>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">if [ "${BootType}" = "singleuser" ];then </span></span></div>
@@ -508,9 +508,9 @@ We can also find specific utilities for Darwin, or at least for Darwin's BSD sub
 <div><span style="font-family:courier new,monospace">&lt;user&gt; </span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">ALL=(ALL) ALL</span></div>
 <h3><a name="TOC-ACL"></a>ACL</h3>
 <div><h4><a name="TOC-Enable-file-ACL-on-the-root-file-system"></a>Enable file ACL on the root file system</h4>
-<div><span style="font-family:courier new,monospace">sudo fsaclctl –p / -e</span></div>
+<div><span style="font-family:courier new,monospace">sudo fsaclctl -p / -e</span></div>
 <h4><a name="TOC-Disable-file-ACL-on-the-root-file-system"></a>Disable file ACL on the root file system</h4>
-<div><span style="font-family:courier new,monospace">sudo fsaclctl –p / -d</span></div>
+<div><span style="font-family:courier new,monospace">sudo fsaclctl -p / -d</span></div>
 <h4><a name="TOC-Enable-user-based-ACL-for-a-file"></a>Enable user based ACL for a file</h4>
 <div>Read access:</div>
 <div><br /></div>
@@ -715,17 +715,18 @@ malloc_history inspects a given process and lists the malloc allocations perform
 <div><br /></div>
 <div><span style="font-family:inherit">-w options forces wider, detailed, output.</span></div>
 <div><br /></div>
-<div>FIXME<br /><h4 style="margin-top:10px;margin-bottom:10px;color:rgb(0,0,0);margin-left:10px;margin-right:0px"><a name="TOC-DTrace"></a>DTrace</h4>
+<div><div>FIXME<br /></div>
+<h4 style="margin-top:10px;margin-bottom:10px;color:rgb(0,0,0);margin-left:10px;margin-right:0px"><a name="TOC-DTrace"></a>DTrace</h4>
 <div><span style="font-family:Helvetica"><span style="font-size:small">The generic front-end to the DTrace facility is a powerfull dynamic debugger and analysis tool.<br />See the <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a> page.</span></span></div></div></div></div></div></div></div></div>
 <h3><a name="TOC-Recompiling-XNU"></a>Recompiling XNU</h3>
 <div>FIXME<br />See <a href="http://www.puredarwin.org/developers/xnu" style="outline-style:none;color:rgb(85,26,139)">The XNU kernel</a> page.</div>
-<div><h4><a name="TOC-Usefull-MacPorts"></a>Useful MacPorts<br /></h4></div>
+<div><h4><a name="TOC-Useful-MacPorts"></a>Useful MacPorts for Compiling XNU<br /></h4></div>
 <div><span style="font-family:courier new,monospace">kernel-tools sysutils/kernel-tools 8J2135 Tools required to build xnu for Intel <br />
 gcc_select sysutils/gcc_select 0.1 Switch the default compiler<br /><br />
 </span>
-<div>Note that kernel-tools has been removed from MacPorts. After kernel-tools installed, the compilation will <a href="http://failblog.org">fail</a> irremediably with some tool not found in /usr/local/bin/.</div>
+<div>Note that kernel-tools has been removed from MacPorts as of <a href="https://trac.macports.org/changeset/103232">https://trac.macports.org/changeset/103232</a>. To install it, see <a href="https://trac.macports.org/wiki/howto/InstallingOlderPort">InstallingOlderPort</a> and use the <a href="https://trac.macports.org/browser/trunk/dports/sysutils/kernel-tools/Portfile?rev=57375">old Portfile</a>, or use this fork: <a href="https://github.com/cooljeanius/LocalPorts/blob/master/sysutils/kernel-tools-slim/Portfile">https://github.com/cooljeanius/LocalPorts/blob/master/sysutils/kernel-tools-slim/Portfile</a>. After kernel-tools installs, the compilation of XNU will <a href="http://failblog.org">fail</a> irremediably if some of the tools that it installs are not found in /usr/local/bin/.</div>
 <div><br /></div>
-<div>A quick fix with symbolic links:</div>
+<div>A quick fix with symbolic links will produce output like this:</div>
 <div><br /><br /></div>
 <div><span style="font-family:courier new,monospace">/usr/local/bin/check_dylib-&gt;/opt/local/bin/check_dylib</span></div>
 <div><span style="font-family:courier new,monospace">/usr/local/bin/checksyms-&gt;/opt/local/bin/checksyms</span></div>
@@ -750,20 +751,149 @@ gcc_select sysutils/gcc_select 0.1 Switch the default compiler<br /><br />
 FIXME<br />
 <p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal">ProductName:<span style="white-space:pre"> </span>Mac OS X</p>
 <p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal">ProductVersion:<span style="white-space:pre"> </span>10.5.4</p>
-<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal">BuildVersion:<span style="white-space:pre"> </span>9E17</p><div><br /></div>gcc version:<br /><br /><div><span style="font-family:courier new,monospace">Using built-in specs.</span></div><div><span style="font-family:courier new,monospace">Target: i686-apple-darwin9</span></div><div><span style="font-family:courier new,monospace">Configured with: /var/tmp/gcc/gcc-5465~16/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9</span></div><div><span style="font-family:courier new,monospace">Thread model: posix</span></div><div><span style="font-family:courier new,monospace">gcc version 4.0.1 (Apple Inc. build 5465)</span></div><div><br /></div><h4><a name="TOC-Easy-compilation"></a>Easy compilation</h4>FIXME<br /><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:13px"><span style="font-family:courier new,monospace">make KERNEL_CONFIGS="RELEASE" all VERBOSE=YES<br /></span></span>FIXME<br /></p><h4><a name="TOC-After"></a>After</h4>FIXME<br /></div><h3><a name="TOC-Tweaking-XNU"></a>Tweaking XNU</h3><h4><a name="TOC-Secure-levels-la-OpenBSD-"></a>Secure levels "à la OpenBSD"</h4><div><span style="color:rgb(255,153,0)">This is not yet implemented nor investigated.</span></div><div><span style="font-family:arial,sans-serif"><span style="font-size:small">Some security concepts "à la OpenBSD" could be reused into Darwin, at least partially.</span></span></div><div><p style="margin:0.0px 0.0px 0.0px 0.0px;font:12.0px Helvetica"><span style="font-family:arial,sans-serif"><span style="font-size:small">Security levels well known in OpenBSD “world” is going to be partially (and step by step) introduced and reused into PureDarwin. <span style="font-family:Arial"><span>According to <a href="http://openbsd.org/" target="_blank">OpenBSD website</a>, “</span><span style="font-style:italic">Security levels essentially set how the kernel will handle system security</span>”.</span></span></span></p><p style="margin:0.0px 0.0px 0.0px 0.0px;font:12.0px Helvetica"><span style="font-family:arial;font-size:13px"><br /></span></p>
-<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><span style="font-family:arial,sans-serif"><span style="font-size:small">In OpenBSD, there are four security levels, from the less to the most secure level: -1, 0, 1, 2</span></span></p><div><span style="font-size:small">In PureDarwin, <span style="font-weight:bold">nyi</span>.</span></div><div><br /></div><div>In OpenBSD, securelevels are set from /etc/rc.securelevel</div><div>In PureDarwin, <span style="font-weight:bold">nyi. </span>securelevels are set from [unknown location/securelevel.plist]</div><div><br /></div><div>In OpenBSD, the end of the boot process is showing which security level is used.</div><div>In PureDarwin, <span style="font-weight:bold">nyi</span>.</div><div><br /></div>
-<div>In OpenBSD, <span style="font-family:courier new,monospace"><span style="font-size:small">sysctl kern.securelevel=x</span></span> can be used to adjust "on live" the security level. In order to adjust from a higher security level to a lower security level, a reboot is needed.</div><div>In PureDarwin, `sysctl' is reporting the option (<span style="font-weight:bold">but not yet tested</span>)</div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">kern.securelevel = 0</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">kern.securelevel: 0</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">kern.secure_kernel: 0</span></span></div><div><br /></div><div>In OpenBSD, securelevel -1: no additional kernel security features, nor restrictive permission. Not for production use.</div><div><div>In OpenBSD, securelevel 0: used at first boot. If securelevel 1 is set, it will be used after the boot process finish. There are no added features of securelevel 0.</div><div>In PureDarwin, ?</div><div><br /></div><div>In OpenBSD, securelevel 1: /dev/mem and /dev/kmem cannot be write. Raw disk are read-only. etc...</div><div><br /></div><div>In OpenBSD, securelevel 2: ...</div></div></div></div><h4><a name="TOC-Removing-debug-info"></a>Removing debug info</h4><div>FIXME.<br />Take care of MACH_DEBUG.<br /><br />According to <span style="font-family:Helvetica">osfmk/conf/MASTER configuration file:<br /><br /></span></div><div><span style="font-family:Helvetica"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace"># MACH_DEBUG enables the mach_debug_server, a message interface used to</span></p>
+<p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal">BuildVersion:<span style="white-space:pre"> </span>9E17</p>
+<div><br /></div>
+<div>gcc version:</div>
+<div><br /><br /></div>
+<div><span style="font-family:courier new,monospace">Using built-in specs.</span></div>
+<div><span style="font-family:courier new,monospace">Target: i686-apple-darwin9</span></div>
+<div><span style="font-family:courier new,monospace">Configured with: /var/tmp/gcc/gcc-5465~16/src/configure --disable-checking -enable-werror --prefix=/usr --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-transform-name=/^[cg][^.-]*$/s/$/-4.0/ --with-gxx-include-dir=/include/c++/4.0.0 --with-slibdir=/usr/lib --build=i686-apple-darwin9 --with-arch=apple --with-tune=generic --host=i686-apple-darwin9 --target=i686-apple-darwin9</span></div>
+<div><span style="font-family:courier new,monospace">Thread model: posix</span></div>
+<div><span style="font-family:courier new,monospace">gcc version 4.0.1 (Apple Inc. build 5465)</span></div>
+<div><br /></div>
+<h4><a name="TOC-Easy-compilation"></a>Easy compilation</h4>
+<div>FIXME<br /></div>
+<p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:12px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-size:13px"><span style="font-family:courier new,monospace">make KERNEL_CONFIGS="RELEASE" all VERBOSE=YES<br /></span></span>FIXME<br /></p>
+<h4><a name="TOC-After"></a>After</h4>
+<div>FIXME<br /></div></div>
+<h3><a name="TOC-Tweaking-XNU"></a>Tweaking XNU</h3><h4><a name="TOC-Secure-levels-la-OpenBSD-"></a>Secure levels "a la OpenBSD"</h4>
+<div><span style="color:rgb(255,153,0)">This is not yet implemented nor investigated.</span></div>
+<div><span style="font-family:arial,sans-serif"><span style="font-size:small">Some security concepts "a la OpenBSD" could be reused into Darwin, at least partially.</span></span></div>
+<div><p style="margin:0.0px 0.0px 0.0px 0.0px;font:12.0px Helvetica"><span style="font-family:arial,sans-serif"><span style="font-size:small">Security levels well known in OpenBSD “world” is going to be partially (and step by step) introduced and reused into PureDarwin. <span style="font-family:Arial"><span>According to <a href="http://openbsd.org/" target="_blank">OpenBSD website</a>, “</span><span style="font-style:italic">Security levels essentially set how the kernel will handle system security</span>”.</span></span></span></p>
+<p style="margin:0.0px 0.0px 0.0px 0.0px;font:12.0px Helvetica"><span style="font-family:arial;font-size:13px"><br /></span></p>
+<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><span style="font-family:arial,sans-serif"><span style="font-size:small">In OpenBSD, there are four security levels, from the less to the most secure level: -1, 0, 1, 2</span></span></p>
+<div><span style="font-size:small">In PureDarwin, <span style="font-weight:bold">nyi</span>.</span></div>
+<div><br /></div><div>In OpenBSD, securelevels are set from /etc/rc.securelevel</div>
+<div>In PureDarwin, <span style="font-weight:bold">nyi. </span>securelevels are set from [unknown location/securelevel.plist]</div>
+<div><br /></div>
+<div>In OpenBSD, the end of the boot process is showing which security level is used.</div>
+<div>In PureDarwin, <span style="font-weight:bold">nyi</span>.</div>
+<div><br /></div>
+<div>In OpenBSD, <span style="font-family:courier new,monospace"><span style="font-size:small">sysctl kern.securelevel=x</span></span> can be used to adjust "on live" the security level. In order to adjust from a higher security level to a lower security level, a reboot is needed.</div>
+<div>In PureDarwin, `sysctl' is reporting the option (<span style="font-weight:bold">but not yet tested</span>)</div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">kern.securelevel = 0</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">kern.securelevel: 0</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">kern.secure_kernel: 0</span></span></div>
+<div><br /></div><div>In OpenBSD, securelevel -1: no additional kernel security features, nor restrictive permission. Not for production use.</div>
+<div><div>In OpenBSD, securelevel 0: used at first boot. If securelevel 1 is set, it will be used after the boot process finish. There are no added features of securelevel 0.</div>
+<div>In PureDarwin, ?</div>
+<div><br /></div>
+<div>In OpenBSD, securelevel 1: /dev/mem and /dev/kmem cannot be written. Raw disk are read-only. etc...</div>
+<div><br /></div>
+<div>In OpenBSD, securelevel 2: ...</div></div></div></div>
+<h4><a name="TOC-Removing-debug-info"></a>Removing debug info</h4>
+<div><div>FIXME.<br /></div>
+<div>Take care of MACH_DEBUG.<br /><br /></div>
+<div>According to <span style="font-family:Helvetica">osfmk/conf/MASTER configuration file:<br /><br /></span></div></div>
+<div><span style="font-family:Helvetica"><p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace"># MACH_DEBUG enables the mach_debug_server, a message interface used to</span></p>
 <p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">retrieve or control various statistics. This interface may expose data</span></p>
 <p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">structures that would not normally be allowed outside the kernel, and</span></p>
 <p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">MUST NOT be enabled on a released configuration.<br />options</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">MACH_DEBUG</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">#</span></p>
 <p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">options</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">MACH_IPC_DEBUG</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">#</span></p>
 <p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">#</span></p>
-<p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">options</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">MACH_VM_DEBUG</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace"># &lt;debug&gt;<br /></span><br />FIXME</p></span></div><h3><a name="TOC-authorization-right"></a>authorization right</h3><div>FIXME</div><div>/etc/authorization</div><div><br /></div><div><br /></div><div><span style="color:rgb(0,0,0);text-decoration:none"><img height="96" src="http://www.hexley.com/images/hexley_450_pngs/hexley_worm_450.png" style="border-width:0px" width="96" /></span></div><h2><a name="TOC-Network"></a>Network</h2><h3><a name="TOC-Disable-IPv6"></a>Disable IPv6</h3><div><span style="font-family:courier new,monospace"><span style="font-size:small">networksetup -setv6off $iface</span></span><span style="font-size:small"><br /></span><h3><a name="TOC-ifconfig"></a>ifconfig</h3>Use a restrictive netmask.<br /><h3><a name="TOC-Detecting-promiscuous-mode"></a>Detecting promiscuous mode</h3>Several ways exist to detect promiscuous mode (potential running sniffer), you can use <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a>, simply parse `ifconfig' or even run a sniffer.<br /><br />Without promisc mode, ifconfig looks like<br /><br /><font><span style="font-family:courier new,monospace"><span style="font-size:small">/sbin/ifconfig en0</span></span></font><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">en0: flags=8863&lt;UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST&gt; mtu 1500</span></span></span></div><div><span><span style="color:rgb(102,102,102)"><span style="font-size:small">                </span></span></span><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">ether 00:19:**:**:**:**</span></span></span></div>
-<div><span><span style="color:rgb(102,102,102)"><span style="font-size:small">                 </span></span></span><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">media: autoselect status: inactive</span></span></span></div>
-<div><span><span style="color:rgb(102,102,102)"><span style="font-size:small">                </span></span></span><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">supported media: autoselect 10baseT/UTP &lt;half-duplex&gt; 10baseT/UTP &lt;full-duplex&gt; 10baseT/UTP &lt;full-duplex,hw-loopback&gt; 10baseT/UTP &lt;full-duplex,flow-control&gt; 100baseTX &lt;half-duplex&gt; 100baseTX &lt;full-duplex&gt; 100baseTX &lt;full-duplex,hw-loopback&gt; 100baseTX &lt;full-duplex,flow-control&gt; 1000baseT &lt;full-duplex&gt; 1000baseT &lt;full-duplex,hw-loopback&gt; 1000baseT &lt;full-duplex,flow-control&gt; none</span></span></span></div><div><br /></div><div>With promisc mode activated:</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/sbin/ifconfig en0</span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">en0: flags=8963&lt;UP,BROADCAST,SMART,RUNNING,</span></span><span style="font-weight:bold"><span style="color:rgb(102,102,102)"><span style="font-size:small">PROMISC</span></span></span><span style="color:rgb(102,102,102)"><span style="font-size:small">,SIMPLEX,MULTICAST&gt; mtu 1500</span></span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">        ether 00:19:**:**:**:** </span></span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">        media: autoselect status: inactive</span></span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">        supported media: autoselect 10baseT/UTP &lt;half-duplex&gt; 10baseT/UTP &lt;full-duplex&gt; 10baseT/UTP &lt;full-duplex,hw-loopback&gt; 10baseT/UTP &lt;full-duplex,flow-control&gt; 100baseTX &lt;half-duplex&gt; 100baseTX &lt;full-duplex&gt; 100baseTX &lt;full-duplex,hw-loopback&gt; 100baseTX &lt;full-duplex,flow-control&gt; 1000baseT &lt;full-duplex&gt; 1000baseT &lt;full-duplex,hw-loopback&gt; 1000baseT &lt;full-duplex,flow-control&gt; none</span></span></span></div><h3><a name="TOC-netstat"></a>netstat</h3><div><span style="font-family:inherit">Be carefull with netstat, it is not so hard to compromise "its results".</span></div>
-<div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">netstat -anp tcp </span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">netstat -anp udp</span></span></div><h3><a name="TOC-lsof"></a>lsof</h3><div><span style="font-family:courier new,monospace"><span style="font-size:small">lsof -i tcp</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">lsof -i udp</span></span></div><div><span style="font-family:courier new"><span style="font-family:Arial"><h3 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-Firewall"></a>Firewall</h3><h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-ipfw"></a>ipfw</h4><div>The default rule is not really restrictive:</div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">#ipfw list</span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">65535 allow ip from any to any</span></span></span></div><div><br /></div><div>Same for the IPv6 network stack, the default rules list looks like:</div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">ip6fw list</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><span style="color:rgb(68,68,68)">33300 deny ipv6-icmp from any to any in icmptype 128</span></span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small"><span style="color:rgb(68,68,68)">65535 allow ipv6 from any to any</span></span></span></div></div><h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-ipfw-traffic-shapping"></a>ipfw traffic shapping</h4><div><div>If the bandwidth used can be known (estimation at least; if the use is "constant" it is really efficient) in advance, allocating only the requested amount will not let enough "space" (bandwidth) available for an intruder.</div><div><br /></div><div>As an example, create a pipe that only allows up to 42KB/s to go through.</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo ipfw pipe 1 cg</span></span><span style="font-family:courier new,monospace"><span style="font-size:small">onfi</span></span><span style="font-family:courier new,monospace"><span style="font-size:small"> bw 42KByte/s</span></span></div><div><br /></div><div>Attach that pipe to the outgoing traffic on port 22, effectively limiting the outgoing traffic of sshd.</div><div><br /></div><div style="font-family:courier new,monospace"><span style="font-size:small">sudo ipfw add 1 pipe 1 src-port 22</span></div><div><br /></div><div>Remove the pipe from the port.</div><div><br /></div><div style="font-family:courier new,monospace"><span style="font-size:small">sudo ipfw delete 1</span></div><h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-firewall-state-in-sysctl"></a>firewall state in sysctl</h4><div><div>The state of the firewall (enabled or disabled) can be changed by directly changing a kernel parameter.</div>
+<p style="margin:0px;font-family:Helvetica;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal"><span style="font-family:courier new,monospace">options</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">MACH_VM_DEBUG</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace">#</span><span style="white-space:pre"><span style="font-family:courier new,monospace"> </span></span><span style="font-family:courier new,monospace"># &lt;debug&gt;<br /></span><br />FIXME</p></span></div>
+<h3><a name="TOC-authorization-right"></a>authorization right</h3>
+<div>FIXME</div>
+<div>/etc/authorization</div>
 <div><br /></div>
-<div>Enable the firewall (default):</div><div><span style="font-family:courier new,monospace"><span style="font-size:small">sysctl -w net.inet.ip.fw.enable=0 </span></span></div><div><br /></div><div>Disables the firewall:</div><div><span style="font-family:courier new,monospace"><span style="font-size:small">sysctl -w net.inet.ip.fw.enable=1 </span></span></div><div><br /></div><div>More info:</div><div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.verbose_limit: 0</font></div><div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.verbose: 2</font></div><div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.debug: 0</font></div><div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.one_pass: 0</font></div><div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.autoinc_step: 100</font></div><div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.enable: 1</font></div><h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-Rules-examples"></a>Rules examples</h4><div>TODO</div><h4><a name="TOC-Block-dns-multicast-5353-"></a>Block dns multicast (5353)</h4><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">grep -i 5353 /etc/services </span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">mdns            5353/udp    # Multicast DNS</span></span></span></div><div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">mdns            5353/tcp    # Multicast DNS</span></span></span></div><div>FIXME</div></div><h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-Activating-NAT-on-server-side"></a>Activating NAT on server side</h4><div>FIXME</div><div>Create /etc/natd.conf and add:<br /><br /></div>
+<div><br /></div>
+<div><span style="color:rgb(0,0,0);text-decoration:none"><img height="96" src="http://www.hexley.com/images/hexley_450_pngs/hexley_worm_450.png" style="border-width:0px" width="96" /></span></div>
+<h2><a name="TOC-Network"></a>Network</h2>
+<h3><a name="TOC-Disable-IPv6"></a>Disable IPv6</h3>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">networksetup -setv6off $iface</span></span><span style="font-size:small"><br /></span>
+<h3><a name="TOC-ifconfig"></a>ifconfig</h3>
+<div>Use a restrictive netmask.<br /></div>
+<h3><a name="TOC-Detecting-promiscuous-mode"></a>Detecting promiscuous mode</h3>
+<div>Several ways exist to detect promiscuous mode (potential running sniffer), you can use <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a>, simply parse `ifconfig' or even run a sniffer.</div>
+<div><br /><br /></div>
+<div>Without promisc mode, ifconfig looks like this:</div>
+<div><br /><br /></div>
+<font><span style="font-family:courier new,monospace"><span style="font-size:small">/sbin/ifconfig en0</span></span></font>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">en0: flags=8863&lt;UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST&gt; mtu 1500</span></span></span></div>
+<div><span><span style="color:rgb(102,102,102)"><span style="font-size:small">                </span></span></span>
+<span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">ether 00:19:**:**:**:**</span></span></span></div>
+<div><span><span style="color:rgb(102,102,102)"><span style="font-size:small">                 </span></span></span>
+<span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">media: autoselect status: inactive</span></span></span></div>
+<div><span><span style="color:rgb(102,102,102)"><span style="font-size:small">                </span></span></span>
+<span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">supported media: autoselect 10baseT/UTP &lt;half-duplex&gt; 10baseT/UTP &lt;full-duplex&gt; 10baseT/UTP &lt;full-duplex,hw-loopback&gt; 10baseT/UTP &lt;full-duplex,flow-control&gt; 100baseTX &lt;half-duplex&gt; 100baseTX &lt;full-duplex&gt; 100baseTX &lt;full-duplex,hw-loopback&gt; 100baseTX &lt;full-duplex,flow-control&gt; 1000baseT &lt;full-duplex&gt; 1000baseT &lt;full-duplex,hw-loopback&gt; 1000baseT &lt;full-duplex,flow-control&gt; none</span></span></span></div>
+<div><br /></div>
+<div>With promisc mode activated:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">/sbin/ifconfig en0</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">en0: flags=8963&lt;UP,BROADCAST,SMART,RUNNING,</span></span>
+<span style="font-weight:bold"><span style="color:rgb(102,102,102)"><span style="font-size:small">PROMISC</span></span></span>
+<span style="color:rgb(102,102,102)"><span style="font-size:small">,SIMPLEX,MULTICAST&gt; mtu 1500</span></span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">        ether 00:19:**:**:**:** </span></span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">        media: autoselect status: inactive</span></span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">        supported media: autoselect 10baseT/UTP &lt;half-duplex&gt; 10baseT/UTP &lt;full-duplex&gt; 10baseT/UTP &lt;full-duplex,hw-loopback&gt; 10baseT/UTP &lt;full-duplex,flow-control&gt; 100baseTX &lt;half-duplex&gt; 100baseTX &lt;full-duplex&gt; 100baseTX &lt;full-duplex,hw-loopback&gt; 100baseTX &lt;full-duplex,flow-control&gt; 1000baseT &lt;full-duplex&gt; 1000baseT &lt;full-duplex,hw-loopback&gt; 1000baseT &lt;full-duplex,flow-control&gt; none</span></span></span></div>
+<h3><a name="TOC-netstat"></a>netstat</h3>
+<div><span style="font-family:inherit">Be carefull with netstat, it is not so hard to compromise "its results".</span></div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">netstat -anp tcp </span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">netstat -anp udp</span></span></div>
+<h3><a name="TOC-lsof"></a>lsof</h3>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">lsof -i tcp</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">lsof -i udp</span></span></div>
+<div><span style="font-family:courier new"><span style="font-family:Arial"><h3 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-Firewall"></a>Firewall</h3>
+<h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-ipfw"></a>ipfw</h4>
+<div>The default rule is not really restrictive:</div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">#ipfw list</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">65535 allow ip from any to any</span></span></span></div>
+<div><br /></div>
+<div>Same for the IPv6 network stack, the default rules list looks like:</div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">ip6fw list</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small"><span style="color:rgb(68,68,68)">33300 deny ipv6-icmp from any to any in icmptype 128</span></span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small"><span style="color:rgb(68,68,68)">65535 allow ipv6 from any to any</span></span></span></div></div>
+<h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-ipfw-traffic-shapping"></a>ipfw traffic shapping</h4>
+<div><div>If the bandwidth used can be known (estimation at least; if the use is "constant" it is really efficient) in advance, allocating only the requested amount will not let enough "space" (bandwidth) available for an intruder.</div>
+<div><br /></div>
+<div>As an example, create a pipe that only allows up to 42KB/s to go through.</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo ipfw pipe 1 cg</span></span><span style="font-family:courier new,monospace"><span style="font-size:small">onfi</span></span><span style="font-family:courier new,monospace"><span style="font-size:small"> bw 42KByte/s</span></span></div>
+<div><br /></div>
+<div>Attach that pipe to the outgoing traffic on port 22, effectively limiting the outgoing traffic of sshd.</div>
+<div><br /></div>
+<div style="font-family:courier new,monospace"><span style="font-size:small">sudo ipfw add 1 pipe 1 src-port 22</span></div>
+<div><br /></div>
+<div>Remove the pipe from the port.</div>
+<div><br /></div>
+<div style="font-family:courier new,monospace"><span style="font-size:small">sudo ipfw delete 1</span></div>
+<h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-firewall-state-in-sysctl"></a>firewall state in sysctl</h4>
+<div><div>The state of the firewall (enabled or disabled) can be changed by directly changing a kernel parameter.</div>
+<div><br /></div>
+<div>Enable the firewall (default):</div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">sysctl -w net.inet.ip.fw.enable=0 </span></span></div>
+<div><br /></div>
+<div>Disables the firewall:</div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">sysctl -w net.inet.ip.fw.enable=1 </span></span></div>
+<div><br /></div>
+<div>More info:</div>
+<div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.verbose_limit: 0</font></div>
+<div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.verbose: 2</font></div>
+<div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.debug: 0</font></div>
+<div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.one_pass: 0</font></div>
+<div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.autoinc_step: 100</font></div>
+<div style="font-family:courier new,monospace"><font size="2">net.inet.ip.fw.enable: 1</font></div>
+<h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-Rules-examples"></a>Rules examples</h4>
+<div>TODO</div>
+<h4><a name="TOC-Block-dns-multicast-5353-"></a>Block dns multicast (5353)</h4>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">grep -i 5353 /etc/services </span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">mdns            5353/udp    # Multicast DNS</span></span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="color:rgb(102,102,102)"><span style="font-size:small">mdns            5353/tcp    # Multicast DNS</span></span></span></div>
+<div>FIXME</div></div>
+<h4 style="margin:10px 10px 10px 0px;color:rgb(0,0,0)"><a name="TOC-Activating-NAT-on-server-side"></a>Activating NAT on server side</h4>
+<div>FIXME</div>
+<div>Create /etc/natd.conf and add:<br /><br /></div>
 <div><div><span style="font-family:courier new,monospace">interface en0 </span></div>
 <div><span style="font-family:courier new,monospace">same_ports yes </span></div>
 <div><span style="font-family:courier new,monospace">use_sockets yes </span></div>

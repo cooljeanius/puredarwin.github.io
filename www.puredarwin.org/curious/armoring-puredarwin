@@ -539,13 +539,213 @@ We can also find specific utilities for Darwin, or at least for Darwin's BSD sub
 <div>Edit /etc/syslog.conf.</div><div><br /></div>
 <div>To log authentication error messages (also the remote ones) in /var/log/secure.log, change the line</div>
 <div><br /></div>
-<div><span style="font-family:courier new,monospace">authpriv.*;remoteauth.crit /var/log/secure.log </span></div><div><br /></div><div>to</div><div><br /></div><div><span style="font-family:courier new,monospace">authpriv.*;remoteauth.err;auth.err /var/log/secure.log</span></div><h4><a name="TOC-Limit-number-of-message-a-syslogd-rule-generate"></a>Limit number of message a syslogd rule generate</h4><div>Enable facility of LOG_SECURITY:</div><div><br /></div><div><span style="font-family:courier new,monospace">/usr/sbin/sysctl -w net.inet.ip.fw.verbose=1</span></div><div><br /></div><div><div>Add <span style="font-family:courier new,monospace">logamount &lt;number&gt;</span> after the log keyword</div><div>Setting <span style="font-family:courier new,monospace">&lt;number&gt;</span> to <span style="font-family:courier new,monospace">0</span> removes limit.</div></div><h4><a name="TOC-local-system-logging"></a>local system logging</h4><div>FIXME</div><div>/etc/newsyslog.conf configuration can sets</div><div><ul><li>log file rotation based on size, last rotation time, or time of day</li><li>secure permissions to log files at rotation time</li></ul></div><h4><a name="TOC-remote-system-logging"></a>remote system logging</h4><div>Local logging is not really reliable if the computer is compromised, local files can be modified, removed or short-circuited</div><div><br /></div><div>Open /etc/syslog.conf to enable remote logging.</div><div>Add to the top:</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">*.* @&lt;remote log server address or host&gt;</span></span></div><div><br /></div><div>Restart `syslogd' with a hangup signal (or via launchctl):</div><div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo killall –HUP syslogd</span></span></div><div><br /></div><div>Edit /etc/syslog.conf and add /var/log/secure.log and /var/system.log to the host <span style="font-family:courier new,monospace"><span style="font-size:small">&lt;host&gt;</span></span>:</div><div><br /></div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">authpriv.*;remoteauth.err;auth.err @&lt;host&gt; </span></span></div>
-<div><span style="font-family:courier new,monospace"><span style="font-size:small">*.notice;authpriv,remoteauth,ftp,install.none;kern.debug;mail.crit @&lt;host&gt;</span></span></div><div><span style="font-family:courier new"><br /></span></div><div>FIXME</div></div><h4><a name="TOC-Process-accounting"></a>Process accounting</h4><div>FIXME</div><div>Logs all commands executed by all users.</div><div><br /></div><div>To enable process accounting, create /var/account folder.</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo mkdir -p /var/account</span></div><div><br /></div><div>Create /var/account/acct to store process accounting information:</div><div><br /></div><div><div><span style="font-family:courier new,monospace">sudo touch /var/account/acct</span></div><div><span style="font-family:courier new,monospace">chown -R root:admin /var/account</span></div><div><span style="font-family:courier new,monospace">chmod -R 660 /var/account</span></div><div><br /></div><div>Start accounting on the system:</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo accton /var/account /acct</span></div><div><br /></div><div>It is launched at boot.</div><div><br /></div><div>Use `lastcomm`to get information on previously executed commands.</div></div><h4><a name="TOC-Enable-security-audit"></a>Enable security audit</h4><div>FIXME</div><div>Open /etc/hostconfig and add:</div><div><br /></div><div><span style="font-family:courier new,monospace">AUDIT=-YES-</span></div><div><br /></div><div>Restart.</div><div><br /></div><div><span style="font-family:courier new,monospace">audit -n</span> rotates the current log file.</div><div><span style="font-family:courier new,monospace">audit -s</span> rotates the current log file and forces to reload settings from the audit_control file</div><h4><a name="TOC-last-wtmp-utmp"></a>last, wtmp &amp; utmp</h4><div>The file /var/run/utmp stores information about the currently logged-in user, whereas /var/log/wtmp tracks all user logins/logouts, shutdowns, reboots, and crashes.</div><div>Deprecated but sometimes usefull.</div><h4><a name="TOC-Log-files-non-exhaustive-list-"></a>Log files (non exhaustive list)</h4><div>FIXME</div><div>/var/log/cups</div><div>/var/log/ftp.log</div><div>/var/log/httpd</div><div>/var/log/lastlog</div><div>/var/log/wtmp</div><div>/var/log/lookupd.log</div><div>/var/log/lpr.log</div><div>/var/log/secure.log</div><div>/var/log/system.log</div><div>/var/log/ipfw.log</div><div>/var/log/fsck_hfs.log</div><div><br /></div><div>/var/run/utmp</div><div><br /></div><div>Library/Logs/</div><h3><a name="TOC-Debugging"></a>Debugging</h3><h4><a name="TOC-Some-tools"></a>Some tools</h4><div>FIXME</div><div><h4><a name="TOC-leak"></a>leak</h4><div>FIXME</div><div>Leaked memory identification and other unreferenced malloc buffers.<br /><h4><a name="TOC-heap"></a>heap</h4>FIXME<br />List all the malloc-allocated buffers in the process's heap.<br /><h4><a name="TOC-malloc_history"></a>malloc_history</h4>FIXME<br />malloc_history inspects a given process and lists the malloc allocations performed by it.<br /><h4><a name="TOC-vmmap"></a>vmmap</h4>FIXME</div></div><div><h4><a name="TOC-Disable-Core-Dumps"></a>Disable Core Dumps</h4><div>FIXME</div><div>To prevent the kernel from creating core dumps:</div><div><br /></div><div><span style="font-family:courier new,monospace">kern.coredump=0 in /etc/sysctl.conf</span></div><div><br /></div><div>The non persistent way:</div><div><br /></div><div><span style="font-family:courier new,monospace">sysctl -w kern.coredump=0</span></div><h4><a name="TOC-Limit-core-dump"></a>Limit core dump</h4><div>Enable core dumps by adding the line <span style="font-family:courier new,monospace"><span style="font-size:small">limit core unlimited</span></span> in /etc/launchd.conf (persistent way).</div><div><br /></div><div>The resulted dump(s) will be stored in /cores folder:</div><div><div><span style="font-family:courier new,monospace"><span style="font-size:small">file /cores/core.57</span></span></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/cores/core.57: Mach-O core i386</span></span></div><div><br /></div></div><div><div>Or from a shell (non-persistent): <span style="font-size:small"><span style="font-family:courier new,monospace">ulimit -c unlimited</span></span></div><div><span style="font-family:courier new"><br /></span></div><div><span style="font-family:courier new"><span style="font-family:Arial"><div><span style="text-decoration:underline">Notes:</span> <span style="font-family:courier new,monospace"><span style="font-size:small">kill -ABRT &lt;pid&gt;</span></span> could be used in order to generate a core dump.</div><div>On Darwin8, change the line "COREDUMPS=-NO-" in /etc/hostconfig to "COREDUMPS=-YES-"</div></span></span></div>
+<div><span style="font-family:courier new,monospace">authpriv.*;remoteauth.crit /var/log/secure.log </span></div>
+<div><br /></div>
+<div>to</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">authpriv.*;remoteauth.err;auth.err /var/log/secure.log</span></div>
+<h4><a name="TOC-Limit-number-of-message-a-syslogd-rule-generate"></a>Limit number of message a syslogd rule generate</h4>
+<div>Enable facility of LOG_SECURITY:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">/usr/sbin/sysctl -w net.inet.ip.fw.verbose=1</span></div>
+<div><br /></div>
+<div><div>Add <span style="font-family:courier new,monospace">logamount &lt;number&gt;</span> after the log keyword</div>
+<div>Setting <span style="font-family:courier new,monospace">&lt;number&gt;</span> to <span style="font-family:courier new,monospace">0</span> removes limit.</div></div>
+<h4><a name="TOC-local-system-logging"></a>local system logging</h4>
+<div>FIXME</div>
+<div>/etc/newsyslog.conf configuration can sets</div>
+<div><ul><li>log file rotation based on size, last rotation time, or time of day</li>
+<li>secure permissions to log files at rotation time</li></ul></div>
+<h4><a name="TOC-remote-system-logging"></a>remote system logging</h4>
+<div>Local logging is not really reliable if the computer is compromised, local files can be modified, removed or short-circuited</div>
+<div><br /></div>
+<div>Open /etc/syslog.conf to enable remote logging.</div>
+<div>Add to the top:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">*.* @&lt;remote log server address or host&gt;</span></span></div>
+<div><br /></div>
+<div>Restart `syslogd' with a hangup signal (or via launchctl):</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo killall –HUP syslogd</span></span></div>
+<div><br /></div>
+<div>Edit /etc/syslog.conf and add /var/log/secure.log and /var/system.log to the host <span style="font-family:courier new,monospace"><span style="font-size:small">&lt;host&gt;</span></span>:</div>
+<div><br /></div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">authpriv.*;remoteauth.err;auth.err @&lt;host&gt; </span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">*.notice;authpriv,remoteauth,ftp,install.none;kern.debug;mail.crit @&lt;host&gt;</span></span></div>
+<div><span style="font-family:courier new"><br /></span></div>
+<div>FIXME</div></div>
+<h4><a name="TOC-Process-accounting"></a>Process accounting</h4>
+<div>FIXME</div>
+<div>Logs all commands executed by all users.</div>
+<div><br /></div>
+<div>To enable process accounting, create /var/account folder.</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo mkdir -p /var/account</span></div>
+<div><br /></div>
+<div>Create /var/account/acct to store process accounting information:</div>
+<div><br /></div>
+<div><div><span style="font-family:courier new,monospace">sudo touch /var/account/acct</span></div>
+<div><span style="font-family:courier new,monospace">chown -R root:admin /var/account</span></div>
+<div><span style="font-family:courier new,monospace">chmod -R 660 /var/account</span></div>
+<div><br /></div>
+<div>Start accounting on the system:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo accton /var/account /acct</span></div>
+<div><br /></div>
+<div>It is launched at boot.</div>
+<div><br /></div>
+<div>Use `lastcomm`to get information on previously executed commands.</div></div>
+<h4><a name="TOC-Enable-security-audit"></a>Enable security audit</h4>
+<div>FIXME</div>
+<div>Open /etc/hostconfig and add:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">AUDIT=-YES-</span></div>
+<div><br /></div>
+<div>Restart.</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">audit -n</span> rotates the current log file.</div>
+<div><span style="font-family:courier new,monospace">audit -s</span> rotates the current log file and forces to reload settings from the audit_control file</div>
+<h4><a name="TOC-last-wtmp-utmp"></a>last, wtmp &amp; utmp</h4>
+<div>The file /var/run/utmp stores information about the currently logged-in user, whereas /var/log/wtmp tracks all user logins/logouts, shutdowns, reboots, and crashes.</div>
+<div>Deprecated but sometimes useful.</div>
+<h4><a name="TOC-Log-files-non-exhaustive-list-"></a>Log files (non exhaustive list)</h4>
+<div>FIXME</div>
+<div>/var/log/cups</div>
+<div>/var/log/ftp.log</div>
+<div>/var/log/httpd</div>
+<div>/var/log/lastlog</div>
+<div>/var/log/wtmp</div>
+<div>/var/log/lookupd.log</div>
+<div>/var/log/lpr.log</div>
+<div>/var/log/secure.log</div>
+<div>/var/log/system.log</div>
+<div>/var/log/ipfw.log</div>
+<div>/var/log/fsck_hfs.log</div>
+<div><br /></div>
+<div>/var/run/utmp</div>
+<div><br /></div>
+<div>Library/Logs/</div>
+<h3><a name="TOC-Debugging"></a>Debugging</h3>
+<h4><a name="TOC-Some-tools"></a>Some tools</h4>
+<div>FIXME</div>
+<div><h4><a name="TOC-leak"></a>leak</h4>
+<div>FIXME</div>
+<div><div>Leaked memory identification and other unreferenced malloc buffers.<br /></div>
+<h4><a name="TOC-heap"></a>heap</h4>
+<div>FIXME<br /></div>
+<div>List all the malloc-allocated buffers in the process's heap.<br /></div>
+<h4><a name="TOC-malloc_history"></a>malloc_history</h4>
+<div>FIXME<br /></div>
+malloc_history inspects a given process and lists the malloc allocations performed by it.<br />
+<h4><a name="TOC-vmmap"></a>vmmap</h4>
+<div>FIXME</div></div></div>
+<div><h4><a name="TOC-Disable-Core-Dumps"></a>Disable Core Dumps</h4>
+<div>FIXME</div>
+<div>To prevent the kernel from creating core dumps:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">kern.coredump=0 in /etc/sysctl.conf</span></div>
+<div><br /></div>
+<div>The non-persistent way:</div>
+<div><br /></div><div><span style="font-family:courier new,monospace">sysctl -w kern.coredump=0</span></div>
+<h4><a name="TOC-Limit-core-dump"></a>Limit core dump</h4>
+<div>Enable core dumps by adding the line <span style="font-family:courier new,monospace"><span style="font-size:small">limit core unlimited</span></span> in /etc/launchd.conf (persistent way).</div>
+<div><br /></div>
+<div>The resulted dump(s) will be stored in /cores folder:</div>
+<div><div><span style="font-family:courier new,monospace"><span style="font-size:small">file /cores/core.57</span></span></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">/cores/core.57: Mach-O core i386</span></span></div>
+<div><br /></div></div>
+<div><div>Or from a shell (non-persistent): <span style="font-size:small"><span style="font-family:courier new,monospace">ulimit -c unlimited</span></span></div>
+<div><span style="font-family:courier new"><br /></span></div>
+<div><span style="font-family:courier new"><span style="font-family:Arial"><div><span style="text-decoration:underline">Notes:</span> <span style="font-family:courier new,monospace"><span style="font-size:small">kill -ABRT &lt;pid&gt;</span></span> could be used in order to generate a core dump.</div>
+<div>On Darwin8, change the line "COREDUMPS=-NO-" in /etc/hostconfig to "COREDUMPS=-YES-"</div></span></span></div>
 <h4><a name="TOC-launchd-"></a>launchd </h4>
 <div>FIXME</div>
-<div>To send all launchd logs to a file, add in /etc/syslog.conf:</div><div><br /></div><div><span style="font-family:courier new,monospace">launchd.* /var/log/launchd.log</span></div><div><br /></div><div>Restart syslogd:</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/syslog.pid`</span></div><div><br /></div><div>To increase the level of debugging:</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo launchctl log level debug Password: ********</span></div><div><br /></div><div>FIXME</div><div>See <a href="http://www.puredarwin.org/developers/booting/launchd">launchd</a> page.</div>
-<div><h4><a name="TOC-Enable-lookupd-debugging"></a>Enable lookupd debugging</h4></div><div><span style="font-family:courier new,monospace">sudo dscl . create /dsRecTypeStandard:Config/lookupd Debug YES</span></div><div><span style="font-family:courier new,monospace">sudo dscl . create /dsRecTypeStandard:Config/lookupd Trace YES</span></div><div><br /></div><div>Edit /etc/syslog.conf and replace <span style="font-family:courier new,monospace">netinfo.err</span> by <span style="font-family:courier new,monospace">netinfo.debug</span></div><div><br /></div><div>Restart daemons</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/syslog.pid`</span></div><div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/lookupd.pid`</span></div><h4><a name="TOC-Disable-lookupd-debugging"></a>Disable lookupd debugging</h4><div><span style="font-family:courier new,monospace">sudo dscl . delete /dsRecTypeStandard:Config/lookupd</span></div><div><br /></div><div><div>Edit /etc/syslog.conf and replace <span style="font-family:courier new,monospace">netinfo.debug</span> with <span style="font-family:courier new,monospace">netinfo.err</span></div><div><br /></div><div>Restart daemons</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/syslog.pid`</span></div><div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/lookupd.pid</span></div></div><h4><a name="TOC-diskarbitrationd"></a>diskarbitrationd</h4><div>FIXME</div><div>Open /System/Library/LaunchDaemons/com.apple.diskarbitrationd.plist:</div><div><div><br /></div><div><div><span style="font-family:courier new,monospace">    &lt;key&gt;ProgramArguments&lt;/key&gt;</span></div><div><span style="font-family:courier new,monospace">    &lt;array&gt;</span></div><div><span style="font-family:courier new,monospace">        &lt;string&gt;/usr/sbin/diskarbitrationd&lt;/string&gt;</span></div><div><span style="font-family:courier new,monospace">    &lt;/array&gt;</span></div><div><br /></div><div><div>and simply append "-d":</div><div><br /></div></div><div><div><span style="font-family:courier new,monospace">    &lt;key&gt;ProgramArguments&lt;/key&gt;</span></div><div><span style="font-family:courier new,monospace">    &lt;array&gt;</span></div><div><span style="font-family:courier new,monospace">        &lt;string&gt;/usr/sbin/diskarbitrationd -d&lt;/string&gt;</span></div><div><span style="font-family:courier new,monospace">    &lt;/array&gt;</span></div><div>FIXME</div><div><h4><a name="TOC-fs_usage"></a>fs_usage</h4><div>fs_usage reports system calls and page faults related to filesystem activity in real-time, often usefull for debugging.</div><div><div><div>Remember by default (without any options), fs_usage itself, Terminal, telnetd, sshd, rlogind, tcsh, csh and sh processes are excluded from the output.</div><div><br /></div><div>Identify files used by an application at launchtime:</div><div><br /></div><div><span style="font-family:courier new,monospace">sudo fs_usage -w | grep &lt;application&gt;</span></div><div><br /></div><div><span style="font-family:inherit">-w options forces wider, detailed, output.</span></div><div><br /></div><div>FIXME<br /><h4 style="margin-top:10px;margin-bottom:10px;color:rgb(0,0,0);margin-left:10px;margin-right:0px"><a name="TOC-DTrace"></a>DTrace</h4><div><span style="font-family:Helvetica"><span style="font-size:small">The generic front-end to the DTrace facility is a powerfull dynamic debugger and analysis tool.<br />See the <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a> page.</span></span></div></div></div></div></div></div></div></div><h3><a name="TOC-Recompiling-XNU"></a>Recompiling XNU</h3><div>FIXME<br />See <a href="http://www.puredarwin.org/developers/xnu" style="outline-style:none;color:rgb(85,26,139)">The XNU kernel</a> page.</div><div><h4><a name="TOC-Usefull-MacPorts"></a>Useful MacPorts<br /></h4></div><div><span style="font-family:courier new,monospace">kernel-tools sysutils/kernel-tools 8J2135 Tools required to build xnu for Intel <br />gcc_select sysutils/gcc_select 0.1 Switch the default compiler<br /><br /></span>After kernel-tools installed, the compilation will <a href="http://failblog.org">fail</a> irremediably with some tool not found in /usr/local/bin/.<br />A quick fix with symbolic links:<br /><br /><div><span style="font-family:courier new,monospace">/usr/local/bin/check_dylib-&gt;/opt/local/bin/check_dylib</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/checksyms-&gt;/opt/local/bin/checksyms</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/cmpshlib-&gt;/opt/local/bin/cmpshlib</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/decomment-&gt;/opt/local/bin/decomment</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/hack_libgcc-&gt;/opt/local/bin/hack_libgcc</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/indr-&gt;/opt/local/bin/indr</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/kern_tool-&gt;/opt/local/bin/kern_tool</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/kextsymboltool-&gt;/opt/local/bin/kextsymboltool</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/mkshlib-&gt;/opt/local/bin/mkshlib</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/seg_addr_table-&gt;/opt/local/bin/seg_addr_table</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/seg_hack-&gt;/opt/local/bin/seg_hack</span></div><div><span style="font-family:courier new,monospace">/usr/local/bin/relpath-&gt;/opt/local/bin/relpath</span></div><h4><a name="TOC-Configuration-files-involved"></a>Configuration files involved</h4>FIXME<br /><br /><div><span style="font-family:courier new,monospace">bsd/conf/MASTER           iokit/conf/MASTER.i386    libsa/conf/MASTER         osfmk/conf/MASTER.i386    security/conf/MASTER</span></div><div><span style="font-family:courier new,monospace">bsd/conf/MASTER.i386      libkern/conf/MASTER       libsa/conf/MASTER.i386    pexpert/conf/MASTER       security/conf/MASTER.i386</span></div>
-<div><span style="font-family:courier new,monospace">iokit/conf/MASTER         libkern/conf/MASTER.i386  osfmk/conf/MASTER         pexpert/conf/MASTER.i386</span></div><div><br /></div>Note that we do NOT use MASTER.ppc files even though they still exist.<br />
+<div>To send all launchd logs to a file, add in /etc/syslog.conf:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">launchd.* /var/log/launchd.log</span></div>
+<div><br /></div>
+<div>Restart syslogd:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/syslog.pid`</span></div>
+<div><br /></div>
+<div>To increase the level of debugging:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo launchctl log level debug Password: ********</span></div>
+<div><br /></div>
+<div>FIXME</div>
+<div>See <a href="http://www.puredarwin.org/developers/booting/launchd">launchd</a> page.</div>
+<div><h4><a name="TOC-Enable-lookupd-debugging"></a>Enable lookupd debugging</h4></div>
+<div><span style="font-family:courier new,monospace">sudo dscl . create /dsRecTypeStandard:Config/lookupd Debug YES</span></div>
+<div><span style="font-family:courier new,monospace">sudo dscl . create /dsRecTypeStandard:Config/lookupd Trace YES</span></div>
+<div><br /></div>
+<div>Edit /etc/syslog.conf and replace <span style="font-family:courier new,monospace">netinfo.err</span> by <span style="font-family:courier new,monospace">netinfo.debug</span></div>
+<div><br /></div>
+<div>Restart daemons</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/syslog.pid`</span></div>
+<div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/lookupd.pid`</span></div>
+<h4><a name="TOC-Disable-lookupd-debugging"></a>Disable lookupd debugging</h4>
+<div><span style="font-family:courier new,monospace">sudo dscl . delete /dsRecTypeStandard:Config/lookupd</span></div>
+<div><br /></div>
+<div><div>Edit /etc/syslog.conf and replace <span style="font-family:courier new,monospace">netinfo.debug</span> with <span style="font-family:courier new,monospace">netinfo.err</span></div>
+<div><br /></div>
+<div>Restart daemons</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/syslog.pid`</span></div>
+<div><span style="font-family:courier new,monospace">sudo kill -HUP `cat /var/run/lookupd.pid</span></div></div>
+<h4><a name="TOC-diskarbitrationd"></a>diskarbitrationd</h4>
+<div>FIXME</div>
+<div>Open /System/Library/LaunchDaemons/com.apple.diskarbitrationd.plist:</div>
+<div><div><br /></div>
+<div><div><span style="font-family:courier new,monospace">    &lt;key&gt;ProgramArguments&lt;/key&gt;</span></div>
+<div><span style="font-family:courier new,monospace">    &lt;array&gt;</span></div>
+<div><span style="font-family:courier new,monospace">        &lt;string&gt;/usr/sbin/diskarbitrationd&lt;/string&gt;</span></div>
+<div><span style="font-family:courier new,monospace">    &lt;/array&gt;</span></div>
+<div><br /></div><div><div>and simply append "-d":</div><div><br /></div></div>
+<div><div><span style="font-family:courier new,monospace">    &lt;key&gt;ProgramArguments&lt;/key&gt;</span></div>
+<div><span style="font-family:courier new,monospace">    &lt;array&gt;</span></div>
+<div><span style="font-family:courier new,monospace">        &lt;string&gt;/usr/sbin/diskarbitrationd -d&lt;/string&gt;</span></div><div><span style="font-family:courier new,monospace">    &lt;/array&gt;</span></div>
+<div>FIXME</div>
+<div><h4><a name="TOC-fs_usage"></a>fs_usage</h4><div>fs_usage reports system calls and page faults related to filesystem activity in real-time, often usefull for debugging.</div>
+<div><div><div>Remember by default (without any options), fs_usage itself, Terminal, telnetd, sshd, rlogind, tcsh, csh and sh processes are excluded from the output.</div>
+<div><br /></div>
+<div>Identify files used by an application at launchtime:</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace">sudo fs_usage -w | grep &lt;application&gt;</span></div>
+<div><br /></div>
+<div><span style="font-family:inherit">-w options forces wider, detailed, output.</span></div>
+<div><br /></div>
+<div>FIXME<br /><h4 style="margin-top:10px;margin-bottom:10px;color:rgb(0,0,0);margin-left:10px;margin-right:0px"><a name="TOC-DTrace"></a>DTrace</h4>
+<div><span style="font-family:Helvetica"><span style="font-size:small">The generic front-end to the DTrace facility is a powerfull dynamic debugger and analysis tool.<br />See the <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a> page.</span></span></div></div></div></div></div></div></div></div>
+<h3><a name="TOC-Recompiling-XNU"></a>Recompiling XNU</h3>
+<div>FIXME<br />See <a href="http://www.puredarwin.org/developers/xnu" style="outline-style:none;color:rgb(85,26,139)">The XNU kernel</a> page.</div>
+<div><h4><a name="TOC-Usefull-MacPorts"></a>Useful MacPorts<br /></h4></div>
+<div><span style="font-family:courier new,monospace">kernel-tools sysutils/kernel-tools 8J2135 Tools required to build xnu for Intel <br />
+gcc_select sysutils/gcc_select 0.1 Switch the default compiler<br /><br />
+</span>
+<div>Note that kernel-tools has been removed from MacPorts. After kernel-tools installed, the compilation will <a href="http://failblog.org">fail</a> irremediably with some tool not found in /usr/local/bin/.</div>
+<div><br /></div>
+<div>A quick fix with symbolic links:</div>
+<div><br /><br /></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/check_dylib-&gt;/opt/local/bin/check_dylib</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/checksyms-&gt;/opt/local/bin/checksyms</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/cmpshlib-&gt;/opt/local/bin/cmpshlib</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/decomment-&gt;/opt/local/bin/decomment</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/hack_libgcc-&gt;/opt/local/bin/hack_libgcc</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/indr-&gt;/opt/local/bin/indr</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/kern_tool-&gt;/opt/local/bin/kern_tool</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/kextsymboltool-&gt;/opt/local/bin/kextsymboltool</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/mkshlib-&gt;/opt/local/bin/mkshlib</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/seg_addr_table-&gt;/opt/local/bin/seg_addr_table</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/seg_hack-&gt;/opt/local/bin/seg_hack</span></div>
+<div><span style="font-family:courier new,monospace">/usr/local/bin/relpath-&gt;/opt/local/bin/relpath</span></div>
+<h4><a name="TOC-Configuration-files-involved"></a>Configuration files involved</h4>
+<div>FIXME<br /><br /></div>
+<div><span style="font-family:courier new,monospace">bsd/conf/MASTER           iokit/conf/MASTER.i386    libsa/conf/MASTER         osfmk/conf/MASTER.i386    security/conf/MASTER</span></div>
+<div><span style="font-family:courier new,monospace">bsd/conf/MASTER.i386      libkern/conf/MASTER       libsa/conf/MASTER.i386    pexpert/conf/MASTER       security/conf/MASTER.i386</span></div>
+<div><span style="font-family:courier new,monospace">iokit/conf/MASTER         libkern/conf/MASTER.i386  osfmk/conf/MASTER         pexpert/conf/MASTER.i386</span></div>
+<div><br /></div>
+<div>Note that we do NOT use MASTER.ppc files even though they still exist.<br /></div>
 <h4><a name="TOC-Before"></a>Before</h4>
 FIXME<br />
 <p style="margin:0px;font-family:Courier New;font-style:normal;font-variant:normal;font-weight:normal;font-size:13px;line-height:normal;font-size-adjust:none;font-stretch:normal">ProductName:<span style="white-space:pre"> </span>Mac OS X</p>

@@ -974,7 +974,7 @@ FIXME<br />
 <div>FIXME</div>
 <div>There are so many tutorials available about how to configure and/or secure sshd that we do not need to explain these points.</div>
 <div><h4><a name="TOC-Check-fingerprint"></a>Check fingerprint</h4>
-<div>Prints fingerprint of the server’s RSA key:</div>
+<div>Prints fingerprint of the server's RSA key:</div>
 <div><br /></div>
 <div><span style="font-family:courier new,monospace">ssh-keygen -l -f /private/etc/ssh_host_rsa_key.pub</span></div>
 <div><br /></div></div>
@@ -1012,7 +1012,7 @@ FIXME<br />
 <div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">Add "many" fakeap clones.</span></div>
 <div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">WPA2 minimum.</span></div>
 <div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">etc... </span></div>
-<div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px"><span style="font-family:Arial;line-height:normal;border-collapse:collapse">http://www.swisswireless.org/wlan_calc_en.html</span></span></div>
+<div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px"><span style="font-family:Arial;line-height:normal;border-collapse:collapse"><a href="http://www.swisswireless.org/wlan_calc_en.html">http://www.swisswireless.org/wlan_calc_en.html</a></span></span></div>
 <h4><a name="TOC-Bluetooth"></a>Bluetooth</h4>
 <div><span style="border-collapse:separate;font-family:-webkit-sans-serif;line-height:19px">No support known on PureDarwin yet (need investigation).</span></div>
 <h4><a name="TOC-Screen-disclosure"></a>Screen disclosure</h4>
@@ -1028,6 +1028,7 @@ FIXME<br />
 <div>No driver available at this time is reported to work for PureDarwin, although the operation should be similar as below.</div>
 <div><br /></div>
 <div>You can safely remove it if you do NOT plan to use wireless network interface:</div>
+<div><br /></div>
 <div><span style="font-family:courier new;font-size:12px">sudo srm -Rf /System/Library/Extensions/AppleAirPort.kext</span></div>
 <div><span style="font-family:courier new;font-size:12px">sudo touch /System/Library/Extensions</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
 <div dir="ltr"><div dir="ltr"><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><h4><a name="TOC-Remove-bluetooth-support"></a>Remove bluetooth support</h4>
@@ -1049,8 +1050,11 @@ sudo touch /System/Library/Extensions</span></div></div></div></div></div></div>
 <div dir="ltr"><div dir="ltr"><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><h4><a name="TOC-Removing-video-support"></a>Removing video support</h4>
 <div><div>No driver available at this time is reported to work with PureDarwin, although the operation should be similar as below.</div>
 <div>Prevent someone from trying to watch your webcam:</div>
-<div><span style="font-family:courier new;font-size:12px">sudo srm -rf /System/Library/Extensions/Apple_iSight.kext</span></div><div><span style="font-family:courier new;font-size:12px">sudo srm -rf /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext </span></div>
+<div><br /></div>
+<div><span style="font-family:courier new;font-size:12px">sudo srm -rf /System/Library/Extensions/Apple_iSight.kext</span></div>
+<div><span style="font-family:courier new;font-size:12px">sudo srm -rf /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/AppleUSBVideoSupport.kext </span></div>
 <div><span style="font-family:courier new;font-size:12px">sudo touch /System/Library/Extensions</span></div>
+<div><br /></div>
 <div>You can also try using this kernel extension: <a href="https://github.com/stevecheckoway/iSightDefender">https://github.com/stevecheckoway/iSightDefender</a> (warning: untested with PureDarwin) </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
 <div dir="ltr"><div dir="ltr"><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><h4><a name="TOC-Removing-USB-support"></a>Removing USB support</h4>
 <div><span style="font-weight:bold">Warning: </span>Since we boot on USB we should NOT remove this one.</div>
@@ -1132,16 +1136,18 @@ sudo touch /System/Library/Extensions</span></div></div></div></div></div></div>
 <div>dyld can:</div>
 <div><ul><li>Dynamically link new libraries into memory</li>
 <li>Recover base addresses for existing libraries</li></ul></div>
-<div>Library offsets are not randomized between</div>
+<div>Library offsets are NOT randomized between:</div>
 <div><ul><li>invocations of the same program</li>
 <li>invocations of different programs</li></ul></div>
-<div>but seems to not be the same from different Leopard install.</div>
+<div>but they seem to not be the same from a different Leopard install.</div>
 <div><br /></div>
-<div>FIXME</div><div><span style="font-family:courier new"><span style="font-family:Arial"><h3>
+<div>FIXME</div>
+<div><span style="font-family:courier new"><span style="font-family:Arial"><h3>
 <a name="TOC-Disable-Spotlight-for-a-volume-and-erase-its-current-meta-data"></a>Disable Spotlight for a volume and erase its current meta data</h3>
 <div><div style="display:block;text-align:left"><a href="http://www.puredarwin.org/curious/armoring-puredarwin/xicon.jpg?attredirects=0" imageanchor="1"><img border="0" src="http://www.puredarwin.org/_/rsrc/1223915630717/curious/armoring-puredarwin/xicon.jpg" style="display:inline;float:left;margin-top:5px;margin-bottom:0px;margin-left:10px;margin-right:0px" /></a> </div></div></span></span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
 <blockquote style="margin:0 0 0 40px;border:none;padding:0px"><blockquote style="margin:0 0 0 40px;border:none;padding:0px"><span style="font-family:courier new"><span style="font-size:small">mdutil -E -i off $PUREDARWIN</span></span></blockquote></blockquote>
 <div dir="ltr"><div dir="ltr"><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><div><span style="font-family:courier new"><span style="font-family:Arial"><div><div style="display:block;text-align:left"><br /></div></div></span></span></div>
+<div><br /></div>
 <h3><a name="TOC-Defeat-nmap-fingerprint"></a>Defeat nmap fingerprint</h3>
 <div>Choose value between available choices:</div>
 <div><br /></div>
@@ -1153,7 +1159,7 @@ sudo touch /System/Library/Extensions</span></div></div></div></div></div></div>
 <div>bro</div></span></span></div>
 <div><span style="color:rgb(255,0,0)"><span style="color:rgb(0,0,0)"><div>prelude</div>
 <div><br /></div>
-<div>Found in MacPorts:</div>
+<div><span style="font-weight:bold">Found in MacPorts/Fink:</span></div>
 <div><br /></div>
 <div>SourceFire/<a href="https://trac.macports.org/browser/trunk/dports/net/snort/Portfile">Snort</a> (MP)</div>
 <div><br /></div>

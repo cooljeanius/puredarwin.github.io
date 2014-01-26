@@ -141,15 +141,20 @@ google_color_text="5E6A72";
 <div><span style="font-weight:bold"><span style="color:rgb(255,0,0);font-weight:normal"><br /></span></span></div>
 <div>
 <div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-toc"><div class="goog-toc sites-embed-toc-maxdepth-2"><p>Contents</p>
-<ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Preamble"><strong>1 </strong>Preamble</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Disclaimer"><strong>1.1 </strong>Disclaimer</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-Before-installation"><strong>2 </strong>Before installation</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Usage"><strong>2.1 </strong>Usage</a></li>
-<li class="goog-toc"><a href="#TOC-Command-line-tools-to-securely-erase"><strong>2.2 </strong>Command-line tools to securely erase</a></li><li class="goog-toc"><a href="#TOC-Misc"><strong>2.3 </strong>Misc</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-System-startup"><strong>3 </strong>System startup</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Extensible-Firmware-Interface-EFI-"><strong>3.1 </strong>Extensible Firmware Interface (EFI)</a></li>
+<ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Preamble"><strong>1 </strong>Preamble</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Disclaimer"><strong>1.1 </strong>Disclaimer</a></li></ol></li>
+<li class="goog-toc"><a href="#TOC-Before-installation"><strong>2 </strong>Before installation</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Usage"><strong>2.1 </strong>Usage</a></li>
+<li class="goog-toc"><a href="#TOC-Command-line-tools-to-securely-erase"><strong>2.2 </strong>Command-line tools to securely erase</a></li>
+<li class="goog-toc"><a href="#TOC-Misc"><strong>2.3 </strong>Misc</a></li></ol></li>
+<li class="goog-toc"><a href="#TOC-System-startup"><strong>3 </strong>System startup</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Extensible-Firmware-Interface-EFI-"><strong>3.1 </strong>Extensible Firmware Interface (EFI)</a></li>
 <li class="goog-toc"><a href="#TOC-BIOS"><strong>3.2 </strong>BIOS</a></li>
 <li class="goog-toc"><a href="#TOC-Fortify-single-user-mode"><strong>3.3 </strong>Fortify single-user mode</a></li>
 <li class="goog-toc"><a href="#TOC-Configuring-Access-Warnings"><strong>3.4 </strong>Configuring Access Warnings</a></li>
 <li class="goog-toc"><a href="#TOC-PKI"><strong>3.5 </strong>PKI</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-System"><strong>4 </strong>System</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Processus-memory"><strong>4.1 </strong>Processus &amp; memory</a></li>
+<li class="goog-toc"><a href="#TOC-System"><strong>4 </strong>System</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Processus-memory"><strong>4.1 </strong>Processus &amp; memory</a></li>
 <li class="goog-toc"><a href="#TOC-Manipulate-power-management-settings-with-pmset"><strong>4.2 </strong>Manipulate power management settings with pmset</a></li>
 <li class="goog-toc"><a href="#TOC-Permissions-and-filesystem"><strong>4.3 </strong>Permissions and filesystem</a></li>
 <li class="goog-toc"><a href="#TOC-diskutil1"><strong>4.4 </strong>diskutil</a></li>
@@ -161,13 +166,15 @@ google_color_text="5E6A72";
 <li class="goog-toc"><a href="#TOC-Recompiling-XNU"><strong>4.10 </strong>Recompiling XNU</a></li>
 <li class="goog-toc"><a href="#TOC-Tweaking-XNU"><strong>4.11 </strong>Tweaking XNU</a></li>
 <li class="goog-toc"><a href="#TOC-authorization-right"><strong>4.12 </strong>authorization right</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-Network"><strong>5 </strong>Network</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Disable-IPv6"><strong>5.1 </strong>Disable IPv6</a></li>
+<li class="goog-toc"><a href="#TOC-Network"><strong>5 </strong>Network</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Disable-IPv6"><strong>5.1 </strong>Disable IPv6</a></li>
 <li class="goog-toc"><a href="#TOC-ifconfig"><strong>5.2 </strong>ifconfig</a></li>
 <li class="goog-toc"><a href="#TOC-Detecting-promiscuous-mode"><strong>5.3 </strong>Detecting promiscuous mode</a></li>
 <li class="goog-toc"><a href="#TOC-netstat"><strong>5.4 </strong>netstat</a></li>
 <li class="goog-toc"><a href="#TOC-lsof"><strong>5.5 </strong>lsof</a></li>
 <li class="goog-toc"><a href="#TOC-Firewall"><strong>5.6 </strong>Firewall</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-Services"><strong>6 </strong>Services</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Cups"><strong>6.1 </strong>Cups</a></li>
+<li class="goog-toc"><a href="#TOC-Services"><strong>6 </strong>Services</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Cups"><strong>6.1 </strong>Cups</a></li>
 <li class="goog-toc"><a href="#TOC-ftp"><strong>6.2 </strong>ftp</a></li>
 <li class="goog-toc"><a href="#TOC-Samba"><strong>6.3 </strong>Samba</a></li>
 <li class="goog-toc"><a href="#TOC-AFP"><strong>6.4 </strong>AFP</a></li>
@@ -175,13 +182,16 @@ google_color_text="5E6A72";
 <li class="goog-toc"><a href="#TOC-NFS"><strong>6.6 </strong>NFS</a></li>
 <li class="goog-toc"><a href="#TOC-Bonjour"><strong>6.7 </strong>Bonjour</a></li>
 <li class="goog-toc"><a href="#TOC-SSH"><strong>6.8 </strong>SSH</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-Perimetric-security"><strong>7 </strong>Perimetric security</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Preventing-RF-eavesdroppers"><strong>7.1 </strong>Preventing RF eavesdroppers</a></li>
-<li class="goog-toc"><a href="#TOC-Disable-some-kext-to-avoid-potential-physical-security-flaws-"><strong>7.2 </strong>Disable some kext to avoid potential physical security flaws </a></li>
+<li class="goog-toc"><a href="#TOC-Perimetric-security"><strong>7 </strong>Perimetric security</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Preventing-RF-eavesdroppers"><strong>7.1 </strong>Preventing RF eavesdroppers</a></li>
+<li class="goog-toc"><a href="#TOC-Disable-some-kext-to-avoid-potential-physical-security-flaws-"><strong>7.2 </strong>Disable some kexts to avoid potential physical security flaws </a></li>
 <li class="goog-toc"><a href="#TOC-Serialization"><strong>7.3 </strong>Serialization</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-Backup-and-checksum"><strong>8 </strong>Backup and checksum</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-Pseudo-backup-tools"><strong>8.1 </strong>Pseudo backup tools</a></li>
+<li class="goog-toc"><a href="#TOC-Backup-and-checksum"><strong>8 </strong>Backup and checksum</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-Pseudo-backup-tools"><strong>8.1 </strong>Pseudo backup tools</a></li>
 <li class="goog-toc"><a href="#TOC-Checksum"><strong>8.2 </strong>Checksum</a></li></ol></li>
-<li class="goog-toc"><a href="#TOC-Appendix"><strong>9 </strong>Appendix</a><ol class="goog-toc"><li class="goog-toc"><a href="#TOC-The-dynamic-linker-library-dyld-"><strong>9.1 </strong>The dynamic linker library (dyld)</a></li>
-<li class="goog-toc"><a href="#TOC-Disable-Spotlight-for-a-volume-and-erase-its-current-meta-data"><strong>9.2 </strong>Disable Spotlight for a volume and erase its current meta data</a></li>
+<li class="goog-toc"><a href="#TOC-Appendix"><strong>9 </strong>Appendix</a><ol class="goog-toc">
+<li class="goog-toc"><a href="#TOC-The-dynamic-linker-library-dyld-"><strong>9.1 </strong>The dynamic linker library (dyld)</a></li>
+<li class="goog-toc"><a href="#TOC-Disable-Spotlight-for-a-volume-and-erase-its-current-meta-data"><strong>9.2 </strong>Disable Spotlight for a volume and erase its current metadata</a></li>
 <li class="goog-toc"><a href="#TOC-Defeat-nmap-fingerprint"><strong>9.3 </strong>Defeat nmap fingerprint</a></li>
 <li class="goog-toc"><a href="#TOC-Tools-and-more"><strong>9.4 </strong>Tools and more</a></li></ol></li></ol></div></div></div></div>
 </div>
@@ -716,8 +726,9 @@ malloc_history inspects a given process and lists the malloc allocations perform
 <div><span style="font-family:inherit">-w options forces wider, detailed, output.</span></div>
 <div><br /></div>
 <div><div>FIXME<br /></div>
+<div><br /></div>
 <h4 style="margin-top:10px;margin-bottom:10px;color:rgb(0,0,0);margin-left:10px;margin-right:0px"><a name="TOC-DTrace"></a>DTrace</h4>
-<div><span style="font-family:Helvetica"><span style="font-size:small">The generic front-end to the DTrace facility is a powerfull dynamic debugger and analysis tool.<br />See the <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a> page.</span></span></div></div></div></div></div></div></div></div>
+<div><span style="font-family:Helvetica"><span style="font-size:small">The generic front-end to the DTrace facility is a powerful dynamic debugger and analysis tool.<br />See the <a href="http://www.puredarwin.org/curious/dtrace">DTrace</a> page.</span></span></div></div></div></div></div></div></div></div>
 <h3><a name="TOC-Recompiling-XNU"></a>Recompiling XNU</h3>
 <div>FIXME<br />See <a href="http://www.puredarwin.org/developers/xnu" style="outline-style:none;color:rgb(85,26,139)">The XNU kernel</a> page.</div>
 <div><h4><a name="TOC-Useful-MacPorts"></a>Useful MacPorts for Compiling XNU<br /></h4></div>
@@ -1035,9 +1046,11 @@ FIXME<br />
 <div>No driver available at this time is reported to work for PureDarwin, although the operation should be similar as below.</div>
 <div><br /></div>
 <div>Prevent someone from reaching your computer's bluetooth:</div>
+<div><br /></div>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo srm -Rf /System/Library/Extensions/IOBluetoothFamily.kext</span></span></div>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo srm -Rf /System/Library/Extensions/IOBluetoothHIDDriver.kext</span></span></div>
 <div><span style="font-family:courier new,monospace"><span style="font-size:small">sudo touch /System/Library/Extensions</span></span></div>
+<div><br /></div>
 <h4><a name="TOC-Removing-audio-support"></a>Removing audio support</h4>
 <h4><a name="TOC-No-driver-available-at-this-time-or-reported-to-work-although-the-operation-should-be-similar-as-below."></a><span style="font-size:13px;font-weight:normal">No driver available at this time is reported to work for PureDarwin, although the operation should be similar as below.</span></h4>
 <h4><a name="TOC-Prevent-someone-to-listen-your-microphone:"></a><span style="font-size:13px;font-weight:normal">Prevent someone from listening in on your microphone:</span></h4>
@@ -1120,10 +1133,11 @@ sudo touch /System/Library/Extensions</span></div></div></div></div></div></div>
 <div>We use internally a checksum list for binary roots and binary drivers intregrity (not for security purposes).</div>
 <div>The DarwinBuild project and the MacPorts project also maintain and check integrity of their sources and binaries.</div><span style="color:rgb(255,0,0)"><span style="font-weight:bold">Paranoid:</span></span> Strong Fingerprints must be trusted and encrypted or stored in an encrypted disk image.
 <h4><a name="TOC-md5"></a>md5</h4>
-<div>Try to avoid for historic security purposes, collisions are easy to create.</div>
+<div>Try to avoid md5 checksums for historic security purposes, as collisions are easy to create.</div>
 <h4><a name="TOC-SHA-1"></a>SHA-1</h4>
-<div>Collisions can be created but it is "ok" for literal integrity purpose (not for fingerprint security purpose).</div>
-<div><br /></div><div><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/bin/openssl sha1 mach_kernel</span></span></div>
+<div>Collisions can still be created with sha-1 checksums, but it is "ok" for literal integrity purpose (not for fingerprint security purposes though).</div>
+<div><br /></div>
+<div><span style="font-family:courier new,monospace"><span style="font-size:small">/usr/bin/openssl sha1 mach_kernel</span></span></div>
 <div><span style="font-family:courier new,monospace"><span style="color:rgb(68,68,68)"><span style="font-size:small">SHA1(BuildRoot/mach_kernel)= 19cecd3bd87c10bc4e2c167188a299a40c10d199</span></span></span></div>
 <div><div><br /></div></div>
 <div><span style="color:rgb(255,0,0)"><span style="font-weight:bold">Paranoid:</span></span> It is best to use a concatenation of several strong checksums.</div>
@@ -1139,7 +1153,7 @@ sudo touch /System/Library/Extensions</span></div></div></div></div></div></div>
 <div>Library offsets are NOT randomized between:</div>
 <div><ul><li>invocations of the same program</li>
 <li>invocations of different programs</li></ul></div>
-<div>but they seem to not be the same from a different Leopard install.</div>
+<div>but they seem to NOT be the same from a different Leopard install.</div>
 <div><br /></div>
 <div>FIXME</div>
 <div><span style="font-family:courier new"><span style="font-family:Arial"><h3>
@@ -1170,6 +1184,7 @@ sudo touch /System/Library/Extensions</span></div></div></div></div></div></div>
 <div><a href="http://fink.cvs.sourceforge.net/fink/dists/10.4/stable/main/finkinfo/10.5-EOL/utils/rkhunter.info?view=markup">rkhunter</a> (Fink)</div>
 <div><br /></div>
 <div><a href="https://trac.macports.org/browser/trunk/dports/security/tripwire/Portfile">tripwire</a> (MP)</div></span></span></div>
+<div><br /></div>
 <div>etc...</div></span></span></div></div><div><span style="font-size:10px"><hr /></span></div>
 <div><span style="font-size:10px">Initial version on MMVIII VI VIII  2008/06/08</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td></tr></tbody></table>
 </div> 

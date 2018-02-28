@@ -1,2 +1,4 @@
+# gitignore for puredarwin.github.io
+
 *DS_Store*
 *.esproj/user.*

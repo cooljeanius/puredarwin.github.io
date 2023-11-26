@@ -13,19 +13,14 @@ d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(14
 </script>
 <script>
 
-
 var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED_WITH_INDICATOR","analyticsAccountId":"UA-4515077-1","baseUri":"","name":"puredarwin","domain":"puredarwin.org","features":{"asyncPermanentDelete":false,"horizontalNavLayout":true,"folderEmbed":true,"scottyForTrogImageUpload":false,"moreBackgroundTweaks":true,"flipFolderUrls":true,"animateNavigation":true,"driveInFileCabinet":true,"skiThemeIsDefault":true,"pdfEmbedSupport":false,"animateToc":true,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"driveImageEmbed":true,"siteChromeSystemFooterDialog":true,"plusOneButtonOptions":true,"plusOneButton":true,"adSenseDeprecate":true,"photoAlbumsInOnePick":true,"docosHideNotificationSettings":true,"newInsertMenu":true,"skiTheme":true,"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"youTubeEmbedSize":true,"adSenseDeprecateMsg":true,"htmlEmbed":true,"siteChromeHeaderDialog":true,"photoAlbumsGPlusUrlSupport":true,"disableGoogleVideo":true},"adsensePublisherId":"ca-pub-3519492571996731","gvizVersion":1,"siteTitle":"PureDarwin","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
 
-
-
 webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
-
 
 webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
 
 webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:38518d74f5d0e47d","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:4422b4ead1f22f3f","revision":6,"title":"Being \"open\"","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"openness","path":"/welcome/openness","isSiteRtlLocale":false,"parentPath":"/welcome"};
 webspace.page.breadcrumbs = [{"title":"Welcome","dir":"ltr","path":"/welcome","deleted":false},{"title":"Being \"open\"","dir":"ltr","path":"/welcome/openness","deleted":false}];
-
 
 webspace.editorResources = {
   text: [
@@ -44,16 +39,11 @@ webspace.editorResources = {
 
 var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d24ef8/system/app/images/cleardot.gif';
 
-
 var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
-
 
 webspace.siteTemplateId = false;
 
-
 webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
-
-
 
 var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
 
@@ -131,14 +121,24 @@ google_color_text="5E6A72";
 <div id="sites-canvas">
 <div id="goog-ws-editor-toolbar-container"> </div>
 <div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
-<A dir="ltr" href="/welcome">Welcome</A>‎ &gt; ‎
+<A dir="ltr" href="/welcome">Welcome</A> &gt; 
   </div>
 <h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
 <span id="sites-page-title" dir="ltr">Being "open"</span>
 </h3>
 <div id="sites-canvas-main" class="sites-canvas-main">
 <div id="sites-canvas-main-content">
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="display:inline;float:right;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px"><a href="http://www.puredarwin.org/welcome/openness/comeinwereopensmall.jpg?attredirects=0" style="background-color:transparent;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial"><img src="http://www.puredarwin.org/_/rsrc/1212144341347/welcome/openness/comeinwereopensmall.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial" /></a></div>Please feel free to contribute and discuss.<div><h3><a name="TOC-What-openness-means-to-us..."></a>What openness means to us...</h3><div><ul><li>We follow any licenses imposed on the upstream software we use</li><li>The code and patches we produce (our "original contributions") are Open Source, using the BSD license wherever possible</li><li>We do not accept any patches or contributions that do not meet the above criteria</li><li>From <a href="http://en.wiktionary.org/wiki/openness">wiktionary</a><br /><span style="border-collapse:separate;font-family:Helvetica;line-height:19px"><ul><li><span>(</span><span style="font-style:italic"><span>computing</span></span><span>)</span> the degree of accessibility to view, use, and modify computer code in a shared environment with legal rights generally held in common and preventing proprietary restrictions on the right of others to continue viewing, using, modifying and sharing that code</li></ul><ul><li>(<i>Systems</i>) the degree to which a system operates with distinct boundaries across which exchange occurs capable of inducing change in the system while maintaining the boundaries themselves</li></ul></span></li></ul></div><h3><a name="TOC-And-what-it-doesn-t-mean-to-us..."></a>And what it doesn't mean to us...</h3><div><ul><li>We don't think that every piece of closed-source software is evil in all cases<br />(read: as long as it works, we are fine with using small portions of licensed Apple closed-source software if no alternative exists)</li><li>Open Source is not "the" solution, but "a" solution or at least "a part of the" solution.</li></ul></div></div></div></td></tr></tbody></table>
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="display:inline;float:right;margin-top:5px;margin-right:10px;margin-bottom:5px;margin-left:10px"><a href="http://www.puredarwin.org/welcome/openness/comeinwereopensmall.jpg?attredirects=0" style="background-color:transparent;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial"><img src="http://www.puredarwin.org/_/rsrc/1212144341347/welcome/openness/comeinwereopensmall.jpg" style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial" /></a></div>Please feel free to contribute and discuss. Directions on how exactly to do so are still forthcoming.<div>
+<h3><a name="TOC-What-openness-means-to-us..."></a>What openness means to us...</h3>
+<div><ul><li>We follow any licenses imposed on the upstream software we use.</li>
+<li>The code and patches we produce (our "original contributions") are Open Source, using the BSD license wherever possible.</li>
+<li>We do not accept any patches or contributions that do not meet the above criteria.</li>
+<li>From <a href="http://en.wiktionary.org/wiki/openness">wiktionary</a><br />
+<span style="border-collapse:separate;font-family:Helvetica;line-height:19px"><ul><li><span>(</span><span style="font-style:italic"><span>computing</span></span><span>)</span> the degree of accessibility to view, use, and modify computer code in a shared environment with legal rights generally held in common and preventing proprietary restrictions on the right of others to continue viewing, using, modifying and sharing that code</li></ul><ul>
+<li>(<i>Systems</i>) the degree to which a system operates with distinct boundaries across which exchange occurs capable of inducing change in the system while maintaining the boundaries themselves</li></ul></span></li></ul></div>
+<h3><a name="TOC-And-what-it-doesn-t-mean-to-us..."></a>And what it does NOT mean to us...</h3>
+<div><ul><li>We do NOT think that every piece of closed-source software is evil in all cases<br />(read: as long as it works, we are fine with using small portions of licensed Apple closed-source software if no alternative exists)</li>
+<li>Open Source is not "the" solution, but "a" solution or at least "a part of the" solution.</li></ul></div></div></div></td></tr></tbody></table>
 </div> 
 </div> 
 <div id="sites-canvas-bottom-panel">
